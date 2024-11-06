@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Marco Correndo" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="prova,html,scuola,lezione" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+    <title>La mia prima pagina HTML</title>
+    <style>
+        body {background-color: aquamarine;}
+        h1 {font-family: 'Times New Roman', Times, serif;background-color: chocolate;}
+        p {background-color: beige;}
+    </style>
+    <script>
+        function Mia_funzione(){
+            document.getElementById("Titolo").innerHTML = "STRUTTURA BASE DI UNA PAGINA WEB HTML"
+            document.getElementById("Testo").innerHTML = "Bravo, hai cliccato il pulsante"
+        }
+    </script>
+</head>
+<body>
+    <center>
+    <h1 id="Titolo">Struttura base di una pagina web html</h1>
+    <br/><br/>
+    <img src="https://static.wikia.nocookie.net/breakingbad/images/b/b4/Walter_2008.png/revision/latest/scale-to-width/360?cb=20200704164147" alt="immagine di walter white">
+    <div><button type="button" onclick="Mia_funzione()">Provare a premere</button></div>
+    <p id="Testo"></p>
+    </center>
+</body>
+</html>
