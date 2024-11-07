@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="sam tamaddon" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+    <title>Prima pagina HTML</title>
+    <style>
+      body {background-color: rgb(225, 0, 255);}
+      h1 {color: rgb(95, 0, 104);}
+      button{
+        background-color: rgb(145, 58, 153);
+        color: rgb(72, 0, 90);
+        width: 140px;
+        height: 50px;
+        border: none;
+        border-radius: 100px;
+        text-size-adjust: big;
+        transition: all o.5s;
+
+        &:hover{
+            transform: scale(1.2);
+            transform: translateY(-10px);
+        }
+
+        &:active{
+            transform: scale(0.9);
+            transform: translateY(10px);
+        }
+      }
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "STRUTTURA BASE DI UNA PAGINA WEB";
+      }
+    </script>
+</head>
+<body>
+    <h1 id="titolo">Ciao questo è il mio sito</h1>
+    <button onclick="myFunction()">Cliccami</button>
+</body>
