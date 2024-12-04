@@ -29,9 +29,18 @@
             <label for="idnome">Nome: </label>
             <input type="text" id="idnome" name="nome" placeholder="Nome">
             <label for="idcognome">Cognome: </label>
-            <input type="text" id="idcognome" name="cognnome" placeholder="Cognome">
-          
-          <h3>Occupazione:</h3><br>
+            <input type="text" id="idcognome" name="cognnome" placeholder="Cognome"><br>
+        
+            <br><label for="cars">Generi:  </label>
+            <select name="genere" id="cars">
+                <option value="maschio">Maschio</option>
+                <option value="femmina">femmina</option>
+                <option value="femmina">gay</option>
+                <option value="femmina">trans</option>
+                <option value="femmina">lesbica</option>
+                <option value="femmina">altro</option>
+            </select>
+        <h3>Occupazione:</h3><br>
        
             <input type="radio" id="studente" name="occupazione" value="studente">
             <label for="studente">  Studente</label><br>
@@ -46,8 +55,11 @@
         
         
             <label for="idnome">Email: </label>
-            <input type="text" id="idnome" name="Email" placeholder="Email">
+            <input type="text" id="idnome" name="Email" placeholder="Email"> <br>
         
+           <br> <label for="bio"><h3>Biografia personale</h3></label>
+            <textarea id="bio" name="bio" rows="6" cols="60" placeholder="Inserisci la tua biografia"></textarea>
+
         <h3>Preferenze</h3><br>
         
             <input type="checkbox" id="tennis" name="sport" value="tennis">
@@ -60,6 +72,52 @@
             <label for="nuoto"> Lavoro completo da Scerbo</label><br>
             <input type="checkbox" id="nuoto" name="sport" value="nuoto">
             <label for="nuoto"> Lavoro completo da Sabbadini</label><br>
+
+            <h3>Altezza</h3>
+            
+                 <input type="number" id="altezza" name="altezza" min="150" max="200"><br>
+
+            <h3>lunghezza pacco</h3>
+                 
+                <input type="number" id="altezza" name="altezza" min="5" max="100"><br>
+                 
+            <h3>lunghezza piedi</h3>
+                 
+                <input type="number" id="altezza" name="altezza" min="150" max="200"><br>
+                 
+            <h3>bodycount</h3>
+                 
+                 <input type="number" id="altezza" name="altezza" min="0" max="200"><br>
+                 
+            <h3>Colore occhi</h3>
+                 
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
+
+            <h3>Peso</h3>
+
+                <label for="peso">Peso: </label>
+                <input type="range" min="50" max="100" value="60" class="slider" id="peso"><br> 
+           
+            <h3>lunghezza maglia</h3>   
+
+                <label for="peso">maglia: </label>
+                <input type="range" min="50" max="80" value="60" class="slider" id="peso"><br> 
+            
+            <h3>taglia scarpe</h3>
+
+                <label for="peso">scarpe: </label>
+                <input type="range" min="35" max="55" value="60" class="slider" id="peso"><br> 
+
+                <br><label for="cars">Numero di massaggi idonei:  </label>
+                <select name="genere" id="cars">
+                    <option value="maschio">1 min</option>
+                    <option value="femmina">2</option>
+                    <option value="femmina">3</option>
+                    <option value="femmina">4</option>
+                    <option value="femmina">5</option>
+                    <option value="femmina">6 max</option>
+                </select>
+
         </form>
         </center>
     </body>

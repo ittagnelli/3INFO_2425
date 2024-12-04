@@ -1,0 +1,51 @@
+<!DOCTYPE html> <!-- HTML5-->
+    <html lang="it"> <!-- Pagina HTML -->
+    <head>
+        <!-- Qui vanno inserite informazioni relative alla pagina ma che non saranno visualizzate -->
+        <!-- sezione meta Fornisce informazioni al web browser e ai motori di ricerca per il processo di indicizzazione -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Pugliese Alessandro" />
+        <meta name="description" content="Template HTML" />
+        <meta name="keywords" content="template, html, lezioni, scuola" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="refresh" content="100"><!-- Duranbte la fase di sviluppo permette il refresh  automatico della pagina  -->
+        <title>Registrazione centro massaggi hot</title><!-- titolo della pagina -->
+        <style>
+          body {background-color: white;}
+          h1 {color: black;}
+          h2 {color: black;}
+          
+        </style>
+        <script>
+          function myFunction() { 
+            document.getElementById("titolo").innerHTML = "PAGINA WEB LOCAL HOST";
+          }
+        </script>
+    </head>
+    <body>
+        <center><h1>Dati personali</h1>
+        <table border="0">
+            <form>
+                <fieldset>
+                <label for="nome">Nome:</label> 
+                <textarea id="bio" name="bio" rows="1" cols="30"></textarea>
+              
+                <label for="cognome">Cognome:</label>
+                <textarea id="bio" name="bio" rows="1" cols="40"></textarea><br>
+
+                <br><label for="genere">Genere:</label>
+                <select name="genere" id="cars">
+                    <option value="maschio">Maschio</option>
+                    <option value="femmina">Femmina</option>
+                    <option value="femmina">altro</option>
+                </select><br><br>
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <input type="submit" value="Invia">
+              </fieldset>      
+              </form>
+
+        </table>
+        </center>
+    </body>
