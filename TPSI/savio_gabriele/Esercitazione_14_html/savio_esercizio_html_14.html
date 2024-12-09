@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercizio 14</title>
+  </head>
+  <body>
+    <h1>Modulo riverniciatura pareti</h1>
+    <form>
+      <table>
+        <tr>
+          <td><label for="number1">altezza parete 1(max 400 cm):</label></td>
+          <td>
+            <input
+              type="number"
+              id="number1"
+              name="number1"
+              min="0"
+              max="400"
+            />
+          </td>
+          <td>
+            <label for="number2">larghezza parete 1(max 400 cm):</label>
+          </td>
+          <td>
+            <input
+              type="number"
+              id="number2"
+              name="number2"
+              min="10"
+              max="200"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="number1">altezza parete 2(max 400 cm):</label></td>
+          <td>
+            <input
+              type="number"
+              id="number1"
+              name="number1"
+              min="0"
+              max="400"
+            />
+          </td>
+          <td>
+            <label for="number2">larghezza parete 2(max 400 cm):</label>
+          </td>
+          <td>
+            <input
+              type="number"
+              id="number2"
+              name="number2"
+              min="10"
+              max="200"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="number1">altezza parete 3(max 400 cm):</label></td>
+          <td>
+            <input
+              type="number"
+              id="number1"
+              name="number1"
+              min="0"
+              max="400"
+            />
+          </td>
+          <td>
+            <label for="number2">larghezza parete 3(max 400 cm):</label>
+          </td>
+          <td>
+            <input
+              type="number"
+              id="number2"
+              name="number2"
+              min="10"
+              max="200"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="number1">altezza parete 4(max 400 cm):</label></td>
+          <td>
+            <input
+              type="number"
+              id="number1"
+              name="number1"
+              min="0"
+              max="400"
+            />
+          </td>
+          <td>
+            <label for="number2">larghezza parete 4(max 400 cm):</label>
+          </td>
+          <td>
+            <input
+              type="number"
+              id="number2"
+              name="number2"
+              min="10"
+              max="200"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="4"><h2></h2></td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <label for="colorPicker">Seleziona il colore della parete:</label>
+          </td>
+          <td colspan="2">
+            <input type="color" id="colorPicker" name="colorPicker" />
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <label for="range1">Intervallo 1 (min: 0, max: 100):</label>
+          </td>
+          <td colspan="2">
+            <input type="range" id="range1" name="range1" min="0" max="100" />
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2"><label for="range2">Intervallo 2 (min: 10, max: 200):</label></td>
+          <td colspan="2">
+            <input type="range" id="range2" name="range2" min="10" max="200" />
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2"><label for="range3">Intervallo 3 (min: -50, max: 50):</label></td>
+          <td colspan="2">
+            <input type="range" id="range3" name="range3" min="-50" max="50" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><label for="comboBox">Seleziona un'opzione:</label></td>
+          <td colspan="2">
+            <select id="comboBox" name="comboBox">
+              <option value="opzione1">Opzione 1</option>
+              <option value="opzione2">Opzione 2</option>
+              <option value="opzione3">Opzione 3</option>
+              <option value="opzione4">Opzione 4</option>
+              <option value="opzione5">Opzione 5</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><label for="dataList">Seleziona un valore:</label></td>
+          <td colspan="2">
+            <input list="valori" id="dataList" name="dataList" />
+            <datalist id="valori">
+              <option value="Valore 1"></option>
+              <option value="Valore 2"></option>
+              <option value="Valore 3"></option>
+              <option value="Valore 4"></option>
+              <option value="Valore 5"></option>
+            </datalist>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4"><label for="textArea">Commenti:</label></td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <textarea
+              id="textArea"
+              name="textArea"
+              rows="6"
+              cols="60"
+            ></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" ><input type="submit" value="Invia" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
