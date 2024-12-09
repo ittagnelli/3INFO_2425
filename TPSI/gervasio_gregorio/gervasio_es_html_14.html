@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta name="author" content="Gregorio Gervasio">
+    <title>forum</title>
+</head>
+<body>
+    <center>
+    <h1> inseire i dati utente per la partecipazzione al corso di torte della nonna </h1>
+    </center>
+    <fieldset>
+    <form>
+        <h2>Nome e Cognome:</h2>
+        <input type="text" id="idnome" name="nome" placeholder="Nome">
+        <input type="text" id="idcognome" name="cognnome" placeholder="Cognome">
+        <br>
+        <h2>tipo di torta:</h2>
+        <input type="radio" id="salata" name="torte" value="salta">
+        <label for="salata">  Salata</label>
+        <br>
+        <input type="radio" id="crostata" name="torte" value="crostata">
+        <label for="crostata">  Crostata</label>
+        <br>
+        <input type="radio" id="di_mele" name="torte" value="di_mele">
+        <label for="di_mele"> Di mele</label>
+        <br>
+        <h2>che giorni srai presemte? </h2>
+        <input type="checkbox" id="tennis" name="giorni" value="6/05">
+        <label for="6/05">6/05</label>
+        <br>
+        <input type="checkbox" id="tennis" name="giorni" value="7/05">
+        <label for="7/05">7/05</label>
+        <br>
+        <input type="checkbox" id="tennis" name="giorni" value="8/05">
+        <label for="8/05">8/05</label>
+        <br>
+        <input type="checkbox" id="tennis" name="giorni" value="9/05">
+        <label for="9/05">9/05</label>
+        <br>
+        <input type="checkbox" id="tennis" name="giorni" value="10/05">
+        <label for="10/05">10/05</label>
+        <br>
+        <h2>data di nascita</h2>
+        <input type="date" id="iddata" name="birthday">
+        <br>
+        <h2>peso:</h2>
+        <input type="number" id="peso" name="peso" min="30" max="200">
+        <h2>altezza:</h2>
+        <input type="number" id="altezza" name="altezza" min="100" max="250">
+        <h2>numeo scarpe:</h2>
+        <input type="number" id="peso" name="peso" min="20" max="90">
+        <h2>colore stand:</h2>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        <h2>dimensioni bancetto larghezza altezza spessore</h2>
+        <input type="range" min="1" max="100" value="1" class="slider" id="dim">
+        <br>
+        <input type="range" min="1" max="100" value="1" class="slider" id="dim">
+        <br>
+        <input type="range" min="1" max="100" value="1" class="slider" id="dim">
+        <h2>qunati soldi pensi di portare </h2>
+        <select name="$" id="cars">
+            <option value="min10"> meno di 10$ </option>
+            <option value="10"> 10$ </option>
+            <option value="20"> 20$ </option>
+            <option value="50"> 50$ </option>
+            <option value="piu50"> piu di 50$ </option>
+        </select>
+        <br>
+        <textarea id="bio" name="bio" rows="6" cols="60" placeholder="perche vieni qui da noi?"></textarea>
+        <button type="button" id="idpulsante">invio</button>
+    </form>
+    </fieldset>
+</body>
+</html>
