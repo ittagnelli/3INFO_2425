@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - Esercizio 15</title>
+</head>
+<body>
+    <h1>Modulo di Registrazione</h1>
+    <form>
+        <label for="cognome">Cognome:</label><br>
+        <input type="text" id="cognome" name="cognome" maxlength="40" size="40" required><br><br>
+
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" maxlength="30" size="30" required><br><br>
+
+        <h2>sesso:</h2>
+        <input type="radio" id="maschio" name="sesso" value="maschio">
+        <label for="salata">  maschio</label>
+        <br>
+        <input type="radio" id="femmnina" name="sesso" value="femmnina">
+        <label for="femmnina">  femmnina</label>
+        <br>
+        <label for="mail">mail:</label><br>
+        <input type="text" id="mail" name="mail" maxlength="40" size="40" required><br><br>
+        <label for="passworld">passworld:</label><br>
+        <input type="text" id="passworld" name="passworld" maxlength="40" size="40" required><br><br>
+
+        <label for="regione">provenienza:</label><br>
+        <select id="regione" name="regione" required>
+            <option value="def">Selezziona un continente</option>
+            <option value="e">europa</option>
+            <option value="a">america</option>
+            <option value="af">africa</option>
+            <option value="o">oceania</option>
+            <option value="a">asia</option>
+            <option value="an">antartica</option>
+        </select><br><br>
+
+        <label for="lavoro">lavoro:</label><br>
+        <input type="lavoro" id="lavoro" name="lavoro" maxlength="30" size="30" required><br><br>
+        <label for="hobby">hobby:</label><br>
+        <input type="hobby" id="hobby" name="hobby" maxlength="30" size="30" required><br><br>
+        <label for="richieste">note personali:</label><br>
+        <textarea id="richieste" name="richieste" rows="12" cols="60"></textarea><br><br>
+
+        <button type="button">Invia</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
