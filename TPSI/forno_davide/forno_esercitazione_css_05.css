@@ -1,0 +1,15 @@
+#pr2, #pr4, #pr6{
+    color: green;
+}
+
+#pr1, #pr3, #pr5 {
+    color: red;
+}
+
+#p1, #p3,#p5{
+    color: gray;
+}
+
+#p2, #p4, #p6{
+    color: orange;
+}
