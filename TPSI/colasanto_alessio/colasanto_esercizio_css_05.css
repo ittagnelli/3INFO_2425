@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <link rel="stylesheet" href="stile.css" type="text/css" />
+    <title>External CSS</title>
+</head>
+<html>
+  <h1>the</h1>
+  <h1>addresses</h1>
+  <h2>is</h2>
+  <h2>their</h2>
+</html>
+h1 {color:red;}
+h2 {color:green;}
+p {color:blue;}
