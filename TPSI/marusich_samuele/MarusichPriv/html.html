@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<html>
+
+<tagname> --> TAG di apertura
+</tagname> --> TAG di chiusura
+
+<title>Titolo della pagina</title>
+
+  <!DOCTYPE html> <!-- HTML5-->
+<!-- Questo è un commento su una singola riga -->
+
+<!-- Questo è un commento 
+     su più righe
+-->
+<html lang="it"> <!-- Pagina HTML -->
+  <head> <!-- Header della pagina -->
+    
+    <!-- Qui vanno inserite informazioni relative alla pagina ma che non saranno visualizzate -->
+  
+  </head>
+  <body><!-- Corpo principale della pagina HTML -->
+
+    <!-- Questa sezione cotiene il contenuto della pagina HTML che viene visualizzato nel browser -->
+  
+  </body>
+</html>
+
+
+<style>
+    body {background-color: powderblue;}
+    h1 {color: red;}
+    p {color: blue;}
+  </style>
+
+
+
+<h1>Heading 1</h1> 
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+
+<p>
+    ...
+    ... Blocco di testo
+    ...
+  </p>
+
+
+  <a href="url">link text</a>
+
+Esempio
+<a href="https://agnelli.it/" target="_blank">Istituto Internazionale E.Agnelli</a>
+
+
+<img src="url" alt="alternatetext">
+
+
+
+<b>: testo in grassetto senza significato aggiuntivo
+    <strong>: testo con molta importanza. Normalmente visualizzatto in grassetto
+    <i>: testo alternativo, un termine tecnico, una parola straniera. Normalmente visualizzato in italico
+    <em>: testo con particolare enfasi.Normalmente viene visualizzato in italico
+    <mark>: testo che deve essere evidenziato
+    <small>: testo con dimensioni minori e quindi con meno importanza
+    <del>: testo che è stato eliminato dal documento. Normalmente visualizzato con una linea sul testo
+    <ins>: testo che è stato aggiunto al documento. Normalmente visualizzato come testo sottolineato
+    <sub>: - definisce un testo come pedice
+    <sup>: - definisce un testo come apice
+
+        In un paragrafo spesso vogliamo poter evidenziare una parola in <b>grassetto</b>.
+
+
+        <blockquote>: definisce una porzione di testo come una citazione esterna
+            <q>: definisce una breve citazione
+            <abbr>: definisce un'abbreviazione o un acronimo
+            <cite>: citazione ad un lavoro altrui (libro, sito web, ...)
+
+
+                <u>: definisce un testo sottolineato
+                    <s>: definisce una testo sbarrato
+                      <pre>: marca una porzione di testo come pre formattato
+                    <code>: definisce un blocco di testo come codice sorgente
+
+    In alcuni casi è necessario forzare un ritorno a capo. <br>
+    Per fare ciò basta usare il tag <br>
+
+
+    Per inserire una linea orizzontale di separazione usa <hr>
+
+
+
+    Un modo molto efficace per visualizzare il progresso di un attività o evento è l'uso del tag <meter>
+
+        Andamento dei voti:<br>
+        
+        Studente 1 <meter min="0" max="10" value="8.0">8 su 10</meter><br />
+        Studente 2 <meter min="0" max="10" value="6.5">6.5 su 10</meter><br />
+        Studente 3 <meter min="0" max="10" value="9.5">9.5 su 10</meter><br />
+        Studente 4 <meter min="0" max="10" value="4.5">4.5 su 10</meter><br />
+
+
+
+
+        In alternativa si può visualizzare un progress bar tramite l'uso del tag <progress>
+
+            Andamento dei voti:<br>
+            
+            Studente 1 <progress min="0" max="10" value="8">8 di 10</progress><br />
+            Studente 2 <progress min="0" max="10" value="6.5">6.5 di 10</progress><br />
+            Studente 3 <progress min="0" max="10" value="9.5">9.5 di 10</progress><br />
+            Studente 4 <progress min="0" max="10" value="4.5">4.5 di 10</progress><br />
+
+
+            <ul>: Unordered List - tag che definisce la lista non ordinata 
+                <li>: List Item - tag che definisce l'elemento/item della lista
+
+
+
+                    Esempio: Vegetali
+
+<ul>
+    <li>Pere</li>
+    <li>Patate</li>
+    <li>Mele</li>
+    <li>Carote</li>
+</ul>
+
+
+
+<ol>: Ordered List - tag che definisce la lista ordinata 
+    <li>: List Item - tag che definisce l'elemento/item della lista
+
+
+
+        Esempio: I componenti di un computer
+       
+<ol>
+    <li>CPU: Central Processing Unit</li>
+    <li>RAM: Random Access Memeory</li>
+    <li>HDD: Hard Disk Drive</li>
+    <li>SSD: Solid State Disk</li>
+</ol>
+
+
+
+<table>: definisce un contenitore per dati organizzati in formato tabellare
+    <caption>: definisce il titolo di una tabella
+    <thead>: definisce l'header della tabella
+    <tr>: definisce una riga della tabella
+    <td>: definisce una cella della tabella.
+    <tbody>: definisce il corpo principale della tabella
+
+
+
+        <table border="1">
+            <caption>A AND B</caption>
+            <thead>
+                <tr>
+                    <td>A</td> <td>B</td> <td>A & B</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0</td> <td>0</td> <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td> <td>1</td> <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td> <td>0</td> <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td> <td>1</td> <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+        <table border="1">
+            <caption>A OR B</caption>
+            <thead style="background:gray;text-align: center;">
+                <tr>
+                    <td>A</td> <td>B</td> <td>A | B</td>
+                </tr>
+            </thead>
+            <tbody style="color:blue;text-align: center;">
+                <tr>
+                    <td>0</td> <td>0</td> <td>0</td>
+                </tr>
+                <tr style="background:Gainsboro;">
+                    <td>0</td> <td>1</td> <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td> <td>0</td> <td>1</td>
+                </tr>
+                <tr style="background:Gainsboro;">
+                    <td>1</td> <td>1</td> <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+        <input type="button">
+        <input type="checkbox">
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="email">
+        <input type="file">
+        <input type="hidden">
+        <input type="image">
+        <input type="month">
+        <input type="number">
+        <input type="password">
+        <input type="radio">
+        <input type="range">
+        <input type="reset">
+        <input type="search">
+        <input type="submit">
+        <input type="tel">
+        <input type="text">
+        <input type="time">
+        <input type="url">
+        <input type="week">
+        
+
+        <form>
+            <input type="text" id="idnome" name="nome" placeholder="Nome">
+            <input type="text" id="idcognome" name="cognnome" placeholder="Cognome">
+          </form>
+
+
+
+
+
+
+          <form>
+            <label for="idnome">Nome: </label>
+            <input type="text" id="idnome" name="nome" placeholder="Nome">
+            <label for="idcognome">Cognome: </label>
+            <input type="text" id="idcognome" name="cognnome" placeholder="Cognome">
+          </form>
+
+
+
+
+
+          <form>
+            <label for="idbutton">Premi il pulsante: </label>
+            <input type="button" id="idbutton" value="Cliccami!!">
+          </form>
+
+
+
+          <h3>Occupazione:</h3><br>
+<form>
+  <input type="radio" id="studente" name="occupazione" value="studente">
+  <label for="studente">  Studente</label><br>
+  <input type="radio" id="occupato" name="occupazione" value="occupato">
+  <label for="occupato">  Occupato</label><br>
+  <input type="radio" id="disoccupato" name="occupazione" value="disoccupato">
+  <label for="disoccupato">  Disoccupato</label><br><br>
+</form>
+
+
+
+
+<h3>Sport</h3><br>
+<form>
+  <input type="checkbox" id="tennis" name="sport" value="tennis">
+  <label for="tennis">  Tennis</label><br>
+  <input type="checkbox" id="calcio" name="sport" value="calcio">
+  <label for="calcio">  Calcio</label><br>
+  <input type="checkbox" id="nuoto" name="sport" value="nuoto">
+  <label for="nuoto"> Nuoto</label><br><br>
+</form>
+
+
