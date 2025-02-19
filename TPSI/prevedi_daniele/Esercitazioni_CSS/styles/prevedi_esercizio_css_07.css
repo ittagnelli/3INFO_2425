@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+}
+
+.h2-dispari{
+    color: green;
+}
+
+.h2-pari{
+    color: red;
+}
+
+.p-dispari{
+    color: orange;
+}
+
+.p-pari{
+    color: gray;
+}
