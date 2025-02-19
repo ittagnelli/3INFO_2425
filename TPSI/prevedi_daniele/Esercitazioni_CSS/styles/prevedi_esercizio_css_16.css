@@ -1,0 +1,43 @@
+div{
+    border: 1px solid;
+}
+
+.divt1{
+    width: 100px;
+    height: 150px;
+    background-image: url("../img/536x534.jpg");
+}
+
+.divt2{
+    width: 50%;
+    height: 25%;
+    background-image: url("../img/536x534.jpg");
+}
+
+.divt3{
+    width: 700px;
+    height: 700px;
+    background-image: url("../img/536x534.jpg");
+    background-repeat: repeat;
+}
+
+.divt4{
+    width: 700px;
+    height: 700px;
+    background-image: url("../img/536x534.jpg");
+    background-repeat: no-repeat;
+}
+
+.divt5{
+    width: 700px;
+    height: 700px;
+    background-image: url("../img/536x534.jpg");
+    background-repeat: repeat-x;
+}
+
+.divt6{
+    width: 700px;
+    height: 700px;
+    background-image: url("../img/536x534.jpg");
+    background-repeat: repeat-y;
+}
