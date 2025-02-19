@@ -1,0 +1,27 @@
+.bg1, .bg2{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Sisal_logo_%282013-present%29.svg/1200px-Sisal_logo_%282013-present%29.svg.png) ;
+    width: 250px;
+    height: 90px;
+}
+
+.bg3, .bg4{
+    background-image: url("/Scaricati/anto.jpg");
+    width: 250px;
+    height: 100px;
+}
+
+.bg5, .bg6{
+    background-repeat: repeat;
+}
+
+.bg7, .bg8{
+    background-repeat: no-repeat;
+}
+
+.bg9, .bg10{
+    background-repeat: repeat-x;
+}
+
+.bg11,.bg12{
+    background-repeat: repeat-y;
+}
