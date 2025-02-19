@@ -1,0 +1,32 @@
+.bg1 {
+    background-image:url("css1.jpg");
+    color: white;
+    width: 250px;
+    height: 100px;
+  }
+
+  .bg2 {
+    background-image:url("css2.jpg");
+  }
+
+  .bg3 {
+    background-image:url("css3.jpg");
+    color: white;
+    width: 250px;
+    height: 100px;
+  }
+
+  .bg4, .bg5, .bg6, .bg7 {
+    background-image: url("css4.jpg");
+    width: 250px;
+    height: 90px;
+    border: 1px solid black;
+  }
+
+  .bg4 { background-repeat: repeat; }
+  
+  .bg5 { background-repeat: no-repeat; }
+  
+  .bg6 { background-repeat: repeat-x; }
+  
+  .bh7 { background-repeat: repeat-y; }

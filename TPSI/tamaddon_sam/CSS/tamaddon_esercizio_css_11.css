@@ -1,0 +1,18 @@
+span > mark {
+    background-color: blue;
+  }
+  
+  p > b {
+      background-color: red;
+  }
+  
+  div em {
+      background-color: violet;
+  }
+  
+  div  span {
+      background-color: darkgreen;
+  }
+    
+    
+  
