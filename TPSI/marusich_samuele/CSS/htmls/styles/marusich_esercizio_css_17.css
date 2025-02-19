@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  max-width: 1000px; 
+  margin: 0 auto; 
+}
+
+.cell {
+  margin: 10px; 
+  text-align: center; 
+}
+
+.cell img {
+  width: 250px; 
+  height: auto; 
+}
+
+.caption {
+  border-bottom: 5px solid red; 
+  padding: 8px; 
+}
