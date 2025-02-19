@@ -1,12 +1,40 @@
-.bga {
-    background-image: url(https://picsum.photos/250/210/?random=1);
-    height: 250px;
-    width: 210px;
+.background-relative-absolute {
+    background-image: url("image/img1.jpg"); /* Percorso relativo */
+    background-size: cover;
+    width: 300px; /* Dimensioni fisse */
+    height: 200px;
 }
 
-.bgr {
-    background-image: url(https://picsum.photos/250/210/?random=1);
-    height: 40%;
-    width: 250px;
+/* Path assoluto e dimensioni relative */
+.background-absolute-relative {
+    background-image: url("https://www.example.com/images/absolute-image.jpg"); /* Percorso assoluto */
+    background-size: contain;
+    width: 50%; /* Dimensioni relative */
+    height: auto;
+}
+
+/* Background ripetuto */
+.background-repeat {
+    background-image: url("image/img1.jpg");
+    background-repeat: repeat;
+}
+
+/* Background non ripetuto */
+.background-no-repeat {
+    background-image: url("image/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Background ripetuto solo in orizzontale */
+.background-repeat-x {
+    background-image: url("image/img1.jpg");
+    background-repeat: repeat-x;
+}
+
+/* Background ripetuto solo in verticale */
+.background-repeat-y {
+    background-image: url("image/img1.jpg");
+    background-repeat: repeat-y;
 }
 
