@@ -1,0 +1,66 @@
+body {
+  background-color: #333; 
+}
+
+.rettangolo-rosso {
+  background-color: red;
+  width: 400px;
+  height: 200px;
+  margin: 20px auto;
+}
+
+.rettangolo-viola {
+  background-color: purple;
+  width: 25%;
+  height: 150px;
+  margin: 20px auto;
+}
+
+.rettangolo-viola-2 {
+  background-color: purple;
+  width: 50%;
+  height: 150px;
+  margin: 20px auto;
+}
+
+.rettangolo-viola-3 {
+  background-color: purple;
+  width: 75%;
+  height: 150px;
+  margin: 20px auto;
+}
+
+.rettangolo-viola-4 {
+  background-color: purple;
+  width: 100%;
+  height: 150px;
+  margin: 20px auto;
+}
+
+.rettangolo-verde-1 {
+  background-color: rgba(0, 255, 0, 0.65);
+  width: 12.5%;
+  height: 221px;
+  margin: 20px auto;
+}
+
+.rettangolo-verde-2 {
+  background-color: rgba(0, 255, 0, 0.65);
+  width: 37.5%;
+  height: 221px;
+  margin: 20px auto;
+}
+
+.rettangolo-verde-3 {
+  background-color: rgba(0, 255, 0, 0.65);
+  width: 62.5%;
+  height: 221px;
+  margin: 20px auto;
+}
+
+.rettangolo-verde-4 {
+  background-color: rgba(0, 255, 0, 0.65);
+  width: 87.5%;
+  height: 221px;
+  margin: 20px auto;
+}
