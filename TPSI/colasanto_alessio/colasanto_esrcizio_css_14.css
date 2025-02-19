@@ -1,0 +1,21 @@
+
+#id1 { background-color: red; }
+
+
+#id2 { background-color: #56d3f8; }
+
+
+
+#id3 { background-color: rgb(23, 182, 85); }
+
+
+
+#id4 { background-color: rgba(23, 182, 85, 0.5); }
+
+
+
+#id5 { background-color: hsl(249, 73%, 40%); }
+
+
+
+#id6 { background-color: hsla(249, 73%, 40%, 0.75); }

@@ -1,0 +1,65 @@
+.parent {
+    background-color: red;
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+  }
+  .parent1 {
+    background-color: violet;
+    border: 1px solid;
+    width: 500px;
+    height: 150px;
+  
+  }
+  .parent2 {
+    background-color: violet;
+    border: 1px solid;
+    width: 1000px;
+    height: 150px;
+  }
+
+  .parent3 {
+    background-color: violet;
+    border: 1px solid;
+    width: 1500px;
+    height: 150px;
+  }
+
+  .parent4 {
+    background-color:violet;
+    border: 1px solid;
+    width: 2000px;
+    height: 150px;
+  }
+  .parent5 {
+    background-color:hsla(98, 81%, 29%, 0.65);
+    border: 1px solid;
+    width: 250px;
+    height: 221px;
+  
+  }
+
+  .parent6 {
+    background-color:hsla(98, 81%, 29%, 0.65);
+    border: 1px solid;
+    width: 1000px;
+    height: 221px;
+  
+  }
+
+  .parent7 {
+    background-color:hsla(98, 81%, 29%, 0.65);
+    border: 1px solid;
+    width: 1250px;
+    height: 221px;
+  
+  }
+
+
+  .parent8 {
+    background-color:hsla(98, 81%, 29%, 0.65);
+    border: 1px solid;
+    width: 444px;
+    height: 221px;
+  
+  }
