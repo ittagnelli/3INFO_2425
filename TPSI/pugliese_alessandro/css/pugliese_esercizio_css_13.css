@@ -1,0 +1,19 @@
+tr {
+
+    border: 2px solid  rgb(0, 0, 0);
+}
+
+td {
+
+    border: 2px solid  rgb(0, 0, 0);
+}
+
+
+td:nth-child(odd){
+    color: red;
+    background-color: black;
+}
+td:nth-child(even){
+    color: green;
+    background-color: blue;
+}

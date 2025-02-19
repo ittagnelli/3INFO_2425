@@ -1,0 +1,20 @@
+.h1 {
+    color: blue;
+}
+
+.h2_2, .h2_3, .h2_5 {
+    color: red;
+}
+
+.h2_2, .h2_4, .h2_6\ {
+    color: green;
+}
+
+.pr1, .pr3, .pr5 { 
+  color: grey; 
+}
+
+.pr2, .pr4, .pr6 { 
+    color: orange;
+  }
+  

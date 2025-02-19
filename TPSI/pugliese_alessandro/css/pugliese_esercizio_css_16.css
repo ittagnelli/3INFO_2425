@@ -1,0 +1,35 @@
+
+
+.bg1 {
+    background-image:url("pugliese_img_esercizio_css_16/sisal_it.png");
+    color: white;
+    width: 250px;
+    height: 100px;
+  }
+
+  .bg2 {
+    background-image:url("pugliese_img_esercizio_css_16/sisal_it.png");
+  }
+
+  .bg3 {
+    background-image:url("pugliese_img_esercizio_css_16/sisal_it.png");
+    color: white;
+    width: 250px;
+    height: 100px;
+  }
+
+  .bg4, .bg5, .bg6, .bg7 {
+    background-image: url("pugliese_img_esercizio_css_16/sisal_it.png");
+    width: 250px;
+    height: 90px;
+    border: 1px solid black;
+  }
+
+  .bg4 { background-repeat: repeat; }
+  
+  .bg5 { background-repeat: no-repeat; }
+  
+  .bg6 { background-repeat: repeat-x; }
+  
+  .bh7 { background-repeat: repeat-y; }
+

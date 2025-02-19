@@ -1,0 +1,28 @@
+a:link { 
+    color: blue;
+ }
+
+ a:visited { 
+    color: green; 
+} 
+
+a:hover { 
+    color: red; 
+    background: yellow;
+}
+
+h1:hover {
+
+color: blue;
+text-decoration: underline;
+}
+
+h2:hover {
+color: green;
+text-decoration: underline;
+}
+
+p:hover {
+ color: green;
+text-decoration: overline;  
+}

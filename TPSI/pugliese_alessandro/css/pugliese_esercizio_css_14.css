@@ -1,0 +1,34 @@
+tr {
+
+    border: 2px solid  rgb(0, 0, 0);
+}
+
+td {
+
+    border: 2px solid  rgb(0, 0, 0);
+}
+
+
+.td1 {
+    background-color: blue;
+}
+
+.td2 {
+    background-color: #56df56;
+}
+
+.td3 {
+    background-color: rgb(255, 0, 0);
+}
+
+.td4 {
+    background-color: rgba(244, 138, 0, 0.5);
+}
+
+.td5 {
+    background-color: hsl(248, 50%, 20%);
+}
+
+.td6 {
+    background-color:  hsl(120, 50%, 30%), 0.75;
+}
