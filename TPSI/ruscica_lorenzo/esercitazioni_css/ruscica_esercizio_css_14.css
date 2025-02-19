@@ -1,0 +1,47 @@
+#verde {
+  background-color: green;
+}
+
+#blu {
+  background-color: blue;
+} 
+
+#viola {
+  background-color: hsl(0, 100%, 50%);
+} 
+
+#rosso {
+  background-color: hsl(300, 100%, 40%);
+}
+
+#arancione {
+  background-color: rgb(247, 141, 2);
+} 
+
+#grigio {
+  background-color: rgb(58, 58, 57);
+}
+
+#giallo {
+  background-color: rgba(243, 247, 2, 0.5);
+} 
+
+#rosa {
+  background-color: rgba(255, 2, 158, 0.61);
+}
+
+#bianco {
+  background-color: #FFFFFF;
+} 
+
+#nero {
+  background-color: #000000;
+}
+
+#viola-trasp {
+  background-color: hsla(278, 100%, 50%, 0.5);
+} 
+
+#rosso-trasp {
+  background-color: hsla(355, 100%, 40%, 0.349);
+}
