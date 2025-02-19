@@ -1,0 +1,29 @@
+h1,h2,h3 {
+    color:red;
+    text-decoration: underline;
+    text-decoration-color:blue;
+}
+
+p {
+    color:blue;
+    text-align: left;
+}
+
+#hed2 {
+    color:green;
+}
+
+#pg7 {
+    color:red;
+    text-align: right;
+}
+
+.hrp {
+    color:black;
+    border: 10px;
+}
+
+.hrd {
+    color:red;
+    border:3px;
+}

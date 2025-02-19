@@ -1,0 +1,43 @@
+body {
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    background-color: #f4f4f4;
+}
+.scacchiera {
+    width: 400px;
+    height: 400px;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.color{
+    background-color: lightgrey;
+}
+
+.hexcolor {
+    background-color:#403D39;
+}
+
+.rgbcolor {
+    background-color: rgb(80,77,73);
+}
+
+.rgbacolor {
+    background-color: rgb(25,31,30,0.6);
+}
+
+.hlscolor {
+    background-color: hsl(0, 0%, 16%);
+}
+
+.hlsacolor {
+    background-color: hsl(0, 0%, 16%, 0.5);
+}
+
