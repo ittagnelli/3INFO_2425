@@ -1,0 +1,22 @@
+.nome_color{
+    background-color: darkblue;
+}
+
+.rgb_color{
+    background-color: rgb(0, 83, 119);
+}
+
+.hsl_color{
+    background-color: hsl(164, 93%, 34%);
+}
+
+.rgba_color{
+    background-color: rgba(205, 221, 221,80%) ;
+}
+
+.hsla_color{
+    background-color: hsla(50, 52%, 66%,0.6);
+}
+.hex_color{
+    background-color: #A599B5;
+}
