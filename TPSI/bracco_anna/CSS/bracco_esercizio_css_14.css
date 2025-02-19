@@ -1,0 +1,42 @@
+table {
+    text-align: center;  
+  }
+  
+#a {
+    background-color: pink;
+}
+#b {
+    background-color: palevioletred;
+}
+#c
+{
+    background-color: blueviolet;
+}
+#d
+{
+    background-color: #56d3f4;
+}
+#e {
+    background-color: #34acce;
+}
+#f{
+    background-color: #0981a5;
+}
+#g {
+    background-color: rgb(92, 219, 141);
+}
+#h {
+    background-color: rgb(36, 201, 102);
+}
+#i {
+    background-color: rgb(14, 161, 75);
+}
+#l {
+    background-color: rgb(231, 238, 135);
+}
+#m {
+    background-color: rgb(211, 202, 75);
+}
+#n {
+    background-color: rgb(207, 224, 51);
+}
