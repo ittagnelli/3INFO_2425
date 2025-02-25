@@ -1,0 +1,41 @@
+
+.a{
+    background-image: url("immagini/esercitazione16a.jpg");
+    color: white;
+    width: 500px;
+    height: 500px;
+}
+
+.a1{
+    background-image: url("https://www.smartworld.it/images/2024/05/21/sfondi-windows-11_1200x675.jpg");
+    width: 550px;
+    height: 550px;
+}
+
+.a2{
+    background-image: url("immagini/esercitazione16b.jpeg");
+    background-repeat: repeat;
+    width: 550px;
+    height: 550px;
+}
+
+.a3{
+    background-image: url("immagini/esercitazione16b.jpeg");
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 550px;
+}
+
+.a4{
+    background-image: url("immagini/esercitazione16c.jpeg");
+    background-repeat: repeat-x;
+    width: 550px;
+    height: 550px;
+}
+
+.a5{
+    background-image: url("immagini/esercitazione16d.jpeg");
+    background-repeat: repeat-y;
+    width: 550px;
+    height: 550px;
+}

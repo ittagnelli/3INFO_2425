@@ -1,0 +1,11 @@
+
+
+tr:nth-child(even){
+    color: red;
+    background-color: yellow;
+}
+
+td:nth-child(even){
+    color: red;
+    background-color: yellow;
+}

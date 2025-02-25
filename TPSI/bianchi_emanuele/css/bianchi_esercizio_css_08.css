@@ -1,0 +1,22 @@
+h1, h2, h3 {
+  color: red;
+}
+
+h1,h2, h3 {
+  text-decoration: underline;
+  text-decoration-color: gray;
+}
+
+p {
+    color: blue;
+    text-align: left
+}
+
+ #h2_3 {
+    color: green;
+}
+
+#p7 {
+    color: red;
+    text-align: right;
+}
