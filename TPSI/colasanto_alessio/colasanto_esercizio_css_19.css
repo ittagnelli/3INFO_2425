@@ -1,0 +1,32 @@
+
+h1 {
+    color: blue;
+    border-bottom: 5px solid blue;
+    border-left: 7px solid black;
+}
+
+
+.verde {
+    color: green;
+    border-top: 2px dashed green;
+}
+
+.rosso {
+    color: red;
+    border-top: 2px dashed green;
+}
+
+
+.arancione {
+    color: orange;
+    border-bottom: 3px dashed gray;
+    border-left: 3px solid green;
+    border-right: 3px solid green;
+}
+
+.grigio {
+    color: gray;
+    border-bottom: 3px dashed gray;
+    border-left: 3px solid green;
+    border-right: 3px solid green;
+}
