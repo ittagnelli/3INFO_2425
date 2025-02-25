@@ -1,40 +1,32 @@
-.background-relative-absolute {
-    background-image: url("image/img1.jpg"); /* Percorso relativo */
-    background-size: cover;
-    width: 300px; /* Dimensioni fisse */
+.bra {
+    background-image: url("image/img1.jpg"); 
+    width: 300px; 
     height: 200px;
 }
 
-/* Path assoluto e dimensioni relative */
-.background-absolute-relative {
-    background-image: url("https://www.example.com/images/absolute-image.jpg"); /* Percorso assoluto */
-    background-size: contain;
-    width: 50%; /* Dimensioni relative */
+.brr {
+    background-image: url("https://www.example.com/images/absolute-image.jpg"); 
+    width: 50%;
     height: auto;
 }
 
-/* Background ripetuto */
-.background-repeat {
-    background-image: url("image/img1.jpg");
+.brpt{
+    background-image: url("image/img3.jpg");
     background-repeat: repeat;
 }
 
-/* Background non ripetuto */
-.background-no-repeat {
-    background-image: url("image/img1.jpg");
+.bnorpt {
+    background-image: url("image/img4.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
-/* Background ripetuto solo in orizzontale */
-.background-repeat-x {
+.brptx {
     background-image: url("image/img1.jpg");
     background-repeat: repeat-x;
 }
 
-/* Background ripetuto solo in verticale */
-.background-repeat-y {
-    background-image: url("image/img1.jpg");
+.brpty {
+    background-image: url("image/img2.jpg");
     background-repeat: repeat-y;
 }
 
