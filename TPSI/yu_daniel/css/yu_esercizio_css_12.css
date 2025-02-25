@@ -1,0 +1,10 @@
+a:link { color: blue; } 
+
+a:hover{ color: green; }
+
+a:visited { color: red; background: yellow;}
+
+h1:first-child{color: blue;text-decoration: underline;}
+h2:first-child{color: green;}
+p:first-child{color: red;
+text-align: left;}

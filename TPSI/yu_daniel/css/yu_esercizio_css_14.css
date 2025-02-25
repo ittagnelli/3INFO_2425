@@ -1,0 +1,21 @@
+td{
+    width: 33vw;height: 25vh ;
+}
+.color{
+    background-color: skyblue;
+}
+.HEX{
+    background-color: #CDE5D7;
+}
+.rgb{
+    background-color: rgb(222, 214, 209);
+}
+.rgba{
+    background-color: rgba(238, 198, 202, 0.633);
+}
+.hls{
+    background-color: hsl(351, 78%, 86%) ;
+}
+.hlsa{
+    background-color: hsla(350, 100%, 86%, 0.8);
+}
