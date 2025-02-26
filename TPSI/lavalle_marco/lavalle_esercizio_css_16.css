@@ -1,6 +1,5 @@
     .div_2, .div_3, .div_4, .div_5, .div_6 {
     background-image: url("https://picsum.photos/200/200/?random=1");
-    /* height: 600px; */
     border: 1px dotted black;
     margin: 10px;
   } 
