@@ -1,12 +1,31 @@
-.galleggia {
-    color: white;
-    float: left;
-    width: 100px;
-    height:30px;
-    background-color: black;
-    padding: 5px;
-    align-content: center;
-    text-align: center;
-  }
+.scacchiera {
+  display: flex;
+  flex-direction: column;
+  width: 416px;
+  margin: 20px auto;
+  border: 2px solid black;
+}
+
+.riga {
+  text-align: center;
+}
+
+.cella {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid black;
+  float: left;
+}
 
 
+.bianco {
+  background-color: #f0d9b5;
+}
+
+.nero {
+  background-color: #b58863;
+}
