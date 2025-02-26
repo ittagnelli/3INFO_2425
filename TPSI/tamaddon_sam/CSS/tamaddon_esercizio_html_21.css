@@ -1,0 +1,22 @@
+.h1_1{
+    font-family: 'Modak', cursive;  
+}
+.h1_2{
+    font-family: 'Hanalei', cursive;
+}
+.h1_3{
+    font-family: 'Margarine', cursive; 
+}
+ul.cercho {
+    list-style-type: circle;
+  }
+  ol.roman {
+    list-style-type: upper-roman;
+  }
+  li:before {
+    content: 'done_outline';
+    font-family: 'Material Icons';
+    color: red;
+    vertical-align: -10%;
+    padding-right: 10px;
+  }
