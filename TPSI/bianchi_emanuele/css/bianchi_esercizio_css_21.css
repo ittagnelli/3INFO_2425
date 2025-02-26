@@ -1,0 +1,19 @@
+.h1-1 {
+     font-family: "Times New Roman", Times, serif; 
+}
+
+.h1-2 {
+    font-family: "Georgia", Arial, Helvetica, serif; 
+}
+
+.h1-3 {
+    font-family: "Garamond", Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+ol.roman {
+    list-style-type: upper-roman;
+  }
+  
+  ul.cerchio {
+    list-style-type: circle;
+  }

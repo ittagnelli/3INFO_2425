@@ -1,0 +1,11 @@
+.menu li{
+  float:left;
+  display: inline;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.menu li:hover{
+background-color: gray;
+}
