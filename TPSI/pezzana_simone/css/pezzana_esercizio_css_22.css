@@ -1,0 +1,13 @@
+ul{
+    list-style-type: none;
+}
+li{
+    background-color: black;
+    color: white;
+    float: left;
+    padding :20px;
+    font-weight: bold;
+}
+li:hover{
+    background-color: grey;
+}
