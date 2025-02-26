@@ -1,0 +1,12 @@
+.barranavigazione li {
+    display: inline;
+    padding: 5px;
+    background-color: plum;
+    margin: -2px;
+  }
+li:hover{
+    background-color:pink ;
+}
+li{
+    color: black;
+}

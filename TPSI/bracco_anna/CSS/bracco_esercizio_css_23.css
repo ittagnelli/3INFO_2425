@@ -1,0 +1,10 @@
+.barra {
+    float: left;
+    width: 100px;
+    height:30px;
+    background-color: pink;
+    padding: 5px;
+  }
+div:hover{
+    background-color: rgb(233, 193, 217);
+}
