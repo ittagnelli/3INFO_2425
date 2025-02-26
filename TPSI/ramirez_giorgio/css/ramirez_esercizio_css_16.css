@@ -1,0 +1,32 @@
+.bra {
+    background-image: url("image/img1.jpg"); 
+    width: 300px; 
+    height: 200px;
+}
+
+.brr {
+    background-image: url("https://www.example.com/images/absolute-image.jpg"); 
+    width: 50%;
+    height: auto;
+}
+
+.brpt{
+    background-image: url("image/img3.jpg");
+    background-repeat: repeat;
+}
+
+.bnorpt {
+    background-image: url("image/img4.jpg");
+    background-repeat: no-repeat;
+}
+
+.brptx {
+    background-image: url("image/img1.jpg");
+    background-repeat: repeat-x;
+}
+
+.brpty {
+    background-image: url("image/img2.jpg");
+    background-repeat: repeat-y;
+}
+
