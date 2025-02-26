@@ -1,0 +1,27 @@
+table,
+td tr {
+  padding: 5px;
+}
+
+h1 {
+  color: blue;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: red;
+}
+
+p:not(:nth-child(3)) {
+  text-align: justify;
+}
+
+p:nth-child(3) {
+  text-align: right;
+}
+
+.p2{
+  text-shadow: 2px 2px 5px #00000080;
+}
