@@ -1,0 +1,15 @@
+#lv1 {
+  text-transform: uppercase;
+  color: blue;
+  text-align: justify;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+#lv2 {
+  text-decoration: underline;
+  text-align: justify;
+}
+
+#lv3 {
+  text-align: right;
+}
