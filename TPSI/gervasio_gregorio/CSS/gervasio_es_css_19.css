@@ -1,0 +1,14 @@
+ #lv1 {
+   border-bottom: 5px solid blue;
+   border-left: 7px solid black;
+ }
+ 
+ #lv2 {
+  border-style: inset;
+  border-top: 2px solid green;
+ }
+ 
+ #lv3 {
+   
+   border: 1px solid black;
+ }
