@@ -1,13 +1,23 @@
-.colonna {
-     background-repeat: repeat-x;
-     width: 250px;
-     height: 90px;
-     border: 1px solid black;
-  }
+i1 {
+    text-align: center;
+    text-decoration: none;
+    color: yellow;
+}
 
-.riga {
-     background-repeat: repeat-y;
-     width: 250px;
-     height: 90px;
-     border: 1px solid black;
-  }
+.i2 {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.i3 {
+    text-align: center;
+    text-decoration: none;
+    color: green;
+}
+
+.i4 {
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
