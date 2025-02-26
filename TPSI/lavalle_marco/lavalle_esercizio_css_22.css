@@ -1,0 +1,29 @@
+ li {
+    text-align: center;
+    width: 100px;
+    float: left;
+    color: white;
+    background-color: black;
+    padding: 15px;
+  }
+
+
+ul {
+   list-style: none;
+} 
+
+li:hover {
+    background-color: gray;
+}
+
+.menu {
+    width: 750px;
+    margin: auto;
+}
+
+.items {
+    border: 1px solid green;
+    width: 750px;
+    margin: auto;
+
+}

@@ -1,0 +1,24 @@
+.name {
+    background-color: red;
+  }
+  
+  .HEX {
+    background-color: #2E86AB;
+  }
+  
+  .rgb {
+    background-color: rgb(24, 82, 46); 
+  }
+  
+  .rgba {
+    background-color: rgba(82, 24, 46, 0.5);
+  }
+  
+  .hsl {
+    background-color: hsl(250, 36%, 46%); /
+  }
+  
+  .hsla {
+    background-color: hsla(250, 36%, 46%, 0.5);
+  }
+  
