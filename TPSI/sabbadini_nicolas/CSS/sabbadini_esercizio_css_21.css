@@ -1,0 +1,16 @@
+#h1 {
+    font-family: Audiowide , sans-serif;
+}
+
+#hr1, #hr2, #hr3, #hr4, #hr5, #hr6 {
+    font-family: Sofia , sans-serif;
+}
+
+ol.roman {
+    list-style-type: upper-roman;
+  }
+
+
+ul.cerchio {
+  list-style-type: circle;
+}
