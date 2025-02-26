@@ -1,0 +1,12 @@
+div {
+    float: left;
+    border:1px solid;
+    width: 100px;
+    height:30px;
+    background-color: green;
+    padding: 5px;
+  }
+
+div:hover {
+background-color: ss;
+  }
