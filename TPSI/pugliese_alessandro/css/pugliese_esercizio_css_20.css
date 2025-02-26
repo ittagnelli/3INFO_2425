@@ -1,0 +1,19 @@
+.h1 {
+    text-transform: uppercase;
+    color: blue;
+}
+
+.hr1, .hr2, .hr3, .hr4, .hr5, .hr6 {
+    text-transform: lowercase;
+    color: red;
+    text-decoration: underline;
+}
+
+.pr1 .pr2,  .pr4, .pr5, .pr6 {
+    text-transform: capitalize;
+    text-align: right;
+}
+
+.bq1 {
+    text-shadow: 2px 2px;
+}
