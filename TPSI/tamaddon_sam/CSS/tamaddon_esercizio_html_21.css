@@ -15,7 +15,7 @@ ul.cercho {
   }
   li:before {
     content: 'done_outline';
-    font-family: 'Material Icons';
+    font-family: 'Material Icons' thumb_up  ;
     color: red;
     vertical-align: -10%;
     padding-right: 10px;
