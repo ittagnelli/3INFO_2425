@@ -1,0 +1,48 @@
+div:nth-child(1) {
+  width: 400px;
+  height: 200px;
+  background-color: red;
+}
+
+div:nth-child(2) {
+  height: 150px;
+  width: 100%;
+  background-color: purple;
+}
+
+div:nth-child(3) {
+  height: 150px;
+  width: 75%;
+  background-color: purple;
+}
+div:nth-child(4) {
+  height: 150px;
+  width: 50%;
+  background-color: purple;
+}
+div:nth-child(5) {
+  height: 150px;
+  width: 25%;
+  background-color: purple;
+}
+
+div:nth-child(6) {
+  height: 221px;
+  background-color: rgba(0, 128, 0, 0.65);
+  width: calc(100% / 8);
+}
+div:nth-child(7) {
+  height: 221px;
+  background-color: rgba(0, 128, 0, 0.65);
+  width: 50%;
+}
+div:nth-child(8) {
+  height: 221px;
+  background-color: rgba(0, 128, 0, 0.65);
+  width: calc((100% / 8) * 5);
+}
+div:nth-child(9) {
+  height: 221px;
+  background-color: rgba(0, 128, 0, 0.65);
+  width: calc((100% / 9) * 2);
+}

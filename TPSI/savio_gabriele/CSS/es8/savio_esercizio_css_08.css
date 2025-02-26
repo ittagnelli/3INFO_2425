@@ -1,0 +1,32 @@
+table,
+td tr {
+  padding: 5px;
+}
+
+h1,
+h2,
+h2 {
+  color: red;
+  text-decoration: underline gray;
+}
+p {
+  color: blue;
+  text-align: left;
+}
+
+h2:nth-child(3) {
+  color: green;
+}
+
+p:nth-child(7) {
+  color: red;
+  text-align: right;
+}
+
+hr:nth-child(even) {
+  border: 10px solid black;
+}
+
+hr:nth-child(odd) {
+  border: 3px solid red;
+}

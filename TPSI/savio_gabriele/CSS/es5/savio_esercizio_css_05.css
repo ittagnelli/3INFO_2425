@@ -1,0 +1,16 @@
+
+table,
+td tr {
+  padding: 5px;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+p {
+  color: blue;
+}

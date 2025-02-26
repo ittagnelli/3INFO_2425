@@ -1,0 +1,22 @@
+
+table,
+td tr {
+  padding: 5px;
+}
+
+h1 {
+  color: blue;
+}
+
+#titolo1 {
+  color: red;
+}
+#titolo2{
+  color: green;
+}
+#p1 {
+  color: gray;
+}
+#p2{
+  color: orange;
+}
