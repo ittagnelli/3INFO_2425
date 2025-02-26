@@ -1,5 +1,13 @@
 .colonna {
-     background-repeat: repeat; }
+     background-repeat: repeat-x;
+     width: 250px;
+     height: 90px;
+     border: 1px solid black;
+  }
 
-.riga{
-     background-repeat: repeat; }
+.riga {
+     background-repeat: repeat-y;
+     width: 250px;
+     height: 90px;
+     border: 1px solid black;
+  }
