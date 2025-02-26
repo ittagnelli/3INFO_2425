@@ -1,0 +1,27 @@
+h1, h2, h3
+{
+    color: red;
+    text-decoration: underline;
+}
+p 
+{
+ color: blue;
+ text-align: left;
+}
+.h2
+{
+    color: green;
+}
+.p
+{
+color: red;
+text-align: right;
+}
+.hr-p
+{
+    border: 10px solid black;
+}
+.hr-d
+{
+    border: 3px solid red;
+}
