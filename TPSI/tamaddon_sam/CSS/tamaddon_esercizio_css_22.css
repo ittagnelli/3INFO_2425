@@ -1,0 +1,14 @@
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    float: left;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+
+.menu li:hover {
+    background-color: gray;
+}

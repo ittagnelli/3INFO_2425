@@ -1,0 +1,11 @@
+.galleggia {
+    float: left;
+    width: 100px;
+    height:30px;
+    background-color: black;
+    padding: 5px;
+    color: white;
+  }
+  .galleggia:hover {
+    background-color: gray;
+}

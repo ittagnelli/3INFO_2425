@@ -1,0 +1,18 @@
+h1{
+    color: rgba(45, 0, 224, 1);
+    text-transform: uppercase; 
+}
+h2{
+    color: red;
+    text-transform: capitalize;
+    text-decoration: underline; 
+}
+p{
+    text-align: justify;
+}
+.p3{
+    text-align: right;
+}
+.c{
+    text-shadow: 2px 2px 5px red;
+}
