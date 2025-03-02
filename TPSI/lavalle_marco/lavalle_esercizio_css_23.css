@@ -1,12 +1,18 @@
-div {
+.div {
     float: left;
     border:1px solid;
     width: 100px;
     height:30px;
-    background-color: green;
+    color: white;
+    background-color: black;
     padding: 5px;
   }
 
 div:hover {
-background-color: ss;
+background-color: gray;
   }
+
+.menu {
+    width: 750px;
+    margin: auto;
+}
