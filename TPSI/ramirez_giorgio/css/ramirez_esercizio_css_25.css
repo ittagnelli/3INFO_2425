@@ -1,0 +1,23 @@
+#d1 {
+  height: 180px;
+  width: 540px;
+}
+
+#dsx {
+  width: 180px;
+  height: 180px;
+  float: left;
+  background-color: purple;
+}
+
+#dcent {
+  width: 180px;
+  height: 180px;
+}
+
+#ddx {
+  width: 180px;
+  height: 180px;
+  float: right;
+  background-color: purple;  
+}
