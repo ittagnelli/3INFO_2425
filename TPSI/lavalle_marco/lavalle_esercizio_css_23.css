@@ -1,6 +1,7 @@
 .div {
     float: left;
-    border:1px solid;
+    border:1px solid black;
+    text-align: center;
     width: 100px;
     height:30px;
     color: white;
