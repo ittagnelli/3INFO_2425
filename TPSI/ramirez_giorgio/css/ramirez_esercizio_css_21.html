@@ -6,26 +6,30 @@
     <meta name="description" content="Esercitazione 21 css" />
     <meta name="keywords" content="form" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="refresh" content="1" />
+    <meta http-equiv="refresh" content="100" />
     <link rel="stylesheet" href="./ramirez_esercizio_css_21.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=computer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=all_inclusive" />
 </head>
 <body>
     TESTO TRATTO DA <a href="https://en.wikipedia.org/wiki/Localhost" target="_blank"><cite>Wikipedia</cite> </a><br>
   
 <h2 class="sigmar-regular">localhost</h2><br>
-<p>In <b><em><mark><q>computer networking</q> </mark> </em> </b>, localhost is a <del><s>name</s> </del> <ins ><em>hostname</em> </ins> that refers to the current computer used to access it. It is used to access the network services that are running on the host via the loopback network interface. Using the loopback interface bypasses any local network interface hardware. </p><br>
+<p>In <b><em><mark><q> computer <span class="material-symbols-outlined">computer</span> networking</q> </mark> </em> </b>, localhost is a <del><s>name</s> </del> <ins ><em>hostname</em> </ins> that refers to the current computer used to access it. It is used to access the network services that are running on the host via the loopback network interface. Using the loopback interface bypasses any local network interface hardware. </p><br>
 <code>IP 127.0.0.1</code>
-<h2><strong><u>Loopback</u> </strong> </h2> <br>
+<h2 class="bebas-neue-regular">Loopback<span class="material-symbols-outlined">all_inclusive</span></h2> <br>
 <a href="https://en.wikipedia.org/wiki/Loopback" target="_blank">
     <img src="https://phoenixnap.com/kb/wp-content/uploads/2022/02/how-does-loopback-work.png" width="250" alt="loopback"/>
     </a>
 <p>The <del><s>remote</s> </del> <ins><b><em><mark><q>local loopback</q> </mark> </em> </b></ins>  mechanism may be used to run a network service on a host without requiring a physical network interface, or without making the service accessible from the networks the computer may be connected to. For example, a locally installed website may be accessed from a Web browser by the <sub> URL</sub> http://localhost to display its home page. <br>
 The name localhost normally resolves to the IPv4 loopback address 127.0.0.1, and to the IPv6 loopback address ::1. </p><br>
 <br>
-<h2><strong><u>Name resolution</u>  </strong> </h2><br>
+<h2 class="josefin-sans">Name resolution</h2><br>
 <img src="https://rayka-co.com/wp-content/uploads/2023/12/4.-Hierarchy-of-DNS-servers.jpg" width="500" alt="_blank"/>
 <p>IPv4 network standards reserve the entire address block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet sent to any of those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest <del><s>isn't</s> </del> <ins>are not</ins>  supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1. <br>
 The resolution of the name localhost to one or more IP addresses is normally configured by the following lines in the operating system's hosts file: <br>
@@ -59,7 +63,7 @@ In contrast, the IETF "<mark>IP Version 6 Addressing Architecture</mark> " stand
 <p>Looped-back packets are distinguished from any other packets traversing the TCP/IP stack only by the special IP address they were addressed to. Thus, the services that ultimately receive them respond according to the specified destination. For example, an HTTP service could route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different Web servers, or to a single server that returns different web pages. To simplify such testing, the hosts file may be configured to provide appropriate names for each address. </p><br>
 
 <p>Packets received on a non-loopback interface with a loopback source or destination address must be dropped. Such packets are sometimes referred to as Martian packets.[6] As with any other bogus packets, they may be malicious and any problems they might cause can be avoided by applying bogon filtering.</p>
-<br><h2><strong> Special cases</strong> </h2><br>
+<br><h2><strong> Special cases </strong> </h2><br>
 <p>The releases of the MySQL database <b>differentiate</b> between the use of the hostname localhost and the use of the addresses 127.0.0.1 and ::1.[7] When using localhost as the destination in a client connector interface of an application, the MySQL application programming interface connects to the database using a <del><u>Linux</u></del>  <ins>Unix</ins>  domain socket, while a TCP connection via the loopback interface requires the direct use of the explicit address.<br></p>
 
 <p>One notable exception to the use of the 127.0.0.0/8 addresses is their use in <abbr title="Multiprotocol Label Switching">MPLS</abbr>  (Multiprotocol Label Switching) traceroute error detection, in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.<br></p>
