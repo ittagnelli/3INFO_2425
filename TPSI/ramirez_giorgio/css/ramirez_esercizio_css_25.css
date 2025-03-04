@@ -1,23 +1,35 @@
-#d1 {
-  height: 180px;
-  width: 540px;
+body {
+  font-family: Arial, sans-serif;
 }
 
-#dsx {
-  width: 180px;
-  height: 180px;
-  float: left;
+.container {
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
   background-color: purple;
+  color: white;
+  text-align: center;
+  line-height: 100px;
 }
 
-#dcent {
-  width: 180px;
-  height: 180px;
+.left {
+  float: left;
 }
 
-#ddx {
-  width: 180px;
-  height: 180px;
+.box-center {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  float: center;
+}
+
+.right {
   float: right;
-  background-color: purple;  
 }
+
