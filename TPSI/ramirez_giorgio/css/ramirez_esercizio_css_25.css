@@ -3,30 +3,31 @@ body {
 }
 
 .container {
-  width: 300px;
+  width: 450px;
   margin: 20px auto;
+  height: 100px;
   text-align: center;
 }
 
 .box {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   background-color: purple;
   color: white;
-  text-align: center;
-  line-height: 100px;
+  text-align: left;
+  line-height: 40px;
+}
+
+.box-center{
+  text-align: justify;
+  float: left;
+  margin-top: -10px;
+  width: 150px;
+  height: 100px;
 }
 
 .left {
   float: left;
-}
-
-.box-center {
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  line-height: 100px;
-  float: center;
 }
 
 .right {
