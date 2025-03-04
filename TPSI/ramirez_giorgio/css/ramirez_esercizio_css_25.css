@@ -16,6 +16,7 @@ body {
   color: white;
   text-align: left;
   line-height: 40px;
+  border-radius: 10px;
 }
 
 .box-center{
