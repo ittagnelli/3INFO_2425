@@ -1,0 +1,17 @@
+.menu li{
+    float: left;
+    display: inline;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+.menu ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+}
+.menu li:hover{
+    background-color: darkgray;
+}
