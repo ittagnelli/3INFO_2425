@@ -1,0 +1,19 @@
+h1:nth-child(1){
+    font-family:Modak;
+}
+
+h1:nth-child(2){
+    font-family: Hanalei;
+}
+h1:nth-child(3){
+    font-family: Sofia;
+}
+
+ol.roman {
+    list-style-type: upper-roman;
+  }
+
+
+ul.cerchio {
+  list-style-type: circle;
+}

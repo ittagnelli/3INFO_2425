@@ -1,0 +1,24 @@
+ul{
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 551px;
+    background-color: black;
+}
+li{
+    display: inline;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px; ;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+li#About{
+    background-color: gray;
+}
+li:hover{
+    background-color: aqua;
+}
+li#About:hover{
+    background-color: aqua;
+}
