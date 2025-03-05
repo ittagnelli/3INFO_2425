@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nome Cognome">
+    <title>Form Iscrizione</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Raccoltà dati personali:</h1>
+    <form>
+        <fieldset>
+            <legend>Dati Personali</legend>
+            
+            
+            <label for="cognome">Cognome:</label>
+            <input type="text" id="cognome" name="cognome" maxlength="40" size="40" required><br><br>
+            
+           
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" maxlength="30" size="30" required><br><br>
+            
+            
+            <form>
+                <label for="cars">Genere:  </label>
+                  <select name="genere" id="cars">
+                      <option value="maschio">Maschio</option>
+                      <option value="femmina">Femmina</option>
+                  </select>
+                </form>
+            
+            
+            <label for="regione">Nazionalità:</label>
+            <select id="regione" name="regione" required>
+                <option value="" disabled selected>Seleziona una regione</option>
+                <option value="italia">italia</option>
+                <option value="svizzera">svizzera</option>
+                <option value="francia">fracia</option>
+                <option value="garmamia">germania</option>
+                <option value="spagna">spagna</option>
+                <option value="africa">africa</option>
+                <option value="portogallo">portogallo</option>
+                <option value="paesi bassi">paesi bassi</option>
+                <option value="polonia">polonia</option>
+                <option value="norvegia">norvegia</option>
+                <option value="cina">cina</option>
+                <option value="america">america</option>
+                <option value="grecia">grecia</option>
+                <option value="russia">russia</option>
+            </select><br><br>
+            
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" maxlength="30" size="30" required><br></br>
+            
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd"><br></br>
+
+            <label for="data">data nascita:</label>
+            <input type="date" id="birthday" name="birthday"><br></br>
+            
+            <label for="telefono">attività lavorativa:</label>
+            <input type="tel" id="telefono" name="telefono" maxlength="15" size="15" required><br></br>
+            
+            <label for="telefono">hobby:</label>
+            <input type="hobby" id="email" name="hobby" maxlength="30" size="30" required><br></br>
+            
+            <label for="pwd">altezza:</label>
+            <input type="number" id="altezza" name="altezza" min="150" max="200"><br></br>
+            
+            
+            <label for="peso">Peso: </label>
+            <input type="range" min="50" max="100" value="60" class="slider" id="peso"><br></br>
+            
+            <label for="colore">colore: </label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+
+            <label for="richieste">note personali:</label><br>
+            <textarea id="richieste" name="richieste" rows="12" cols="60"></textarea><br><br>
+             
+
+            <input type="submit" value="Invia">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>

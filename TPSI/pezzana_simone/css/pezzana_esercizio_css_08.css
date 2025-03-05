@@ -1,0 +1,29 @@
+h1,h2,h3{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+
+p{
+    color: blue;
+    text-align:left;
+}
+
+#terzoh2{
+    color: green;
+}
+
+#settimop{
+color: red;
+text-align: right;
+}
+.hrpari{
+    color: black;
+    height: 10px;
+    background-color: black;
+}
+.hrdispari{
+    color: red;
+    height: 3px;
+    background-color: red;
+}

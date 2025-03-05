@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prevedi - Esercitazione 16 HTML</title>
+</head>
+<body>
+    <center>
+        <form>
+            <table border="0">
+                <thead>
+                    <h1>Inserimento di dati personali</h1>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="Nome">Nome </label>
+                        </td>
+                        <td>
+                            <input type="text" id="Nome" placeholder="Nome" maxlength="30" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="Cognome">Cognome </label>
+                        </td>
+                        <td>
+                            <input type="text" id="Cognome" placeholder="Cognome" maxlength="30" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="Genere">Genere</label>
+                        </td>
+                        <td>
+                            <select name="Genere" id="Genere">
+                                <option value="Maschio">Maschio</option>
+                                <option value="Femmina">Femmina</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="Email">Email </label>
+                        </td>
+                        <td>
+                            <input type="email" id="Email" placeholder="E-Mail" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="Password">Password </label>
+                        </td>
+                        <td>
+                            <input type="password" id="Password" placeholder="Password" maxlength="30" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="Birthdate">Data di nascita</label>
+                        </td>
+                        <td>
+                            <input type="date" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="Nazionalità">Nazionalità</label>
+                        </td>
+                        <td>
+                            <input list="Paesi" id="Nazionalità" placeholder="Nazionalità">
+                            <datalist id="Paesi">
+                                <option value="Italiana"></option>
+                                <option value="Francese"></option>
+                                <option value="Svizzera"></option>
+                                <option value="Austriaca"></option>
+                                <option value="Croata"></option>
+                                <option value="Spagnola"></option>
+                                <option value="Portoghese"></option>
+                                <option value="Tedesca"></option>
+                                <option value="Olandese"></option>
+                                <option value="Norvegese"></option>
+                                <option value="Svedese"></option>
+                                <option value="Finlandese"></option>
+                                <option value="Lituana"></option>
+                                <option value="Estone"></option>
+                            </select>            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="Lavoro">Attività lavorativa</label>
+                        </td>
+                        <td>
+                            <input type="text" id="Lavoro" maxlength="40" />
+                        </td>    
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="Hobby">Hobby</label>
+                        </td>
+                        <td>
+                            <input type="text" id="Hobby" maxlength="40" />
+                        </td>    
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="Altezza">Altezza</label>
+                        </td>
+                        <td>
+                            <input type="number" id="Altezza" min="140" max="220" />
+                        </td>    
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="Peso">Peso</label>
+                        </td>
+                        <td>
+                            <input type="number" id="Peso" min="40" max="120" />
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="Colore">Colore preferito</label>
+                        </td>
+                        <td>
+                            <input type="color" id="Colore" value="#ff0000" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="Notextra">Note aggiuntive</label>
+                        </td>
+                        <td>
+                            <textarea id="Notextra" rows="7" cols="20" placeholder="Note aggiuntive..."></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="reset">Reset del modulo</label>
+                        </td>
+                        <td>
+                            <input type="reset" id="reset" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label for="Submit">Invia il modulo</label>
+                        </td>
+                        <td>
+                            <input type="submit" id="submit" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </center>
+</body>
+</html>

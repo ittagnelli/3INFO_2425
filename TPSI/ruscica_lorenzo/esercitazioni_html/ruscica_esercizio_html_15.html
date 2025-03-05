@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>form</title>
+    <meta name="author" content="Lorenzo Ruscica" />
+    <meta name="description" content="Esercitazione 15" />
+    <meta name="keywords" content="form" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+</head>
+<style>
+    body {background-color: white;}
+    h1 {color: rgb(255, 0, 0);}
+  </style>
+</head>
+<body>
+  <form>
+      <center><table border="1">
+          <caption><h2>Modulo richiesta di lavoro</h2></caption>
+          <tbody>
+              <tr>
+                  <td align="right"><label for="idcognome">Cognome: </label></td> <td><input type="text" size="40" maxlength="40" id="idcognome" name="cognome" placeholder="Cognome"></td>
+              </tr>
+
+              <tr>
+                  <td align="right"><label for="idnome">Nome: </label></td> <td><input type="text" size="30" maxlength="30" id="idnome" name="nome" placeholder="nome"></td>
+              </tr>
+
+              <tr>
+                  <td align="right"><label for="Matricola">Matricola: </label></td> <td><input type="text" size="12" maxlength="12" id="Matricola" name="Matricola" placeholder="Matricola"></td>
+              </tr>
+
+              <tr>
+                  <td style="text-align: right;">
+                      <label for="regione">Regione di provenienza</label>
+                  </td>
+                  <td>
+                      <input list="regioni" id="regione" placeholder="Regione di provenienza">
+                      <datalist id="regioni">
+                          <option value="Abruzzo"></option>
+                          <option value="Basilicata"></option>
+                          <option value="Calabria"></option>
+                          <option value="Campania"></option>
+                          <option value="Emilia-Romagna"></option>
+                          <option value="Friuli Venezia-Giulia"></option>
+                          <option value="Lazio"></option>
+                          <option value="Liguria"></option>
+                          <option value="Lombardia"></option>
+                          <option value="Marche"></option>
+                          <option value="Molise"></option>
+                          <option value="Piemonte"></option>
+                          <option value="Puglia"></option>
+                          <option value="Sardegna"></option>
+                          <option value="Sicilia"></option>
+                          <option value="Toscana"></option>
+                          <option value="Trentino Alto-Adige"></option>
+                          <option value="Umbria"></option>
+                          <option value="Val D'Aosta"></option>
+                          <option value="Veneto"></option>
+                      </select>            
+                  </td>
+              </tr>
+
+
+
+
+              <tr>
+                  <td align="right"><label for="email">email: </label></td> <td><input type="text" size="30" maxlength="30" id="email" name="email" placeholder="email"></td>
+              </tr>
+
+              <tr>
+                  <td align="right"><label for="Telefono">Numero di telefono: </label></td> <td><input type="text" size="15" maxlength="15" id="Numero di telefono" name="Numero di telefono" placeholder="Numero di telefono"></td>
+              </tr>
+
+              <tr>
+                  <td align="right">Richieste particolari</td> <td><label for="Richieste particolari">Richieste particolari</label>
+                      <textarea id="Richieste particolari" rows="12" cols="60" placeholder="Richieste particolari"></textarea></td>
+              </tr>
+
+              <tr>
+                  <td align="right">Invia il modulo</td> <td><input type="submit"></td>
+              </tr>
+
+              <tr>
+                  <td align="right">Reset del modulo</td> <td><input type="reset"></td>
+              </tr>

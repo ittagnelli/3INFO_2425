@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prenotazione Proiettore</title>
+</head>
+<body>
+    <caption><center><h1>Prenotazione Proiettore</h1></center></caption>
+    <p>Su questo sito potrete prenotare l'utilizzo del proiettore per le vostre lezioni.</p>
+    <form>
+        <!-- Nome e Cognome -->
+        <label for="idnome">Nome:</label>
+        <input type="text" id="idnome" name="nome" placeholder="Nome"> <br>
+        <label for="idcognome">Cognome:</label>
+        <input type="text" id="idcognome" name="cognome" placeholder="Cognome"> <br>
+        <label for="idemail">Email:</label>
+        <input type="email" id="idemail" name="email" placeholder="Email"> <br>
+        
+        <br>
+
+        <!-- Dove devi proiettare -->
+        <h3>DOVE DEVI PROIETTARE?</h3>
+        <input type="radio" id="scuola" name="luogo" value="scuola">
+        <label for="scuola">Scuola</label> <br>
+        <input type="radio" id="catechismo" name="luogo" value="catechismo">
+        <label for="catechismo">Catechismo</label> <br>
+        <input type="radio" id="oratorio" name="luogo" value="oratorio">
+        <label for="oratorio">Oratorio</label> <br>
+        
+        <br>
+
+        <!-- Cosa devi proiettare -->
+        <h3>COSA DEVI PROIETTARE?</h3>
+        <input type="checkbox" id="video" name="contenuti" value="video">
+        <label for="video">Video</label><br>
+        <input type="checkbox" id="slides" name="contenuti" value="slides">
+        <label for="slides">Slides</label><br>
+        <input type="checkbox" id="lezioni" name="contenuti" value="lezioni">
+        <label for="lezioni">Lezioni</label><br>
+        <input type="checkbox" id="attività" name="contenuti" value="attività">
+        <label for="attività">Attività</label><br>
+        <input type="checkbox" id="musica" name="contenuti" value="musica">
+        <label for="musica">Musica</label><br>
+
+        <br>
+
+        <!-- Quando -->
+        <h3>QUANDO?</h3>
+        <label for="iddate">Data:</label>
+        <input type="date" id="iddate" name="quando">
+
+        <br>
+        <br>
+
+        <!-- Widget Number -->
+        <h3>QUANTI PROIETTORI?</h3>
+        <label for="idnum1">Numero Proiettori:</label>
+        <input type="number" id="idnum1" name="num_proiettori" min="1" max="5"> <br>
+        <label for="idnum2">Numero Tavoli:</label>
+        <input type="number" id="idnum2" name="num_tavoli" min="1" max="10"> <br>
+        <label for="idnum3">Numero Sedie:</label>
+        <input type="number" id="idnum3" name="num_sedie" min="1" max="50"> <br>
+        <label for="idnum4">Numero Persone:</label>
+        <input type="number" id="idnum4" name="num_persone" min="1" max="100"> <br>
+
+        <br>
+
+        <!-- Widget Color Picker -->
+        <label for="idcolor">Scegli un Colore:</label>
+        <input type="color" id="idcolor" name="colore"> <br>
+
+        <br>
+
+        <!-- Widget Range -->
+        <h3>IMPOSTAZIONI AUDIO</h3>
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="100"> <br>
+        <label for="luminosità">Luminosità:</label>
+        <input type="range" id="luminosità" name="luminosità" min="0" max="100"> <br>
+        <label for="contrasto">Contrasto:</label>
+        <input type="range" id="contrasto" name="contrasto" min="0" max="100"> <br>
+
+        <br>
+
+        <!-- Combo Box -->
+        <label for="aula">Scegli l'Aula:</label>
+        <select id="aula" name="aula">
+            <option value="aula1">Aula 1</option>
+            <option value="aula2">Aula 2</option>
+            <option value="aula3">Aula 3</option>
+            <option value="aula4">Aula 4</option>
+            <option value="aula5">Aula 5</option>
+        </select>
+
+        <br>
+        <br>
+
+        <!-- Data List -->
+        <label for="modello">Modello Proiettore:</label>
+        <input type="text" id="modello" name="modello" list="modelli">
+        <datalist id="modelli">
+            <option value="Epson EB-S41">
+            <option value="BenQ MW550">
+            <option value="Optoma HD143X">
+            <option value="LG PF50KS">
+            <option value="Sony VPL-HW45ES">
+        </datalist>
+
+        <br>
+        <br>
+
+        <!-- Text Area -->
+        <label for="note">Note Aggiuntive:</label><br>
+        <textarea id="note" name="note" rows="6" cols="60" placeholder="Inserisci qui eventuali richieste o informazioni aggiuntive..."></textarea>
+
+        <br>
+        <br>
+
+        <!-- Pulsante Invio -->
+        <label for="idbutton">Invia la tua prenotazione:</label> <br>
+        <input type="submit" id="idbutton" value="Invia">
+    </form>
+</body>
+</html>

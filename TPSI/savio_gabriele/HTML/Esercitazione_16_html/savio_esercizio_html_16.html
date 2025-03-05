@@ -1,0 +1,101 @@
+<!--
+Il form deve contenere i seguenti campi: 
+Nome e Cognome 
+Genere 
+Email 
+Password 
+Data di nascita 
+Nazionalità 
+Attività lavorativa 
+Hobby 
+Altezza 
+Peso 
+Colore preferito 
+Note personali
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>esecizio 16</title>
+  </head>
+  <body>
+    <form style="margin: 20px 20% 0 20%;">
+      <h2>Modulo di registrazione</h2>
+
+      <table style="border-collapse: collapse;" width="100%">
+        <tr>
+          <td><label for="name">Nome e Cognome:</label></td>
+          <td><input type="text" id="name" name="name" required /></td>
+        </tr>
+        <tr>
+          <td><label for="gender">Genere:</label></td>
+          <td>
+            <select id="gender" name="gender" required>
+              <option value="">Seleziona</option>
+              <option value="male">Maschio</option>
+              <option value="female">Femmina</option>
+              <option value="other">Altro</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" id="email" name="email" required /></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password:</label></td>
+          <td><input type="password" id="password" name="password" required /></td>
+        </tr>
+        <tr>
+          <td><label for="birthdate">Data di nascita:</label></td>
+          <td><input type="date" id="birthdate" name="birthdate" required /></td>
+        </tr>
+        <tr>
+          <td><label for="nationality">Nazionalità:</label></td>
+          <td>
+            <selection id="nazionalita" required>
+            <option value="Seleziona">Seleziona</option>
+            <option value="ita">Italiana</option>
+            <option value="en">Inglese</option>
+            <option value="ger">Tedesca</option>
+            <option value="fr">Francese</option>
+            <option value="sp">Spagnola</option>
+          </selection></td>
+        </tr>
+        <tr>
+          <td><label for="job">Attività lavorativa:</label></td>
+          <td><input type="text" id="job" name="job" required /></td>
+        </tr>
+        <tr>
+          <td><label for="hobbies">Hobby:</label></td>
+          <td><input type="text" id="hobbies" name="hobbies" required></input></td>
+        </tr>
+        <tr>
+          <td><label for="height">Altezza:</label></td>
+          <td><input type="number" id="height" name="height" min="140" max="200" required /></td>
+        </tr>
+        <tr>
+          <td><label for="weight">Peso:</label></td>
+          <td><input type="number" id="weight" name="weight" min="40" max="120" required /></td>
+        </tr>
+        <tr>
+          <td><label for="color">Colore preferito:</label></td>
+          <td><input type="color" id="color" name="color" required /></td>
+        </tr>
+        <tr>
+          <td><label for="notes">Note personali:</label></td>
+          <td><textarea id="notes" name="notes" required></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <center>
+            <button type="submit">Invia</button></td>
+            </center>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

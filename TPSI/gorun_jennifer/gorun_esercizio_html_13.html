@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio HTML 13</title>
+</head>
+<body>
+    <h1>Modulo di Registrazione</h1>
+    <form action="#" method="post">
+       
+        <label for="cognome-nome">Cognome e Nome:</label>
+        <input type="text" id="cognome-nome" name="cognome-nome" maxlength="50" required>
+        <br><br>
+
+        
+        <p>Sesso:</p>
+        <label for="maschio">
+            <input type="radio" id="maschio" name="sesso" value="maschio" required> Maschio
+        </label>
+        <br>
+        <label for="femmina">
+            <input type="radio" id="femmina" name="sesso" value="femmina" required> Femmina
+        </label>
+        <br><br>
+
+        
+        <label for="ateneo">Ateneo:</label>
+        <select id="ateneo" name="ateneo" required>
+            <option value="">--Seleziona un'opzione--</option>
+            <option value="la-sapienza">La Sapienza</option>
+            <option value="roma-tre">Roma Tre</option>
+            <option value="tor-vergata">Tor Vergata</option>
+        </select>
+        <br><br>
+
+        <label for="cap">CAP:</label>
+        <input type="text" id="cap" name="cap" maxlength="5" required>
+        <br><br>
+
+        
+        <label for="studente-lavoratore">
+            <input type="checkbox" id="studente-lavoratore" name="studente-lavoratore" value="sì"> Studente lavoratore
+        </label>
+        <br><br>
+
+        <
+        <label for="descrizione-lavoro">Descrizione del lavoro svolto:</label>
+        <textarea id="descrizione-lavoro" name="descrizione-lavoro" maxlength="80" rows="4" cols="50"></textarea>
+        <br><br>
+
+        
+        <button type="submit">Invia</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+p mark{
+    color: green;
+}
+
+p b{
+    color: yellow;
+    background-color: black;
+}
+div em{
+    background-color: yellow;
+}
+
+div span{
+    background-color: yellow;
+    color: black;
+}

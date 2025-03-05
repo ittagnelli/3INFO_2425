@@ -1,0 +1,123 @@
+<!--
+1. Progettare e realizzare un documento HTML contenente una form contenente i seguenti campi: 
+cognome e nome (casella di testo editabile lunga 50 caratteri) 
+sesso (selezionabile tramite due bottoni radio) 
+ateneo (da scegliere da un menu che riporta le 3 universit romane) 
+CAP (casella di testo editabile lunga 5 caratteri) 
+studente lavoratore (selezionabile tramite checkbox) d
+escrizione del lavoro svolto (casella di testo editabile lunga 80 caratteri) 
+bottone di invio bottone di reset
+-->
+
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercizio 13</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Modulo di Registrazione</h1>
+    <form>
+      <table style="margin-left: 40%; margin-right: 40%; margin-top: 30px;">
+        <tr>
+          <td><label for="cognome">Cognome:</label></td>
+          <td>
+            <input
+              type="text"
+              id="cognome"
+              name="cognome"
+              maxlength="50"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="nome">Nome:</label></td>
+          <td>
+            <input type="text" id="nome" name="nome" maxlength="50" required />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center"><h3>Sesso:</h3></td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="radio"
+              id="maschio"
+              name="sesso"
+              value="maschio"
+              required
+            />
+          </td>
+          <td><label for="maschio">Maschio</label></td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="radio"
+              id="femmina"
+              name="sesso"
+              value="femmina"
+              required
+            />
+          </td>
+          <td><label for="femmina">Femmina</label></td>
+        </tr>
+        <tr>
+          <td colspan="3" style="text-align: center"><h3>Ateneo:</h3></td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="ateneo" value="Atene" required /></td>
+          <td>
+            <label for="Atene">Atene</label>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="ateneo" value="Sparta" /></td>
+          <td><label for="Sparta">Sparta</label></td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="ateneo" value="Patrasso" /></td>
+          <td><label for="Patrasso">Patrasso</label></td>
+        </tr>
+        <tr>
+          <td><label for="cap">CAP:</label></td>
+          <td>
+            <input type="number" id="cap" name="cap" maxlength="5" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="studente_lavoratore"
+              name="studente_lavoratore"
+            />
+          </td>
+          <td><label>Studente lavoratore </label></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="descrizione">Descrizione del lavoro svolto:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="descrizione"
+              name="descrizione"
+              maxlength="80"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <button type="submit">Invia</button>
+            <button type="reset">Reset</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

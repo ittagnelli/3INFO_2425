@@ -1,0 +1,11 @@
+.div{
+    height: 100px;
+    width: 100px;
+    float: left;
+    border-radius: 5px;
+    padding: 10px;
+}
+.viola{
+    background-color: #7c0aff;
+    color: #ffffff;
+}

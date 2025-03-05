@@ -1,0 +1,13 @@
+div{
+    float: left;
+    width: 100px;
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    padding: 15px 0px 15px 0px;
+}
+
+div:hover{
+    background-color: gray;
+}

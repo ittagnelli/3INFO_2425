@@ -1,0 +1,17 @@
+.menù {
+    background-color: black;
+    text-align: center;
+    padding: 15px ;
+  }
+  
+  .menù a {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 20px;
+    display: inline-block;
+  }
+  
+  .menù a:hover {
+    background-color: grey;
+  }

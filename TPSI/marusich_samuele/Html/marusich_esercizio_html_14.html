@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Esercitazione 14 HTML</title>
+</head>
+<body>
+    <h1>Modulo per la richiesta di partecipazione a un evento</h1>
+    <form>
+        <label for="nome">Nome </label>
+        <input type="text" id="nome" name="nome" placeholder="Nome"> <br />
+        <label for="cognome">Cognome </label>
+        <input type="text" id="cognome" name="cognome" placeholder="Cognome"> <br />
+
+        <label for="datadinascita">Data di nascita</label>
+        <input type="date" id="datadinascita" /> <br />
+
+        <label for="residenza">Vivo in provincia di...</label>
+        <input list="provincia" id="residenza">
+        <datalist id="provincia">
+            <option value="Torino"></option>
+            <option value="Asti"></option>
+            <option value="Alessandria"></option>
+            <option value="Biella"></option>
+            <option value="Cuneo"></option>
+            <option value="Novara"></option>
+            <option value="Verbania"></option>
+            <option value="Vercelli"></option>
+        </datalist><br /> <br />
+
+        <label for="evento"><h3>Seleziona l'evento a cui desideri partecipare</h3></label>
+        <select id="evento">
+            <option value="Evento A">Evento A</option>
+            <option value="Evento B">Evento B</option>
+            <option value="Evento C">Evento C</option>
+            <option value="Evento D">Evento D</option>
+            <option value="Evento E">Evento E</option>
+        </select><br /> <br />
+
+        <h3>Ho partecipato a eventi simili...</h3>
+        <input type="radio" id="partecipazione1" name="partecipazione" value="1" />
+        <label for="partecipazione1"> 1 volta</label>
+        <input type="radio" id="partecipazione2" name="partecipazione" value="2" />
+        <label for="partecipazione2"> 2 volte</label>
+        <input type="radio" id="partecipazione3" name="partecipazione" value="3" />
+        <label for="partecipazione3"> 3 volte</label>
+        <input type="radio" id="partecipazione4" name="partecipazione" value="4" />
+        <label for="partecipazione4"> 4 volte</label>
+        <input type="radio" id="partecipazione5" name="partecipazione" value="5" />
+        <label for="partecipazione5"> 5 volte</label>
+        <br /><br />
+
+        <h3>Vorrei ricevere informazioni su...</h3>
+        <input type="checkbox" id="info1" name="info" value="1" />
+        <label for="info1"> Programma dell'evento</label>
+        <input type="checkbox" id="info2" name="info" value="2" />
+        <label for="info2"> Costo di partecipazione</label>
+        <input type="checkbox" id="info3" name="info" value="3" />
+        <label for="info3"> Location</label>
+        <input type="checkbox" id="info4" name="info" value="4" />
+        <label for="info4"> Orari</label>
+        <input type="checkbox" id="info5" name="info" value="5" />
+        <label for="info5"> Attività previste</label>
+        <br /><br />
+
+        <h3>Assegno punteggi (da 1 a 100) in base al mio interesse per l'evento</h3>
+        <label for="num1">Evento A</label>
+        <input type="number" id="num1" min="1" max="100" />
+        <br />
+        <label for="num2">Evento B</label>
+        <input type="number" id="num2" min="1" max="100" />
+        <br />
+        <label for="num2">Evento C</label>
+        <input type="number" id="num2" min="1" max="100" />
+        <br />
+        <label for="num4">Evento D</label>
+        <input type="number" id="num4" min="1" max="100" />
+        <br />
+        <label for="num5">Evento E</label>
+        <input type="number" id="num5" min="1" max="100" />
+        <br /><br />
+
+        <label for="colorpicker"><h3>Scelgo un colore che rappresenta il mio interesse</h3></label>
+        <input type="color" id="colorpicker" value="#ff0000" />
+        <br /><br />
+
+        <h3>Valuto (da 1 a 10) la mia motivazione per partecipare all'evento</h3>
+        <input type="range" min="1" max="10" value="5" id="slider1" />
+        <label for="slider1">Motivazione</label><br />
+        <input type="range" min="1" max="10" value="5" id="slider2" />
+        <label for="slider2">Impegno</label><br />
+        <input type="range" min="1" max="10" value="5" id="slider3" />
+        <label for="slider3">Interesse</label>
+        <br /><br />
+
+        <label for="extra"><h3>Ho richieste particolari...</h3></label>
+        <textarea id="extra" rows="6" cols="60" placeholder="Richieste particolari..."></textarea>
+
+        <br /><br />
+        <label for="Inviamodulo">Conferma l'invio del modulo</label>
+        <input type="submit" id="Inviamodulo" />
+    </form>
+</body>
+</html>

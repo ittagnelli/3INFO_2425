@@ -1,0 +1,28 @@
+h1 {
+    border-style: solid;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+    border-bottom-width: 5px;
+    border-left-width: 7px;
+    border-left-color: black;
+
+}
+
+.hr1, .hr2, .hr3, .hr4, .hr5, .hr6{
+    border-style: solid;
+    border-top-style: dotted;
+    border-width: 2px;
+    border-top-color: green;
+}
+
+.pr1m .pr2, .pr3, .pr4, .pr5, .pr6 {
+    border-bottom-style: dotted;
+    border-bottom-width: 3px;
+    border-bottom-color: grey;
+    border-left-style: solid;
+    border-left-color: green;
+    border-right-style: solid;
+    border-right-color: green;
+
+
+}

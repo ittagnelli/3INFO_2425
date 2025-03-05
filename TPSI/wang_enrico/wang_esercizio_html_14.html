@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it"
+    <head>
+    <title>Pagina Widget</title>
+
+    <h1>Documento di assunzione</h1>
+
+
+
+
+
+
+<form>
+    <fieldset>
+    <legend>Dati Personali</legend>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome">
+  
+    <label for="cognome">Cognome:</label>
+    <input type="text" id="cognome" name="cognome">
+  
+    <label for="cognome">Cap:</label>
+    <input type="text" id="Cap" name="Cap">
+
+
+
+    <label for="genere">Genere:</label>
+    <select name="genere" id="cars">
+        <option value="maschio">Maschio</option>
+        <option value="femmina">Femmina</option>
+    </select>
+ <label for="altezza">Altezza:</label>   
+        <input type="number" id="altezza" name="altezza" min="150" max="200">
+        <label for="altezza">Larghezza:</label>   
+        <input type="number" id="Larghezza" name="Larghezza" min="20" max="100">
+        <label for="color">Inserire colore preferito:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+            <label for="Numero di capelli">Numero di capelli:</label>
+        <input type="number" id="Capelli" name="Capelli" min="100000" max="100000000">
+        <label for="peso">Peso: </label>
+        <input type="range" min="50" max="100" value="60" class="slider" id="Peso">
+        
+        <form>
+            <label for="nazioni">Nazionalità: </label>
+            <input list="nations" name="nazioni" id="nazioni">
+            <datalist id="nations">
+                <option value="Africa">
+                <option value="Argentina">
+                <option value="Belga">
+                <option value="Biellorussa">
+                <option value="Italiana">
+                <option value="Irlandese">
+                <option value="Israeliana">
+            </datalist>
+          </form>
+        
+        
+        
+        <br><br>
+      
+    
+    
+    
+    
+
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <input type="submit" value="Invia">
+
+
+    <label for="Occupazione">Studente lavoratore?:</label>
+    <select name="Occupazione" id="Occupazione">
+        <option value="maschio">Si</option>
+        <option value="femmina">No</option>
+  </fieldset>      
+
+
+  <textarea name="Lavoro" id="Lavoro" cols="205" rows="20">Descrizione Lavoro:</textarea>
+ 
+
+    <label for="idpulsante">Premi invio per confermare: </label>
+    <button type="button" id="idpulsante">INVIO</button>
+    <label for="idpulsante">Premi Reset per cancellare: </label>
+   <input type="reset" value="Reset">
+    
+  </form>
+  

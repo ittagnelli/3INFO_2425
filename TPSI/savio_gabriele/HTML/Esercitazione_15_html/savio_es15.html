@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modulo di Registrazione</title>
+  </head>
+  <body style="font-family: Arial, sans-serif; margin: 20px">
+    <h2>Modulo di Registrazione</h2>
+    <form action="#" method="post" style="max-width: 600px; margin: auto">
+      <label for="cognome" style="display: block; margin: 10px 0 5px"
+        >Cognome:</label
+      >
+      <input
+        type="text"
+        id="cognome"
+        name="cognome"
+        maxlength="40"
+        required
+        style="
+          width: 100%;
+          padding: 8px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        "
+      />
+
+      <label for="nome" style="display: block; margin: 10px 0 5px">Nome:</label>
+      <input
+        type="text"
+        id="nome"
+        name="nome"
+        maxlength="30"
+        required
+        style="
+          width: 100%;
+          padding: 8px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        "
+      />
+
+      <label for="matricola" style="display: block; margin: 10px 0 5px"
+        >Matricola:</label
+      >
+      <input
+        type="text"
+        id="matricola"
+        name="matricola"
+        maxlength="12"
+        required
+        style="
+          width: 100%;
+          padding: 8px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        "
+      />
+
+      <label for="regione" style="display: block; margin: 10px 0 5px"
+        >Regione di Residenza:</label
+      >
+      <select
+        id="regione"
+        name="regione"
+        required
+        style="
+          width: 100%;
+          padding: 8px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        "
+      >
+        <option value="">Seleziona una regione</option>
+        <option value="Abruzzo">Abruzzo</option>
+        <option value="Basilicata">Basilicata</option>
+        <option value="Calabria">Calabria</option>
+        <option value="Campania">Campania</option>
+        <option value="Emilia-Romagna">Emilia-Romagna</option>
+        <option value="Friuli-Venezia Giulia">Friuli-Venezia Giulia</option>
+        <option value="Lazio">Lazio</option>
+        <option value="Liguria">Liguria</option>
+        <option value="Lombardia">Lombardia</option>
+        <option value="Marche">Marche</option>
+        <option value="Molise">Molise</option>
+        <option value="Piemonte">Piemonte</option>
+        <option value="Puglia">Puglia</option>
+        <option value="Sardegna">Sardegna</option>
+        <option value="Sicilia">Sicilia</option>
+        <option value="Toscana">Toscana</option>
+        <option value="Trentino-Alto Adige">Trentino-Alto Adige</option>
+        <option value="Umbria">Umbria</option>
+        <option value="Valle d'Aosta">Valle d'Aosta</option>
+        <option value="Veneto">Veneto</option>
+      </select>
+
+      <label for="email" style="display: block; margin: 10px 0 5px"
+        >Email:</label
+      >
+      <input
+        type="email"
+        id="email"
+        name="email"
+        maxlength="30"
+        required
+        style="
+          width: 100%;
+          padding: 8px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        "
+      />
+
+      <label for="telefono" style="display: block; margin: 10px 0 5px"
+        >Telefono:</label
+      >
+      <input
+        type="text"
+        id="telefono"
+        name="telefono"
+        maxlength="15"
+        required
+        style="
+          width: 100%;
+          padding: 8px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        "
+      />
+
+      <label for="richieste" style="display: block; margin: 10px 0 5px"
+        >Richieste Particolari:</label
+      >
+      <textarea
+        id="richieste"
+        name="richieste"
+        rows="12"
+        cols="60"
+        style="
+          width: 100%;
+          padding: 8px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        "
+      ></textarea>
+
+      <button
+        type="submit"
+        style="
+          padding: 10px 15px;
+          border: none;
+          border-radius: 4px;
+          background-color: #4caf50;
+          color: white;
+        "
+      >
+        Invia
+      </button>
+      <button
+        type="reset"
+        style="
+          padding: 10px 15px;
+          border: none;
+          border-radius: 4px;
+          background-color: #f44336;
+          color: white;
+        "
+      >
+        Reset
+      </button>
+    </form>
+  </body>
+</html>

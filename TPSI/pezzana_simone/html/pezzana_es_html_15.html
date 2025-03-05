@@ -1,0 +1,76 @@
+<! DOCTYPE html>
+<html lang="it">
+<testa>
+ 
+ <meta name="autore" content="Simone Pezzana" />
+    <meta name="description" content="Esercitazione 15" />
+ <meta name="parole chiave" content="modulo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100" />
+</capo>
+<corpo>
+ <h1 style="allineamento del testo: centro;" >Registrazione</h1>
+ <modulo>
+ <bordo della tabella="1">
+            <tr>
+                <th><label for="cognome">Cognome</label></th>
+                <td><input type="text" id="cognome" name="cognome" maxlength="40"></td>
+ </TR>
+            <tr>
+                <th><label for="nome">Nome</label></th>
+                <td><input type="text" id="nome" name="nome" maxlength="30" required></td>
+ </TR>
+            <tr>
+                <th><label for="matricola">Matricola</label></th>
+                <td><input type="text" id="matricola" name="matricola" maxlength="12"></td>
+ </TR>
+            <tr>
+                <th><label for="regione">Regione di Residenza</label></th>
+                <td>
+                    <select id="regione" name="regione">
+ <option value="" disabilitato selezionato>Seleziona una regione</option>
+                        <option value="Abruzzo">Abruzzo</option>
+ <option value="Basilicata">Basilicata</opzione>
+ <option value="Calabria">Calabria</opzione>
+ <option value="Campania">Campania</opzione>
+ <option value="Emilia-Romagna">Emilia-Romagna</opzione>
+ <option value="Friuli-Venezia Giulia">Friuli-Venezia Giulia</opzione>
+                        <option value="Lazio">Lazio</option>
+ <option value="Liguria">Liguria</opzione>
+                        <option value="Lombardia">Lombardia</option>
+                        <option value="Marche">Marche</option>
+ <option value="Molise">Molise</opzione>
+                        <option value="Piemonte">Piemonte</option>
+                        <option value="Puglia">Puglia</option>
+ <option value="Sardegna">Sardegna</opzione>
+                        <option value="Sicilia">Sicilia</option>
+ <option value="Toscana">Toscana</opzione>
+                        <option value="Trentino-Alto Adige">Trentino-Alto Adige</option>
+ <option value="Umbria">Umbria</opzione>
+ <option value="Valle d'Aosta">Valle d'Aosta</opzione>
+ <option value="Veneto">Veneto</opzione>
+ </seleziona>
+ </TD>
+ </TR>
+            <tr>
+                <th><label for="email">Email</label></th>
+                <td><input type="email" id="email" name="email" maxlength="30"></td>
+ </TR>
+            <tr>
+                <th><label for="telefono">Telefono</label></th>
+                <td><input type="tel" id="telefono" name="telefono" maxlength="15"></td>
+ </TR>
+            <tr>
+                <th><label for="richieste">richieste specifiche</label></th>
+                <td><textarea id="richieste" name="richieste" rows="12" cols="60"></textarea></td>
+ </TR>
+            <tr>
+ <td colspan="2" style="allineamento del testo: centro;" >
+ <button type="invia">Invia</button>
+                    <button type="reset">Reset</button>
+ </TD>
+ </TR>
+ </tavolo>
+ </modulo>
+</corpo>
+</html>

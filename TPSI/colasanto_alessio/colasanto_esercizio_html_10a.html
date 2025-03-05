@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alessio Colasanto" />
+    <title>Ordine Prodotto</title>
+</head>
+<body>
+    <center>
+    <table width="800" border="1" style="border-collapse: collapse;">
+        <caption><h1>Ordine Prodotto</h1></caption>
+        <thead>
+            <tr>
+                <th><u>Q.tà</u></th>
+                <th><u>Descrizione</u></th>
+                <th><u>Costo unitario</u></th>
+                <th><u>Totale</u></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="number" name="qta1" min="0" value="0" style="width: 50px;"></td>
+                <td><b>Mouse</b></td>
+                <td>16€</td>
+                <td><input type="text" name="total1" value="0" readonly style="width: 70px;"></td>
+            </tr>
+            <tr>
+                <td><input type="number" name="qta2" min="0" value="0" style="width: 50px;"></td>
+                <td><b>Tastiera 105 tasti</b></td>
+                <td>25€</td>
+                <td><input type="text" name="total2" value="0" readonly style="width: 70px;"></td>
+            </tr>
+            <tr>
+                <td><input type="number" name="qta3" min="0" value="0" style="width: 50px;"></td>
+                <td><b>Stampante Deskjet Colori</b></td>
+                <td>350€</td>
+                <td><input type="text" name="total3" value="0" readonly style="width: 70px;"></td>
+            </tr>
+            <tr>
+                <td><input type="number" name="qta4" min="0" value="0" style="width: 50px;"></td>
+                <td><b>Scanner A4 Colori</b></td>
+                <td>200€</td>
+                <td><input type="text" name="total4" value="0" readonly style="width: 70px;"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right"><b><u>Totale Ordine</u></b></td>
+                <td><input type="text" name="grandTotal" value="0" readonly style="width: 70px;"></td>
+            </tr>
+        </tbody>
+    </table>
+    </center>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Forno Davide" />
+    <meta name="description" content="Template HTML" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100" />
+    <title>Esercitazione 13</title>
+</head>
+<body>
+    <strong><center><h2>MODULO PERSONALE</h2></center></strong>
+    <center><form>
+        <input type="text" name="nome" placeholder="nome" size="50" maxlength="50"><br>
+        <input type="text" name="cognome" placeholder="cognome" size="50" maxlength="50"><br>
+        <input type="radio" id="Maschio" name="sesso" value="Maschio">
+        <label for="maschio">Maschio</label>
+        <input type="radio" id="Femmina" name="sesso" value="Femmina">
+        <label for="Femmina">Femmina</label><br>
+        <input type="text" name="CAP" placeholder="CAP" size="5"><br>
+        <label for="Ateneo">Ateneo:  </label>
+            <select name="Ateneo" id="Ateneo">
+            <option value="La sapienza">La sapienza</option>
+            <option value="Roma Tre">Roma tre</option>
+            <option value="Foro Intalico">Foro italico</option>
+        </select>
+        <h4>Occupazione</h4>
+        <input type="checkbox" id="Studente" name="Occupazione" value="Studente">
+        <label for="Studente">Studente</label>
+        <input type="checkbox" id="Lavoratore" name="Occupazione" value="Lavoratore">
+        <label for="Lavoratore">Lavoratore</label><br>
+        <input type="text" name="descrizione lavoro" placeholder="descrizione lavoro" size="80" maxlength="80"><br>
+        <table>
+            <tr><input type="button" id="idbutton" value="Invia modulo"></tr>
+            <tr><input type="button" id="idbutton" value="reset"></tr>
+        </table>
+    </form></center>
+</body>
+</html>

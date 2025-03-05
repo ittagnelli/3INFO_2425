@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prevedi - Esercitazione 13 HTML</title>
+</head>
+<body>
+    <h1>Modulo per l'inserimento di dati personali</h1>
+    <form>
+        <table>
+            <tr>
+                <td style="text-align: right;">
+                    <label for="nome"><h4>Nome </h4></label>
+                </td>
+                <td>
+                    <input type="text" id="nome" placeholder="Nome" maxlength="50" />
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">
+                    <label for="cognome"><h4>Cognome </h4></label>
+                </td>
+                <td>
+                    <input type="text" id="Cognome" placeholder="Cognome" maxlength="50" />
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">
+                    <h4>Genere</h4>
+                </td>
+                <td>
+                    <input type="radio" id="Maschio" value="Maschio" name="genere" /> <label for="Maschio"> Maschio</label> <br />
+                    <input type="radio" id="Femmina" value="Femmina" name="genere" /> <label for="Femmina"> Femmina</label> <br />
+                    <input type="radio" id="Altro" value="Altro" name="genere" /> <label for="Altro"> Altro</label> <br />            
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">
+                    <label for="ateneo"><h4>Ateneo frequentato</h4></label>
+                </td>
+                <td>
+                    <select name="ateneo" id="ateneo">
+                        <option value="La Sapienza">La Sapienza</option>
+                        <option value="Tor Vergata">Tor Vergata</option>
+                        <option value="Università Roma 3">Università Roma 3</option>
+                    </select>            
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">
+                    <label for="cap"><h4>CAP </h4></label>
+                </td>
+                <td>
+                    <input type="number" id="cap" placeholder="CAP" maxlength="5" />
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">
+                    <h4>Sono uno...</h4>
+                </td>
+                <td>
+                    <input type="checkbox" id="Studente" name="Studente / Lavoratore" value="Studente">
+                    <label for="Studente">Studente</label>
+                    <input type="checkbox" id="Lavoratore" name="Studente / Lavoratore" value="Lavoratore">
+                    <label for="Lavoratore">Lavoratore</label>            
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">
+                    <label for="Descrizione"><h4>Descrivi il tuo lavoro</h4></label>
+                </td>
+                <td>
+                    <input type="text" id="Descrizione" placeholder="Descrivi il tuo lavoro" maxlength="80">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">
+                    <label for="reset">Reset del modulo</label>
+                </td>
+                <td>
+                    <input type="reset" id="reset" />
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">
+                    <label for="Submit">Invia il modulo</label>
+                </td>
+                <td>
+                    <input type="submit" id="submit" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Marco Correndo" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="prova,html,scuola,lezione" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+    <title>Esercitazione 15</title>
+</head>
+
+<body>
+<form>
+<fieldset>
+<legend>Dati personali</legend>
+<label for="idcog">Cognome:</label>
+<input type="text" name="cognome" id="idcog" maxlength="40"><br>
+
+<label for="idnom">Nome:</label>
+<input type="text" name="nome" id="idnom" maxlength="30"><br>
+
+<label for="idcod">Codice di matricola:</label>
+<input type="text" name="matricola" id="idcod" maxlength="12"><br>
+
+<label for="idreg">Regione di residenza:</label>
+<input list="reg" name="reg" id="idreg">
+<datalist id="reg">
+    <option value="Abruzzo">
+    <option value="Basilicata">
+    <option value="Calabria">
+    <option value="Campania">
+    <option value="Emilia-Romagna">
+    <option value="Friuli-Venezia-Giulia">
+    <option value="Lazioe">
+    <option value="Liguria">
+    <option value="Lombardia">
+    <option value="Marche">
+    <option value="Piemonte">
+    <option value="Puglia">
+    <option value="Sardegna">
+    <option value="Sicilia">
+    <option value="Toscana">
+    <option value="Trentino-Alto-Adige">
+    <option value="Umbria">
+    <option value="Valle d'Aosta">
+    <option value="Veneto">
+</datalist><br>
+
+<label for="idemail">Email:</label>
+<input type="text" name="email" id="idemail" maxlength="30"><br>
+
+<label for="idtel">Telefono:</label>
+<input type="text" name="tel" id="idtel" maxlength="15"><br>
+
+<label for="idric">Richieste particolari:</label><br>
+<textarea name="ric" id="idric" rows="12" cols="60"></textarea><br>
+
+<input type="button" name="invia" id="idinvia" value="Invia"><br>
+<input type="button" name="reset" id="idreset" value="Reset">
+
+</fieldset>
+</form>
+
+</body>
+</html>

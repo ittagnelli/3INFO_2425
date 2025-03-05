@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <link rel="stylesheet" href="bianchi_esercizio_css_05.css" type="text/css" />
+    <!-- Inserimento di informazioni non visibili -->
+</head>
+<body>
+    <h1>localhost</h1>
+    <p>
+        <img src="immagini/localhost.jpg" width="250" alt="Localhost"> <br>
+        In <b>computer networking</b>, <mark><u>localhost</u></mark> is a <i>hostname</i> that refers to the current computer used to access it.
+        <br><br>
+        It is used to access the <strong><u>network services</u></strong> that are running on the host via the <em>loopback</em> network interface.
+        Using the loopback interface bypasses any local <s>network interface hardware</s> or <s>complex routing processes</s>.
+        <br>
+    </p>
+    <hr>
+    <h2>Loopback</h2>
+    <blockquote>
+        The local loopback mechanism may be used to run a <strong>network service</strong> on a host without requiring a <u>physical network interface</u>,
+        or without making the service &nbsp; accessible from the <u>networks</u> the computer may be connected to.
+        For example, a locally installed website may be accessed from a Web browser by the <b>URL</b> "http://localhost" to display its home page.
+    </blockquote>
+    <p>
+        <q>This example highlights loopback.</q>
+        <br>
+    </p>
+    <hr>
+
+    <h2>Name resolution</h2>
+    <p>
+        The name <mark>localhost</mark> normally resolves to the <b>IPv4</b> loopback
+        <i>address</i> 127.0.0.1, and to the <em>IPv6</em> loopback address ::1.
+        <br>
+        IPv4 network standards &lt; reserve &gt; the entire address block <sub>127.0.0.0/8</sub> (more than 16 million addresses) for loopback purposes.
+        That means any packet sent to any of those addresses is looped back.
+        The <b>address</b> <sup>127.0.0.1</sup> is the standard address for IPv4 loopback traffic.
+        <small>Other addresses may not work on all systems.</small>
+        <br>
+    </p>
+    <p>
+        The term <abbr title="Internet Protocol version 4">IPv4</abbr> is widely used alongside <abbr title="Internet Protocol version 6">IPv6</abbr>, and both resolve <abbr title="Internet Protocol address">IP</abbr> addresses.
+    </p>
+    <hr>
+
+    <h2>Packet processing</h2>
+    <p>
+        The processing of any packet sent to a loopback address, is implemented in the 
+        <a href="https://en.wikipedia.org/wiki/Link_layer" target="_blank">
+            <img src="https://www.dcs.bbk.ac.uk/~ptw/teaching/IWT/link-layer/data-centre-1.png" width="250" alt="link layer">          
+        </a> of the <i>TCP/IP stack</i>. Such packets are never passed to any network
+        interface controller (NIC) or hardware device driver and <del>must not appear outside of a computing system</del>.
+        <br>
+        This permits <strong>software testing</strong> and local services in the absence of any hardware network interfaces.
+        <mark>Packets</mark> received on a <s>non-loopback interface</s> with a <u>loopback</u> source or destination address must be dropped.
+        <q>Loopback mechanisms simplify testing.</q>
+    </p>
+    <p>
+        To check the loopback status, run the &quot;following command&quot;:
+        <code>ping 127.0.0.1</code>
+    </p>
+
+    <h2>Special cases</h2>
+    <p>
+        The releases of the <mark>MySQL</mark> database differentiate between the use of the hostname <ins>localhost</ins> and the use of the addresses 127.0.0.1 and ::1.
+        When using <em>localhost</em> as the destination in a client connector interface of an application, the MySQL API connects to the database using a 
+        <b>Unix domain socket</b>, while a <small>TCP connection</small> via the loopback interface requires the direct use of the explicit address.
+    </p>
+    <blockquote>
+        <cite>RFC 6761</cite> states that the name "localhost" must always resolve to the loopback address, as defined in the respective standards for IPv4 and IPv6.
+    </blockquote>
+    <p>
+        One notable exception to the use of the 127.0.0.0/8 addresses is their use in <s>Multiprotocol Label Switching</s> (MPLS) traceroute error detection.
+    </p>
+
+    <h2>Performance Meter</h2>
+    <p>
+        Server Response Time:
+        <meter value="0.8" min="0" max="1">80%</meter><br>
+        Bandwidth Utilization:
+        <meter value="0.5" min="0" max="1">50%</meter><br>
+        CPU Usage:
+        <meter value="0.4" min="0" max="1">40%</meter><br>
+        Memory Utilization:
+        <meter value="0.7" min="0" max="1">70%</meter><br>
+        Disk IO Rate:
+        <meter value="0.9" min="0" max="1">90%</meter>
+    </p>
+
+    <h2>Progress</h2>
+    <p>
+        Task 1 Completion: 
+        <progress value="20" max="100"></progress><br>
+        Task 2 Completion: 
+        <progress value="50" max="100"></progress><br>
+        Task 3 Completion: 
+        <progress value="75" max="100"></progress><br>
+        Task 4 Completion: 
+        <progress value="90" max="100"></progress><br>
+        Task 5 Completion: 
+        <progress value="100" max="100"></progress>
+    </p>
+
+    <h2>Example Configuration</h2>
+    <pre>
+# Example of a simple hosts file configuration
+<ol>
+    <li>
+        127.0.0.1   localhost
+    </li>
+    <li>
+        ::1         localhost
+    </li>
+</ol>
+<ul>
+    <li>
+        127.0.0.1   localhost
+    </li>
+    <li>
+        ::1         localhost
+    </li>
+</ul>
+
+
+    </pre>
+</body>
+</html>

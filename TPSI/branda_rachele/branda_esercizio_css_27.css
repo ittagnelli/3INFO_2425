@@ -1,0 +1,28 @@
+div{
+    font-family: sans-serif;
+    float: none;
+}
+
+.purple{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    float: left;
+}
+
+.right{
+    float: none;
+    width: 250px;
+    height: 100px;
+    margin-top: 5px;
+    color: black;
+    background-color: white;
+}
+
+.below{
+    float: none;
+}

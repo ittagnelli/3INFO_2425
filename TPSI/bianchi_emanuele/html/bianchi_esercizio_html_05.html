@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <!-- Inserimento di informazioni non visibili -->
+</head>
+<body>
+    <h1>localhost</h1>
+    <p>
+        <img src="c:\Users\Emanuele_BIANCHI\3INFO_2425\TPSI\bianchi_emanuele\html\immagini\localhost.jpg" width="250" alt="Localhost">
+        In <b>computer networking</b>, <mark>localhost</mark> is a <i>hostname</i> that refers to the current computer used to access it.
+        It is used to access the <strong>network services</strong> that are running on the host via the <em>loopback</em> network interface.
+        Using the loopback interface bypasses any local <del>network interface hardware</del>.
+    </p>
+
+    <h2>Loopback</h2>
+    <p>
+        <img src="https://optimise2.assets-servd.host/humorous-skink/production/loopback-blog-header.jpg?w=1280&q=75&auto=format&fit=clip&dm=1696233006&s=0132196570d40e096296cb6a8af37d36" width="250" alt="Loopback">
+        The local loopback mechanism may be used to run a <strong>network service</strong> on a host without requiring a physical network interface,
+        or without making the service accessible from the networks the computer may be connected to.
+        For example, a locally installed website may be accessed from a Web browser by the <b>URL</b> "http://localhost" to display its home page.
+        <ins>This example highlights loopback.</ins>
+    </p>
+
+    <h2>Name resolution</h2>
+    <p>
+        The name <mark>localhost</mark> normally resolves to the <b>IPv4</b> loopback
+        <i>address</i> 127.0.0.1, and to the <em>IPv6</em> loopback address ::1.
+        IPv4 network standards reserve the entire address block <sub>127.0.0.0/8</sub> (more than 16 million addresses) for loopback purposes.
+        That means any packet sent to any of those addresses is looped back.
+        The <b>address</b> <sup>127.0.0.1</sup> is the standard address for IPv4 loopback traffic.
+        <small>Other addresses may not work on all systems.</small>
+    </p>
+
+    <h2>Packet processing</h2>
+    <p>
+        The processing of any packet sent to a loopback address, is implemented in the 
+        <a href="https://en.wikipedia.org/wiki/Link_layer" target="_blank">
+            <img src="https://www.dcs.bbk.ac.uk/~ptw/teaching/IWT/link-layer/data-centre-1.png" width="250" alt="link layer">          
+        </a> of the <i>TCP/IP stack</i>. Such packets are never passed to any network
+        interface controller (NIC) or hardware device driver and <del>must not appear outside of a computing system</del>.
+        This permits <strong>software testing</strong> and local services in the absence of any hardware network interfaces.
+        <mark>Packets</mark> received on a non-loopback interface with a loopback source or destination address must be dropped.
+    </p>
+
+    <h2>Special cases</h2>
+    <p>
+        The releases of the <mark>MySQL</mark> database differentiate between the use of the hostname <ins>localhost</ins> and the use of the addresses 127.0.0.1 and ::1.
+        When using <em>localhost</em> as the destination in a client connector interface of an application, the MySQL API connects to the database using a 
+        <b>Unix domain socket</b>, while a <small>TCP connection</small> via the loopback interface requires the direct use of the explicit address.
+        One notable exception to the use of the 127.0.0.0/8 addresses is their use in <del>Multiprotocol Label Switching</del> (MPLS) traceroute error detection.
+    </p>
+</body>
+</html>

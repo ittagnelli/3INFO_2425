@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Marco Correndo" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="prova,html,scuola,lezione" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+    <title>Esercitazione 14</title>
+</head>
+<body>
+    <form>
+        <label for="idnome">Nome:</label>
+        <input type="text" name="nome" id="idnome" placeholder="Nome">
+        <br>
+        <label for="idcognome">Cognome:</label>
+        <input type="text" name="cognome" id="idcognome" placeholder="Cognome">
+        <br> 
+        <label for="iddata">Data di nascita</label>
+        <input type="date" name="data" id="iddata">
+        <br>
+        <h4>Inserire il gestore di pacchetti:</h4>
+        <input type="radio" name="gestore" id="idrpm" value="rpm">
+        <label for="idrpm"> rpm</label>
+        <br>
+        <input type="radio" name="gestore" id="idapt" value="apt">
+        <label for="idapt"> apt</label>
+        <br>
+        <input type="radio" name="gestore" id="idpacman" value="pacman">
+        <label for="idpacman"> pacman</label>
+        <br>
+        <input type="radio" name="gestore" id="iddnf" value="dnf">
+        <label for="iddnf"> dnf</label>
+        <br>
+        <input type="radio" name="gestore" id="idaltro" value="altro">
+        <label for="idaltro"> altro</label>
+        <h4>Inserire le distribuzioni provate:</h4>
+        <input type="checkbox" name="distr" id="idarch" >
+        <label for="idarch"> Arch</label>
+        <br>
+        <input type="checkbox" name="distr" id="idslack">
+        <label for="idslack"> Slackware</label>
+        <br>
+        <input type="checkbox" name="distr" id="idfed">
+        <label for="idfed"> Fedora</label>
+        <br>
+        <input type="checkbox" name="distr" id="idalp">
+        <label for="idalp"> Alpine</label>
+        <br>
+        <input type="checkbox" name="distr" id="idope">
+        <label for="idope"> OpenSuse</label>
+        <br><br>
+        
+        <label for="idnum1">Quante ore smanetti al giorno:</label>
+        <input type="number" id="idnum1" name="num1" min="0" max="24"><br><br>
+
+        <label for="idnum2">Quante ore dedichi al distrohopping:</label>
+        <input type="number" id="idnum2" name="num2" min="0" max="24"><br><br>
+
+        <label for="idnum3">Quanti amici hai convertito a linux:</label>
+        <input type="number" id="idnum3" name="num3" min="0" max="1000"><br><br>
+
+        <label for="idnum4">Quanti pacchetti hai installato sul tuo computer:</label>
+        <input type="number" id="idnum4" name="num4" min="1" max="10000"><br><br>
+
+        
+        <label for="idcolore">Scegli un colore per la shell:</label>
+        <input type="color" id="idcolore" name="colore"><br><br>
+        
+        <label for="idgrad1">Inserire l'indice di gradimento rispetto alla CLI:</label>
+        <input type="range" id="idgrad1" name="grad1" min="1" max="10"><br><br>
+        <label for="idgrad2">Inserire l'indice di gradimento rispetto al package managing:</label>
+        <input type="range" id="idgrad2" name="grad2" min="1" max="20"><br><br>
+        <label for="idgrad3">Inserire l'indice di gradimento rispetto al working flow in linux:</label>
+        <input type="range" id="idgrad3" name="grad3" min="1" max="30"><br><br>
+  
+        <label for="ideditors">Seleziona un editor:</label>
+        <select id="ideditors" name="select">
+            <option value="emacs">Emacs</option>
+            <option value="vim">Vim</option>
+            <option value="nano">Nano</option>
+            <option value="code">Code</option>
+            <option value="micro">Micro</option>
+        </select><br><br>
+  
+        <label for="idshells">Scegli la tua shell preferita:</label>
+        <input list="idlista" id="idshells" name="shells">
+        <datalist id="idlista">
+            <option value="Bash">
+            <option value="Zsh">
+            <option value="Csh">
+            <option value="Fish">
+            <option value="Tcsh">
+            <option value="Ksh">
+        </datalist><br><br>
+  
+          
+        <label for="idcommenti">Commenti:</label><br>
+        <textarea id="idcommenti" name="commenti" rows="6" cols="60"></textarea><br><br>
+  
+        <label for="idinvio">Cliccare per inviare:</label>
+        <input type="button" name="invio" value="Invio" id="idinvio">
+       
+    </form>
+</body>
+</html>

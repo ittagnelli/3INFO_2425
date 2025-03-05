@@ -1,0 +1,18 @@
+.one{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.text{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.two{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}

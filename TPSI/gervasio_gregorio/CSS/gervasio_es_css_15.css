@@ -1,0 +1,62 @@
+#r {
+    border: 1px solid;
+    background-color: red;
+    width: 400px;
+    height: 200px;
+}
+
+#vi1 {
+    border: 1px solid;
+    background-color: purple;
+    height: 150px;
+    width: 25%;
+}
+
+#vi2 {
+    border: 1px solid;
+    background-color: purple;
+    height: 150px;
+    width: 50%;
+}
+
+#vi3 {
+    border: 1px solid;
+    background-color: purple;
+    height: 150px;
+    width: 75%;
+}
+
+#vi4 {
+    border: 1px solid;
+    background-color: purple;
+    height: 150px;
+    width: 100%;
+}
+
+#ve1 {
+    border: 1px solid;
+    background-color: green;
+    height: 221px;
+    width: calc((100% / 8)*1);
+}
+
+#ve2 {
+    border: 1px solid;
+    background-color: green;
+    height: 221px;
+    width: calc((100% / 6)*3);
+}
+
+#ve3 {
+    border: 1px solid;
+    background-color: green;
+    height: 221px;
+    width: calc((100% / 8)*5);
+}
+
+#ve4 {
+    border: 1px solid;
+    background-color: green;
+    height: 221px;
+    width: calc((100% / 9)*2);
+}

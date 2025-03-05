@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TPSI 3 INFO ramirez</title>
+        <meta name="author" content="Ramirez Giorgio" />
+        <meta name="description" content="Esercitazione 13" />
+        <meta name="keywords" content="form" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="refresh" content="100" />
+    </head>
+<body>
+        <h1 style="text-align: center;">Modulo di Registrazione</h1>
+        <form action="#" method="post">
+            <table border="1">
+                <tr>
+                    <th><label for="nome_cognome">Cognome e Nome</label></th>
+                    <td><input type="text" id="nome_cognome" name="nome_cognome" maxlength="50"></td>
+                </tr>
+                <tr>
+                    <th>Sesso</th>
+                    <td>
+                        <input type="radio" id="maschio" name="sesso" value="Maschio">
+                        <label for="maschio">Maschio</label>
+                        <input type="radio" id="femmina" name="sesso" value="Femmina">
+                        <label for="femmina">Femmina</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="ateneo">Ateneo</label></th>
+                    <td>
+                        <select id="ateneo" name="ateneo" required>
+                            <option value="" disabled selected>Seleziona un ateneo</option>
+                            <option value="Sapienza">Sapienza</option>
+                            <option value="Tor Vergata">Tor Vergata</option>
+                            <option value="Roma Tre">Roma Tre</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="cap">CAP</label></th>
+                    <td><input type="text" id="cap" name="cap" maxlength="5" pattern="[0-9]{5}" ></td>
+                </tr>
+                <tr>
+                    <th><label for="studente_lavoratore">Studente Lavoratore</label></th>
+                    <td>
+                        <input type="checkbox" id="studente_lavoratore" name="studente_lavoratore" value="Sì">
+                        <label for="studente_lavoratore">Sì</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="descrizione">Descrizione del Lavoro Svolto</label></th>
+                    <td><textarea id="descrizione" name="descrizione" maxlength="80"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button type="submit">Invia</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+</body>
+</html>

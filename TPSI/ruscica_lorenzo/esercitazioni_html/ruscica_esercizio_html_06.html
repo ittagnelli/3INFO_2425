@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>localhost</title>
+    <meta name="author" content="Lorenzo Ruscica" />
+    <meta name="description" content="Esercitazione 06" />
+    <meta name="keywords" content="localhost, name resolution, IEFT standard" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+    <style>
+        body {background-color: white;}
+          h1 {color: black;}
+    </style>
+</head>
+
+<body>
+    <blockquote cite="https://en.wikipedia.org/wiki/Localhost">wikipedia localHost</blockquote>
+    <a href="https://en.wikipedia.org/wiki/Localhost" target="_blank">extracted from wikipedia</a>
+    <h2><a href="https://it.wikipedia.org/wiki/Pagina_principale" target="_blank">localhost</a></h2>
+    <p>In computer networking, localhost is a <b>hostname</b> that refers to the current <mark>computer </mark> used to access it. It is used to access the <del>network services</del> that are running on the host via the <cite>network interface</cite> . Using the loopback <small>interface</small> bypasses
+        any local <i>network interface hardware.</i></p>
+
+    <h2>Loopback</h2>
+    <img src="LoopBack.jpg" alt="impossibile visualizzare immagine">
+    <p>The local loopback mechanism may be used to run a <mark>network service</mark> on a host without requiring a <b>physical</b> network interface, or without making the service accessible from the networks the <del>computer </del> may be connected to. For example, a <small>locally</small> installed
+        website may be accessed from a <em>Web browser</em> by the URL <mark>http://localhost</mark> to display its home page. The name localhost normally resolves to the IPv4 loopback address<sub></sub> 127<sub>2</sub>.0.0.1, and to the IPv6 loopback address ::1.</p>
+
+    <h2>Name resolution</h2>
+    <img src="https://networkencyclopedia.com/wp-content/uploads/2019/09/name-resolution.gif" width="300px" alt="impossibile visualizzare immagine">
+    <p>IPv4 <span style = "color: black; background: red;">network standards</span> reserve the entire address block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet sent to any of those addresses is looped back. The address <small>127.0.0.1</small>  is the standard address for IPv4
+        loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up <del>multiple server</del> applications on the host, all listening on the same port number. The <ins>IPv6</ins> standard assigns only a single address for loopback:
+        ::1. The <b>resolution</b> of the name localhost to one or <q>more IP addresses</q> is normally configured by the following lines in the operating system's hosts file:</p>
+    127.0.0.1 localhost ::1 localhost
+
+    <p>The name may also be resolved by Domain <span style = "color: black; background: red;">Name System</span> (DNS) servers, but queries for this name should be <ins>resolved locally</ins>, and should not be forwarded to remote name servers. In addition to the mapping of localhost to the <a href="https://it.wikipedia.org/wiki/Indirizzo_IP"
+        target="_blank">loopback addresses</a> (127<sup>5</sup>.0.0.1 and ::1), may also be mapped to other <abbr title = "ip four version 4">IPv4</abbr> (loopback) addresses and it is also possible to assign other, or additional, names to any loopback address. The mapping of localhost to addresses other
+        than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the <strong>desired effect</strong>, as applications may map the name internally.</p>
+
+    In the Domain Name System, the name <strong>localhost</strong> is reserved as a <del>top-level</del> domain name, originally set aside to avoid confusion with the hostname used for <del>loopback</del> purposes.[3] <insIETF standards></ins> prohibit domain name registrars from assigning the name localhost.
+
+    <h2>IETF standards</h2>
+    <a href="https://it.wikipedia.org/wiki/Internet_Engineering_Task_Force">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEh7bz4hMvu3w3kN0fLSSIGZ7XtsYJgAYeTA&s" alt="impossibile visualizzare immagine">
+    <p>The name localhost is reserved for loopback purposes by <strong>RFC</strong> 6761 (Special-Use Domain Names),[4] which achieved the Proposed Standard maturity level in <ins>February 2013</ins>. The standard sets forth a number of special considerations governing the use of
+    the name in the <em>Domain Name System</em>:</p>
+    </a>
+    <p>An IPv4 or <i>IPv6</i> address query for the name<small>localhost</small>  must always resolve to the respective loopback address, which is specified in a separate standard. <ins>Applications</ins> may resolve the name to a loopback address themselves, or pass it to the local name
+        resolver <b>mechanisms</b>. When a name resolver receives an address <span style = "color: black; background: green;">(A or AAAA)</span>  query for localhost, it should return the appropriate loopback addresses, and negative responses for any other requested record types. Queries for localhost should not be
+        sent to caching name servers. To avoid burdening the Domain Name System root servers with traffic, caching name servers should never request name server records for localhost, or forward resolution to authoritative name servers. DNS registrars
+        are precluded from delegating domain names in the top-level domain <q>localhost</q>. When authoritative name servers receive queries for 'localhost' in spite of the provisions mentioned resolve them appropriately. The IPv4 loopback addresses are reserved
+        within the <abbr title = "ip four version 4">IPv4</abbr> address space by the <b>IETF</b> "Special Use <strong>IPv4</strong>  Addresses" standard <i>(RFC 5735)</i>.[5] The reservation can be traced back to the November 1986 "Assigned Numbers" standard (RFC 990).</p>
+
+    <p>In contrast, the IETF <a href="https://it.wikipedia.org/wiki/Ciao" target="_blank">"IP Version 6 Addressing Architecture"</a> standard (RFC 4291) reserves the single IPv6 loopback address ::1 within the IPv6 address space. The standard precludes the
+        assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped
+        by all routers or hosts that receive it.</p>
+
+    <h2>Packet processing</h2>
+    <p>The processing of any packet sent to a <mark>loopback address</mark>, is implemented in the link layer of the <em>TCP/IP</em> stack. Such packets are never passed to any network interface controller (NIC) or hardware device driver and must not appear outside of a computing
+        system, or be routed by any router.<span style = "color: black; background: blue;">router.</span> This permits software testing and local services in the absence of any hardware network interfaces.<span style = "color: black; background: blue;">hardware network interfaces.</span>  Looped-back packets are distinguished from any other packets traversing the TCP/IP stack only by the special
+        <em>IP address</em> they were addressed to. Thus, the services that ultimately receive them respond according to the specified destination. For example, an <small>HTTP</small> service could route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different Web
+        servers, or to a <q>single server</q> that returns different <strong>web pages</strong> . To simplify such testing, the <i>hosts file</i> may be configured to provide appropriate names for each address. Packets received on a non-loopback interface with a loopback source or destination
+        address must be dropped. Such packets are sometimes referred to as Martian packets.[6] As with any other bogus packets, they may be malicious and any problems they might cause can be avoided by applying bogon filtering. Special cases The releases
+        of the <em>MySQL </em>database differentiate between the use of the <a href="https://it.wikipedia.org/wiki/Host" target="_blank">hostname</a> localhost and the use of the addresses 127.0.0.1 and ::1.[7] When using localhost as the destination in a client
+        connector interface of an application, the <abbr title = "my secol qued lime">MySQL</abbr> application programming interface connects to the database using a Unix domain socket, while a TCP connection via the loopback interface requires the direct use of the explicit address. One notable
+        exception to the use of the <i>127.0.0.0/8</i> addresses is their use in <mark>Multiprotocol</mark> Label Switching (MPLS) traceroute error detection, in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to
+        end users.</p>
+</body>
+
+</html>

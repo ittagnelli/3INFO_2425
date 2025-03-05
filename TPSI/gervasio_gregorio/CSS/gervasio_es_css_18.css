@@ -1,0 +1,29 @@
+div {
+    background-color: lightblue;
+    color:navy;
+    border-top: 15px solid navy;
+    border-bottom: 15px solid navy;
+ }
+ 
+ #div1 {
+   width: 100px;
+   padding: 25px;
+   border: 25px solid navy;
+   margin-bottom: 2rem;
+ }
+ 
+ #div2 {
+   width: 100px;
+   padding-left: 50px;
+   padding-right: 50px;
+   border-left: 50px solid navy;
+   border-right: 50px solid navy;
+ }
+ 
+ #div3 {
+   width: 4px;
+   padding-left: 2px;
+   padding-right: 2px;
+   border-left: 2px solid navy;
+   border-right: 2px solid navy;
+ }

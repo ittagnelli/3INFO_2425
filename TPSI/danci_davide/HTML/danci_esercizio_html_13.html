@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANCI - ESERCIZIO 13</title>
+</head>
+<body>
+    <form>
+        <label for="idnome">Nome: </label>
+        <input type="text" id="idnome" name="nome" placeholder="Nome" required><br><br>
+
+        <label for="idcognome">Cognome: </label>
+        <input type="text" id="idcognome" name="cognome" placeholder="Cognome" required><br><br>
+
+        <h3>Sesso:</h3>
+        <input type="radio" id="maschio" name="sesso" value="maschio" required>
+        <label for="maschio">Maschio</label><br>
+        <input type="radio" id="femmina" name="sesso" value="femmina" required>
+        <label for="femmina">Femmina</label><br><br>
+
+        <h3>Ateneo:</h3>
+        <input type="radio" id="tor_vergara" name="ateneo" value="tor_vergara" required>
+        <label for="tor_vergara">LA LUMSA</label><br>
+        <input type="radio" id="tor_pignattara" name="ateneo" value="tor_pignattara" required>
+        <label for="tor_pignattara">L'università Cattolica del Sacro Cuore</label><br>
+        <input type="radio" id="ostia" name="ateneo" value="ostia" required>
+        <label for="ostia">L'università di Roma Foro Italico </label><br><br>
+
+        <h3>Cap:</h3>
+        <input type="text" name="cap" id="Cap" maxlength="5" required><br><br>
+
+        <h3>Occupazione:</h3>
+        <input type="checkbox" id="studente" name="occupazione" value="Studente">
+        <label for="studente">Studente</label><br>
+        <input type="checkbox" id="lavoratore" name="occupazione" value="Lavoratore">
+        <label for="lavoratore">Lavoratore</label><br><br>
+
+        <h3>Descrizione lavoro svolto:</h3>
+        <input type="text" name="lavoro" id="lavoro" maxlength="80><br><br>
+
+        <input type="submit" id="idbutton" value="Invia il form">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

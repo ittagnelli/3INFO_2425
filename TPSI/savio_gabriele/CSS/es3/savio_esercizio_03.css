@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(0, 110, 33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+h1, h2 {
+  color: rgb(110, 255, 117);
+  font-weight: bold;
+}
+
+button {
+  background-color: rgb(0, 177, 59);
+  color: rgb(127, 255, 176);
+  width: 190px;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 0px 0px 0px #000;
+  transition: all 0.5s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px #ffffff5b;
+  }
+
+  &:active {
+    transform: translateY(5px);
+    transform: scale(0.96);
+    box-shadow: 0px 0px 0px #000;
+  }
+}

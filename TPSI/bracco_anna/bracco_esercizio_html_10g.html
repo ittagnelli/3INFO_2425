@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order Table</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 50%;
+                margin: 20px auto;
+            }
+            th, td{
+
+                border: 1px solid #000;
+                padding: 10px;
+                text-align: center;
+                margin: 20px auto;
+            }
+            input{
+                width: 50px;
+            }
+            .container {
+                display: grid;
+                grid-template-columns: 33.33% 33.33% 33.33%;
+                grid-template-rows: 50% 50%;
+                width: 300px;
+                height: 300px;
+                border: 2px;
+             }
+             
+             .box {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.5em;
+                font-weight: bold;
+                color: black;
+                border: 1px;
+             }
+             .box.a{
+                background-color: green;
+                color: white;
+             }
+             .box.b{
+                background-color: white;
+             }
+             .box.c{
+                background-color: red;
+                color: white;
+             }
+             .box.d {
+                background-color: blue;
+                color: white;
+             }
+        </style>
+    </head>
+    <table border="2">
+    <body>
+        <div class="container">
+            <div class="box a">A</div>
+            <div class="box b">B</div>
+            <div class="box c">C</div>
+            <div class="box d">D</div>
+        </div>
+    </body>
+    

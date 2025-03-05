@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo Raccolta Dati</title>
+</head>
+<body>
+    <h1>Modulo di Raccolta Dati</h1>
+    <form action="#" method="post">
+        
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+
+       
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <p>Genere:</p>
+        <label for="maschio">
+            <input type="radio" id="maschio" name="genere" value="maschio"> Maschio
+        </label>
+        <br>
+        <label for="femmina">
+            <input type="radio" id="femmina" name="genere" value="femmina"> Femmina
+        </label>
+        <br>
+        <label for="altro">
+            <input type="radio" id="altro" name="genere" value="altro"> Altro
+        </label>
+        <br><br>
+
+        <p>Seleziona i tuoi hobby:</p>
+        <label for="sport">
+            <input type="checkbox" id="sport" name="hobby" value="sport"> Sport
+        </label>
+        <br>
+        <label for="musica">
+            <input type="checkbox" id="musica" name="hobby" value="musica"> Musica
+        </label>
+        <br>
+        <label for="lettura">
+            <input type="checkbox" id="lettura" name="hobby" value="lettura"> Lettura
+        </label>
+        <br>
+        <label for="viaggi">
+            <input type="checkbox" id="viaggi" name="hobby" value="viaggi"> Viaggi
+        </label>
+        <br>
+        <label for="arte">
+            <input type="checkbox" id="arte" name="hobby" value="arte"> Arte
+        </label>
+        <br><br>
+
+        
+        <label for="data-nascita">Data di nascita:</label>
+        <input type="date" id="data-nascita" name="data-nascita" required>
+        <br><br>
+
+        
+        <label for="numero1">Numero 1 (da 1 a 10):</label>
+        <input type="number" id="numero1" name="numero1" min="1" max="10" required>
+        <br><br>
+
+        <label for="numero2">Numero 2 (da 0 a 50):</label>
+        <input type="number" id="numero2" name="numero2" min="0" max="50">
+        <br><br>
+
+        <label for="numero3">Numero 3 (da 100 a 200):</label>
+        <input type="number" id="numero3" name="numero3" min="100" max="200">
+        <br><br>
+
+        <label for="numero4">Numero 4 (da -10 a 0):</label>
+        <input type="number" id="numero4" name="numero4" min="-10" max="0">
+        <br><br>
+
+        
+        <label for="colore">Scegli un colore:</label>
+        <input type="color" id="colore" name="colore">
+        <br><br>
+
+        <label for="gamma1">Gamma 1 (0-100):</label>
+        <input type="range" id="gamma1" name="gamma1" min="0" max="100">
+        <br><br>
+
+        <label for="gamma2">Gamma 2 (10-50):</label>
+        <input type="range" id="gamma2" name="gamma2" min="10" max="50">
+        <br><br>
+
+        <label for="gamma3">Gamma 3 (20-80):</label>
+        <input type="range" id="gamma3" name="gamma3" min="20" max="80">
+        <br><br>
+
+       
+        <label for="opzioni">Seleziona un'opzione:</label>
+        <select id="opzioni" name="opzioni">
+            <option value="opzione1">Opzione 1</option>
+            <option value="opzione2">Opzione 2</option>
+            <option value="opzione3">Opzione 3</option>
+            <option value="opzione4">Opzione 4</option>
+            <option value="opzione5">Opzione 5</option>
+        </select>
+        <br><br>
+
+        
+        <label for="citta">Scegli una città:</label>
+        <input list="citta-list" id="citta" name="citta">
+        <datalist id="citta-list">
+            <option value="Roma">
+            <option value="Milano">
+            <option value="Napoli">
+            <option value="Torino">
+            <option value="Firenze">
+        </datalist>
+        <br><br>
+
+        
+        <label for="commenti">Commenti:</label>
+        <textarea id="commenti" name="commenti" rows="6" cols="60"></textarea>
+        <br><br>
+
+        <button type="submit">Invia</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.path_rel{
+    background-image: url("../html/images/limg2_localhost.png");
+    width: 300px;
+    height: 100px;
+}
+.path_ass{
+    background-image: url("https://imgs.search.brave.com/3Eu2s8PuAo8xXYs_3pM4vj9wuUYa4_1bg0lCWeZZkvQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/MC8wMy9XYWx0ZXJf/V2hpdGVfUzVCLnBu/Zy81MTJweC1XYWx0/ZXJfV2hpdGVfUzVC/LnBuZw");
+    width: 20vw;
+    height: 30vh;
+}
+.back_repe{
+    background-image: url("https://picsum.photos/100");
+    background-repeat: repeat;
+    height: 324px;
+    width: 50vw;
+}
+.back_no{
+    background-image: url("https://picsum.photos/323/?random=2");
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 234px;
+}
+.back_x{
+    background-image: url("https://picsum.photos/300/?random=3");
+    background-repeat: repeat-x;
+    height: 45vh;
+    width: 30%; 
+}
+.back_y{
+    background-image: url("https://picsum.photos/192/?random=4");
+    background-repeat: repeat-y;
+    height: 33vh;
+    width: 10vw; 
+}

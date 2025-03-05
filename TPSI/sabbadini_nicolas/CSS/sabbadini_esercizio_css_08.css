@@ -1,0 +1,25 @@
+h1,h3{
+    color: red;
+    text-decoration: underline;
+    background-color: gray;
+}
+.pr1 , .pr2 , .pr3 , .pr4 , .pr5 , .pr6{
+    color: blue;
+    text-align: left;
+}
+.hr3{
+    color: green;
+}
+.pr7{
+    color: red;
+    text-align: right;
+}
+
+.ht2 , .ht4 , .ht6{
+    color: black;
+    border: 10px;
+}
+.ht3 , .ht5 , .h1{
+    color: red;
+    border: 3px;
+}

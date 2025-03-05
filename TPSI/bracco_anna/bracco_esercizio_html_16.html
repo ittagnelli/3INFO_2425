@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="it">
+     <head> 
+        <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+         <title>Esercizio HTML 16</title>
+     </head> 
+     <body>
+        <h1><legend>Dati Personali</legend></h1>
+        <table>
+        <form>
+        
+           <tr>
+            <td><label for="nome">Nome e Cognome:</label></td>
+            <td><input type="text" id="nome" name="nome e cognome"></td>
+           </tr>
+          
+           <tr>
+            <td><label for="genere">Genere:</label></td>
+            <td><select name="genere" id="genere">
+                <option value="maschio" id="genere">Maschio</option>
+                <option value="femmina" id="genere">Femmina</option>
+            </select></td>
+           </tr>
+
+          <tr>
+           <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" name="email"></td>
+          </tr>
+
+
+            <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password" id="password" name="password"></td>
+            </tr>
+
+            <tr>
+            <td><label for="iddata">data di nascita</label></td>
+            <td><input type="date" id="iddata" name="birthday"></td>
+            </tr>
+
+            <tr>
+            <td><label for="nazioni">Nazionalita':</label></td>
+            <td>
+                <input list="nations" name="nazioni" id="nazioni">
+                <datalist id="nations">
+                <option value="Albanese">
+                    <option value="Argentina">
+                    <option value="Belga">
+                    <option value="Biellorussa">
+                    <option value="Italiana">
+                    <option value="Irlandese">
+                    <option value="Israeliana">
+            </datalist>
+            </td>
+            </tr>
+
+            <tr>
+                <td><label for="attivita lavoativa">Attivita lavorativa</label></td>
+                <td><input type="attivita" id="attivita lavorativa" name="attivita"></td>
+            </tr>
+
+            <tr>
+                <td><label for="hobby">Hobby</label></td>
+                <td><input type="hobby" id="hobby" name="hobby"></td>
+            </tr>
+
+            <tr>
+                <td><label for="altezza">Altezza: </label></td>
+                <td><input type="range" min="140" max="200" value="60" class="slider" id="altezza"></td> 
+            </tr>
+
+            <tr>
+                <td><label for="peso">Peso: </label></td>
+                <td><input type="range" min="50" max="100" value="60" class="slider" id="peso"></td> 
+            </tr>
+            <tr>
+                <td><label for="colore">colore preferito</label></td>
+                <td><input type="color" id="colore" name="colore"  value="#ff0000"></td>
+            </tr>
+            <tr> 
+                <td><label for="notes">Note personali:</label></td>
+                <td><textarea id="notes" name="notes" rows="4" cols="50" placeholder="Note personali"></textarea></td>    
+
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Invia">
+                </td>
+            </tr>     
+        </form>
+        </body>
+    </html>

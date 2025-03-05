@@ -1,0 +1,122 @@
+<!DOCTYPE html> 
+<html lang="it"> 
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Sam Tamaddon" />
+        <meta name="description" content="Template HTML" />
+        <meta name="keywords" content="template, html, lezioni, scuola,esercitazione"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="refresh" content="100">
+        <title>wikipedia Local host </title>
+        <style>
+                  body {background-color: powder red;}
+                  h1 {color: orange;}
+        </style>
+</head>
+<body>
+    <center>
+<h1>partecipazione al corso serale per informatica base</h1>
+</center>
+<form>
+
+    <table>
+        <tr>
+          <td>  <label for="idnome">Nome: </label>
+            <input type="text" id="idnome" name="nome" placeholder="Nome"></td>
+          <td><label for="idcognome">Cognome: </label>
+            <input type="text" id="idcognome" name="cognome" placeholder="Cognome"></td>
+          <td> <label for="idconsigli">chi tela consilgiato: </label>
+            <input type="text" id="idconsigli" name="chi" placeholder="chi"></td>
+            <td> <input type="button" id="idbutton" value="sei felice"></td>
+        </tr>
+      </table>
+ 
+   
+  
+
+  <h3>Occupazione:</h3><br>
+
+  <input type="radio" id="studente" name="occupazione" value="studente">
+  <label for="studente">  Studente</label><br>
+  <input type="radio" id="impiegato" name="occupazione" value="occupato">
+  <label for="occupato">  impiegato</label><br>
+  <input type="radio" id="disoccupato" name="occupazione" value="disoccupato">
+  <label for="disoccupato">  Disoccupato</label><br>
+  <input type="radio" id="professore" name="occupazione" value="disoccupato">
+  <label for="disoccupato">  professore</label><br>
+  <input type="radio" id="laureato" name="occupazione" value="disoccupato">
+  <label for="disoccupato">  laureato</label><br>
+
+<h3>cosa pensi di imparare</h3><br>
+
+  <input type="checkbox" id="html" name="ambizioni" value="html">
+  <label for="html">  html</label><br>
+  <input type="checkbox" id="c++" name="ambizioni" value="c++">
+  <label for="c++">  c++</label><br>
+  <input type="checkbox" id="java" name="ambizioni" value="javascript">
+  <label for="javascript"> java</label><br>
+  <input type="checkbox" id="accendere" name="ambizioni" value="accendere">
+  <label for="accendere">  accendere il pc</label><br>
+  <input type="checkbox" id="c++" name="ambizioni" value="dormire">
+  <label for="dormire">  dormire</label><br>
+  <input type="checkbox" id="guadagno" name="ambizioni" value="guadagno">
+  <label for="guadagno"> guadagnare 1 euro</label><br>
+
+<h3>Data di Nascita</h3><br>
+
+  <input type="date" id="iddata" name="birthday"><br>
+<h3>voglia di lavorare</h3>
+  <input type="number" id="altezza" name="voglia di lavorare" min="150" max="500"><br>
+  <h3>voglia di dormire</h3>
+  <input type="number" id="altezza" name="voglia di dormire" min="4444444444" max="1000000000000000000000000000000000000000000000000"><br>
+  <h3>voglia di andare a lezione</h3>
+  <input type="number" id="altezza" name="voglia di lezione" min="0" max="3"><br>
+  <h3>voglia di andare al open day</h3>
+  <input type="number" id="altezza" name="voglia di open day" min="150" max="500"><br>
+  <h3>voglia di programmare</h3>
+  <input type="number" id="altezza" name="voglia di programmare" min="150" max="500"><br>
+  <h3>quale il tuo colore preferito?</h3>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
+  <label for="peso">altezza: </label>
+  <input type="range" min="150" max="200" value="60" class="slider" id="altezza"><br> 
+  <label for="peso">dormire: </label>
+  <input type="range" min="0" max="1000" value="60" class="slider" id="dormire"><br> 
+  <label for="peso">Peso: </label>
+  <input type="range" min="50" max="100" value="60" class="slider" id="peso"><br> 
+  
+    <label for="occupazione">occupazione: </label><br>
+    <input list="occupazione" name="occupazione" id="occupazione">
+    <datalist id="occupazione">
+        <option value="studente">
+        <option value="insegnante">
+        <option value="universitario">
+        <option value="professore">
+        <option value="nullafacente">
+        <option value="disoccupato">
+        <option value="voglia di lavorare">
+    </datalist> <br>
+
+   
+    <label for="cars">rosso  </label>
+        <select name="genere" id="cars">
+     <option value="arancione">verde</option>
+     <option value="grigio">blu</option>
+     <option value="studente">
+        <option value="insegnante">ciao</option>
+        <option value="universitario">ciao</option>
+        <option value="professore">ciao</option>
+          </select> <br>
+
+          <label for="bio">Biografia:</label>
+  <textarea id="bio" name="bio" rows="6" cols="60" placeholder="Inserisci la tua biografia"></textarea>
+
+       
+  
+
+
+</form>
+
+
+
+</body>
+</html>

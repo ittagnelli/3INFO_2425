@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Marco Correndo" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="prova,html,scuola,lezione" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+    <title>Esercitazione 16</title>
+</head>
+<body>
+<table style="width: 100%;">
+<thead>
+    <tr>
+        <th colspan="3">
+            <center><h1>Inserimento dati</h1></center>
+        </th>
+    </tr>
+</thead>
+
+<tbody>
+<form>
+<tr>
+    <td>
+<label for="idnom">Nome:</label>
+<input type="text" name="nome" id="idnom"><br>
+    </td>
+
+    <td style="width: 20%;"></td>
+
+    <td>
+<label for="idcog">Cognome:</label>
+<input type="text" name="cognome" id="idcog"><br>
+    </td>
+</tr>
+<tr></tr>
+<tr>
+    <td>
+<label for="idgene">Genere:</label><br>
+
+    </td>
+    <td>
+
+    </td>
+    <td>
+
+<input type="radio" name="genere" value="Maschio" id="idgene">
+<label for="Maschio">Maschio</label><br>
+
+<input type="radio" name="genere" value="Femmina" id="idgene">
+<label for="Femmina">Femmina</label><br>
+    </td>
+</tr>
+<tr></tr>
+<tr>
+    <td>
+
+<label for="idemail">Email:</label>
+<input type="text" name="email" id="idemail" maxlength="30" ><br>
+
+    </td>
+    <td></td>
+    <td>
+       
+<label for="idpassw">Password:</label>
+<input type="password" name="password" id="idpassw"><br>
+ 
+    </td>
+</tr>
+<tr>
+    <td>
+<label for="iddata">Data di nascita:</label>
+<input type="date" name="data" id="iddata">
+
+    </td>
+    <td></td>
+    <td>
+        <label for="idnaz">Nazionalità:</label>
+        <input list="naz" name="naz" id="idnaz">
+        <datalist id="naz">
+        <option value="Italiana">
+        <option value="Messicana">
+        <option value="Argentina">
+        <option value="Francese">
+        <option value="Tedesca">
+        <datalist><br>
+    </td>
+<tr>
+    <td>
+<label for="idatt">Attività lavorativa:</label>
+<input type="text" name="att" id="idatt">
+    </td>
+<td></td>
+    <td>
+<label for="idhob">Hobby:</label>
+<input type="text" name="hobby" id="idhop">
+    </td>
+</tr>
+<tr>
+    <td>
+<label for="idalt">Altezza:</label>
+<input type="number" name="altezza" id="idalt" max="300" min="50">
+<label for="idalt">cm</label>
+    </td>
+<td></td>
+    <td>
+<label for="idpes">Peso:</label>
+<input type="number" name="peso" id="idpes" max="300" min="20">
+<label for="idpes">kg</label>
+    </td>
+</tr>
+<tr>
+    <td>
+<label for="idcol">Colore preferito:</label>
+<input type="color" name="color" id="idcol">
+    </td>
+    <td></td>
+    <td>
+<label for="idnote">Note personali:</label><br>
+<textarea name="note" id="idnote" cols="30" rows="10"></textarea>
+    </td>
+</tr>
+</form>
+</tbody>
+</table>
+</body>
+</html>
