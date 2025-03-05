@@ -1,0 +1,24 @@
+.left{
+    float: left;
+
+    background-color: purple;
+    height: 200px;
+    width: 300px;
+
+}
+
+.middle{
+    float: left;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 300px;
+
+}
+
+.right {
+    float: left;
+
+    background-color: purple;
+    height: 200px;
+    width: 300px;
+}

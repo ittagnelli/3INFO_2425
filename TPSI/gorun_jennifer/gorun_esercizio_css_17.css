@@ -1,0 +1,16 @@
+table{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img{
+align-items: center;
+  width: 250px;
+  border-bottom: 5px solid red;
+}
+
+td > p{
+  padding: 8px;
+}
