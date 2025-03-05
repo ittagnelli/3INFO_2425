@@ -1,0 +1,20 @@
+.contenitore{
+    background-color: purple;
+    padding: 20px;
+    height: 100px;
+    width: calc(150px + 5px + 20px + 10px + 100px);
+}
+.contenitore > div:first-child{
+    color: white;
+    float: left;
+    margin-right: 5px;
+}
+.contenitore > div:nth-child(2){
+    float: left;
+    color: white;
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    height: 70px;
+}
