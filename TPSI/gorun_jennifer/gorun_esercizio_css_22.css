@@ -1,0 +1,16 @@
+.menu li {
+    display: inline;
+   
+    margin: -2px;
+    width: 50px;
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+    background-color:black;
+    
+    &:hover {
+        background-color: gray;
+      }
+  }
+
+ 

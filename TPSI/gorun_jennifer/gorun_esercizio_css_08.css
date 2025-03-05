@@ -1,0 +1,9 @@
+h1, h2, h3{
+    color: red;
+    text-decoration: underline;
+}
+
+p{
+    color: blue;
+    text-align: left;
+}
