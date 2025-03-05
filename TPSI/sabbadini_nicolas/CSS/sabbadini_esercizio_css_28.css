@@ -1,9 +1,20 @@
-#t1, #t2 , #t3 , #t4 , #t5 {
+#t1, #t2, #t3 {
     width: 150px;
-    border: 1px;
+    border: 1px solid black; 
+    text-align: center; /
+    color: blue; 
+    margin: 5px; 
+}
+
+#t4, #t5 {
+    width: 150px;
+    border: 1px solid black; 
 }
 
 #colonna {
-    text-align: center;
-    border: 20px blue;
+    
+    text-align: center; 
+    color: blue; 
+    border: 1px solid black; 
+    margin: 5px;
 }
