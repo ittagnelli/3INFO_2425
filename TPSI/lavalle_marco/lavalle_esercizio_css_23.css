@@ -1,0 +1,19 @@
+.div {
+    float: left;
+    border:1px solid black;
+    text-align: center;
+    width: 100px;
+    height:30px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+  }
+
+div:hover {
+background-color: gray;
+  }
+
+.menu {
+    width: 750px;
+    margin: auto;
+}

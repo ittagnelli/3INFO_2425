@@ -1,0 +1,30 @@
+.black, .gray {
+    float: left;
+    border:1px solid black;
+    text-align: center;
+    width: 12.5%;
+    height: 106.25px;
+    margin-right: 0px;
+    padding: 0px;
+    border: 0;
+  }
+
+
+.contenitore {
+    border: 1px solid black;
+    width: 80%;
+    height: 850px;
+    margin-left: 10%;
+}
+
+
+.gray {
+    color: black;
+    background-color: gray;
+}
+
+.black {
+  color: white;
+  background-color: black;
+}
+
