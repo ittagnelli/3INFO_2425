@@ -1,0 +1,3 @@
+#colonna2 {background-color: red;}
+td {height: 100px; width: 100px;}
+td :nth-child(odd){color: black;background-color: black;}
