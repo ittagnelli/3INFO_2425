@@ -1,5 +1,5 @@
 .riga{
-    width: calc(8*(15px + 2*3px));
+    width: calc(9*(20px + 2 * 3px));
 }
 .riga>div{
     float:left;
