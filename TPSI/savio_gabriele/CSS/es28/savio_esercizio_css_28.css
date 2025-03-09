@@ -1,0 +1,21 @@
+table {
+  border: 20px solid blue;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+td {
+  border: 1px solid black;
+  margin: 5px;
+}
+
+td > img {
+  width: 150px;
+}
+
+tr:nth-child(2) > td{
+  text-align: center;
+  font-weight: bold;
+}
+
