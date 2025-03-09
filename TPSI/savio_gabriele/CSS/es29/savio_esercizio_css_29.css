@@ -1,0 +1,31 @@
+.container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0 5px;
+  padding: 5px;
+  border: 20px solid blue;
+  width: 785px;
+}
+
+.card {
+  text-align: center;
+  background-color: white;
+}
+
+.card img {
+  width: 150px;
+  height: auto;
+}
+
+.card p {
+  font-weight: bold;
+  margin:-5px 0 5px 0;
+  height: auto;
+}
+
+img,
+p {
+  border: 1px solid black;
+}
