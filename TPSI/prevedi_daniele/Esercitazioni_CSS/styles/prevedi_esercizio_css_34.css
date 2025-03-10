@@ -1,0 +1,66 @@
+.header{
+    width: 1380px;
+    height: 50px;
+    padding: 10px;
+    background-color: #ff9c56;
+}
+
+.logo{
+    width: 75px;
+    height: 50px;
+    background-color: #ff4d79;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    display: inline;
+}
+
+.nav{
+    width: 110px;
+    height: 50px;
+    background-color: #e85f43;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    float: right;
+    display: inline;
+}
+
+.content{
+    width: 1390px;
+    padding: 5px;
+    background-color: #88abc2;
+}
+
+.post{
+    margin: 5px;
+    width: 1360px;
+    height: 200px;
+    padding: 10px;
+    background-color: #aad637;
+}
+
+.titolo{
+    color: white;
+}
+
+.postcontent{
+    margin-top: 10px;
+}
+
+.img{
+    float: left;
+    width: 260px;
+    height: 80px;
+    padding: 10px;
+    background-color: #8eb22e;
+}
+
+.desc{
+    float: right;
+    width: 980px;
+    height: 80px;
+    padding: 10px;
+    background-color: #708c24;
+    color: white;
+}

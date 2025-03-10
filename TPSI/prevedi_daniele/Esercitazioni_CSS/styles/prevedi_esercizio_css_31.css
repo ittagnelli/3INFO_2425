@@ -1,0 +1,11 @@
+.scritta{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    width: 280px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
