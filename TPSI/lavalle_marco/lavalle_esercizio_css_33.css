@@ -1,0 +1,53 @@
+div {
+    position: fixed;
+    color: white;
+}
+
+#left-content, #center-content, #right-content {
+    text-align: center;
+}
+
+
+#header {
+    background-color: darkorange;
+    height: 10%;
+    width: 100%;
+    top: 0px;
+    left: 0%;
+}
+
+#left-content {
+    background-color: rgb(247, 201, 64);
+    top: 10%;
+    left: 0%;
+    width: 33%;
+    height: 80%;
+}
+
+#center-content {
+    background-color: rgb(110, 182, 206);
+    top: 10%;
+    left: 33%;
+    width: 34%;
+    height: 80%;
+}
+
+#right-content{
+    background-color: rgb(64, 80, 139);
+    top: 10%;
+    right: 0%;
+    width: 33%;
+    height: 80%;
+}
+
+#footer {
+    background-color: greenyellow;
+    height: 10%;
+    width: 100%;
+    bottom: 0px;
+    left: 0%;
+}
+
+
+
+
