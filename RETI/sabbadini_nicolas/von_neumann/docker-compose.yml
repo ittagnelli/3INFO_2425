@@ -1,0 +1,11 @@
+services:
+  flowgorithm:
+    image: profmancusoa/flowgorithm
+    environment:
+      DISPLAY: $DISPLAY
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /dev/shm:/dev/shm
+      - /home/$USER/:/root/flowgorithm
+    devices:
+      - /dev/dri:/dev/dri

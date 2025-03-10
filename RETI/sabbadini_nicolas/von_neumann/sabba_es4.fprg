@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="sabba_es4"/>
+        <attribute name="authors" value="root"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-10 09:57:04 AM"/>
+        <attribute name="created" value="cm9vdDs1RTQxNkM4OUY3NUQ7MjAyNS0wMy0xMDswOTo1NTowNSBBTTsyNDIx"/>
+        <attribute name="edited" value="cm9vdDs1RTQxNkM4OUY3NUQ7MjAyNS0wMy0xMDswOTo1NzowNCBBTTsxOzI1MzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, S, AD" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="10"/>
+            <assign variable="B" expression="20"/>
+            <if expression="A == B">
+                <then>
+                    <assign variable="AD" expression="A + B"/>
+                </then>
+                <else>
+                    <assign variable="S" expression="A*B"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
