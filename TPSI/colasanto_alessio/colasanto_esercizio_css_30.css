@@ -1,0 +1,14 @@
+.immag{
+    background-image: url(https://picsum.photos/700/300);
+    width: 500px;
+    height: 300px;
+}
+
+.scritta{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-size: xx-large;
+    color: yellow;
+    font-weight: bold;
+}
