@@ -1,0 +1,33 @@
+.parent{
+    padding: auto;
+    width: 100%;
+    height: 500px;
+}
+.primo{
+    background-color: green;
+    height: 50px;
+    float: none;
+}
+.secondo{
+    background-color: blue;
+    float:  left;
+    width: 33%;
+    height: 400px;
+}
+.terzo{
+    background-color: red;
+    float: left;
+    height: 400px;
+    width: 33%;
+}
+.quarto{
+    float: left;
+    background-color: aqua;
+    height: 400px;
+    width: 33%;
+}
+.quinto{
+    background-color: yellow;
+    height: 50px;
+    float: none;
+}
