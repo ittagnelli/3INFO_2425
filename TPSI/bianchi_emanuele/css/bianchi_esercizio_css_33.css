@@ -1,0 +1,51 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "content"
+        "footer";
+    grid-template-rows: 100px 1fr 50px;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    grid-area: header;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    background-color: sandybrown;
+}
+
+.center {
+    background-color: lightsteelblue;
+}
+
+.right {
+    background-color: darkslateblue;
+    color: white; /* Rende il testo bianco per contrasto con lo sfondo scuro */
+}
+
+footer {
+    grid-area: footer;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
