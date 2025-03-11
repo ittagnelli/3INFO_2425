@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h1 {
+  color: orange;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  background-color: orange;
+  padding: 20px;
+  text-align: center;
+}
+
+.navigation {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.post {
+  background-color: #DFF2BF;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+h3 {
+  margin: 0;
+}
