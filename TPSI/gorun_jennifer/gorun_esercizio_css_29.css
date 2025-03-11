@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    border: 20px solid lightblue;
+    padding: 10px;
+}
+
+.colonna {
+    text-align: center;
+    border: 1px solid black;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.colonna:last-child {
+    margin-right: 0;
+}
+
+.colonna img {
+    width: 150px;
+    display: block;
+}
+
+.caption {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
