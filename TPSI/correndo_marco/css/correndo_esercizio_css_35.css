@@ -1,0 +1,29 @@
+
+
+.contenitore-master{
+    background-color: lightblue;
+    height: 720px;
+    width: 1200px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.immg{
+    border: 10px solid white;
+    width: 700px;
+    height: 700px;
+    float: left;
+}
+
+.desc{
+    background-color: darkblue;
+    height: 720px;
+    float: left;
+    width: calc(1200px - 700px - 20px - 40px);
+}
+
+.desc-img{
+    position: relative;
+    
+}
