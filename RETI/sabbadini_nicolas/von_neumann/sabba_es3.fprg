@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="sabba_es3"/>
+        <attribute name="authors" value="root"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-10 09:58:53 AM"/>
+        <attribute name="created" value="cm9vdDs1RTQxNkM4OUY3NUQ7MjAyNS0wMy0xMDswOTo1NzoyNSBBTTsyNDI1"/>
+        <attribute name="edited" value="cm9vdDs1RTQxNkM4OUY3NUQ7MjAyNS0wMy0xMDswOTo1ODo1MyBBTTsxOzI1MzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, S" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="2"/>
+            <assign variable="B" expression="3"/>
+            <assign variable="S" expression="(A*A)+(B*B)"/>
+        </body>
+    </function>
+</flowgorithm>

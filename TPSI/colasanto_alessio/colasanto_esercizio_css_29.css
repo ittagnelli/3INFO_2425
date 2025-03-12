@@ -1,0 +1,17 @@
+.galleria{
+    text-align: center;
+    border: 20px solid lightblue;
+    width: max-content;
+    margin: auto;
+}
+
+.colonna{
+    width: 150px;
+    display: inline-block;
+    font-weight: bold;
+    border: 1px solid grey;
+    margin: 5px;
+}
+.colonna > img{
+    width: 150px;
+}

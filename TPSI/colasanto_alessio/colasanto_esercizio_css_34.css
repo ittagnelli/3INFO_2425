@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+}
+
+.master{
+    width: 1000px;
+}
+
+div{
+    color: white;
+    font-weight: bold;
+}
+
+.barra{
+    background-color: orange;
+    width: 1000px;
+    padding: 20px;
+    height: 40px;
+}
+
+.nav,.logo{
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo{
+    float: left;
+    background-color: magenta;
+}
+
+.nav{
+    float: right;
+    background-color: red;
+}
+
+.main{
+    width: 1000px;
+    background-color: lightblue;
+    padding: 20px;
+    height: 700px;
+}
+
+.elemento{
+    background-color: lightgreen;
+    padding: 10px;
+    height: 200px;
+    width: 960px;
+    margin-bottom: 20px;
+}
+
+.elemento-titolo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 2rem;
+}
+
+.elemento-img{
+    border: 10px solid darkolivegreen ;
+    width: 200px;
+    height: 70px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+.elemento-desc{
+    background-color: darkgreen;
+    position: relative;
+    left: 280px;
+    top: -60px;
+    width: 650px;
+    height: 70px;
+    padding: 10px;
+}

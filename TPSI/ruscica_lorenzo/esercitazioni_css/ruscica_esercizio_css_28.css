@@ -1,0 +1,14 @@
+.tux {
+ border: 20px solid blue;
+ text-align: center;
+}
+
+.tux2 {
+  border: 1px solid black;
+  text-align: center;
+  
+ }
+
+ .img {
+  height: 100px;
+ }

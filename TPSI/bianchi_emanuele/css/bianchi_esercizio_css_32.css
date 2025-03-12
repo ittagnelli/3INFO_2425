@@ -1,0 +1,43 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    grid-template-rows: 100px 1fr 50px;
+    grid-template-columns: 200px 1fr;
+    height: 100vh; /* Imposta l'altezza del body al 100% della viewport */
+    margin: 0; /* Rimuove il margine predefinito del body */
+}
+
+header {
+    grid-area: header;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: sandybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    grid-area: main;
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
