@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #FFA07A;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    background-color: #FF69B4;
+    padding: 10px;
+    color: white;
+}
+
+nav {
+    background-color: #FA8072;
+    padding: 10px;
+    color: white;
+}
+
+main {
+    flex: 1;
+    background-color: #98FB98;
+    padding: 20px;
+}
+
+.post {
+    background-color: #ADFF2F;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.post-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.post-content {
+    display: flex;
+}
+
+.post-image {
+    width: 360px;
+    height: 80px;
+    object-fit:cover;
+    margin-right: 20px;
+    border: 10px solid rgb(112, 140, 36);
+}
+
+.post-content p {
+    background-color: rgb(112, 140, 36); 
+    padding: 10px;
+}
