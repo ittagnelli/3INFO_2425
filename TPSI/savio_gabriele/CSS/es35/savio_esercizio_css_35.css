@@ -1,0 +1,23 @@
+body {
+  background-color: #79dbeb;
+}
+
+.containar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.containar > img {
+  width: 500px;
+  border: 10px solid #fff;
+
+  transform: translate(-50%, -50%);
+}
+
+.sidebar {
+  float: right;
+  background-color: #002e4a;
+  width: 300px;
+  height: auto;
+}
