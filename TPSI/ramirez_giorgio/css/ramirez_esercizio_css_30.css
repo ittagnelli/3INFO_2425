@@ -1,0 +1,14 @@
+
+#parent {
+    width: 400px;
+    height: 150px;
+    background-image: url("https://picsum.photos/400/150");
+  }
+  
+  #child {
+    color: yellow;
+    width: 200px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+  }
