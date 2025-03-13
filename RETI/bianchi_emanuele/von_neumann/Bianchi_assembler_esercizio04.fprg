@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Bianchi_assembler_esercizio04"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 07:31:13 "/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUxFTzExTU87MjAyNS0wMy0xMzsiMDc6Mjc6MjMgIjsyNjY4"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUxFTzExTU87MjAyNS0wMy0xMzsiMDc6MzE6MTMgIjsxOzI3NzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, calc" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a==b">
+                <then>
+                    <assign variable="calc" expression="a*b"/>
+                </then>
+                <else>
+                    <assign variable="calc" expression="a+b"/>
+                </else>
+            </if>
+            <output expression="&quot;il risultato &#232; &quot;&amp;calc" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
