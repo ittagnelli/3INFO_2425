@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="marco"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 09:27:20 "/>
+        <attribute name="created" value="bWFyY287TEVOT1ZPLUlERUFQQUQ7MjAyNS0wMy0xMzsiMDk6MjQ6NTEgIjsyNzIy"/>
+        <attribute name="edited" value="bWFyY287TEVOT1ZPLUlERUFQQUQ7MjAyNS0wMy0xMzsiMDk6Mjc6MjAgIjsxOzI4Mjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, s" type="Integer" array="False" size=""/>
+            <assign variable="s" expression="a+b+c"/>
+        </body>
+    </function>
+</flowgorithm>
