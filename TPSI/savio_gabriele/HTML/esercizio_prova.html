@@ -1,1 +1,169 @@
-ciaoo
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulatore Bash</title>
+    <style>
+        body {
+            background-color: black;
+            color: rgb(0, 255, 13);
+            font-family: monospace;
+            padding: 10px;
+        }
+        #terminal {
+            width: 99%;
+            height: 400px;
+            overflow-y: auto;
+            border: 1px solid white;
+            padding: 10px;
+        }
+        #input {
+            background: black;
+            border: none;
+            color: white;
+            font-family: monospace;
+            width: 100%;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="terminal"></div>
+    <input type="text" id="input" autofocus>
+
+    <script>
+        const terminal = document.getElementById("terminal");
+        const input = document.getElementById("input");
+        let currentDir = "/home/user";
+        const fileSystem = {
+            "/": ["home"],
+            "/home": ["user"],
+            "/home/user": ["documento.txt", "script.sh", "cartella"],
+            "/home/user/cartella": ["file1.txt", "file2.txt"]
+        };
+        let viMode = false;
+        let viFile = "";
+        let viContent = "";
+        let viInsertMode = false;
+        
+        function printOutput(text) {
+            terminal.innerHTML += `<div>${text}</div>`;
+            terminal.scrollTop = terminal.scrollHeight;
+        }
+        
+        function executeCommand(command) {
+            const args = command.split(" ");
+            const cmd = args[0];
+            
+            if (viMode) {
+                if (command === ":wq") {
+                    fileSystem[currentDir][viFile] = viContent;
+                    viMode = false;
+                    printOutput("File salvato e editor chiuso");
+                } else if (command === "i") {
+                    viInsertMode = true;
+                    printOutput("-- INSERT MODE --");
+                } else if (command === "ESC") {
+                    viInsertMode = false;
+                    printOutput("-- NORMAL MODE --");
+                } else if (command === "u") {
+                    viContent = "";
+                    printOutput("Ultima modifica annullata");
+                } else if (command.startsWith("/")) {
+                    let searchTerm = command.substring(1);
+                    if (viContent.includes(searchTerm)) {
+                        printOutput(`Trovato: ${searchTerm}`);
+                    } else {
+                        printOutput("Termine non trovato");
+                    }
+                } else if (viInsertMode) {
+                    viContent += command + "\n";
+                }
+                return;
+            }
+            
+            switch (cmd) {
+                case "pwd":
+                    printOutput(currentDir);
+                    break;
+                case "ls":
+                    printOutput(fileSystem[currentDir]?.join("  ") || "");
+                    break;
+                case "cd":
+                    if (args[1]) {
+                        let newPath = args[1] === ".." ? currentDir.substring(0, currentDir.lastIndexOf("/")) || "/" : (currentDir + "/" + args[1]).replace("//", "/");
+                        if (fileSystem[newPath]) {
+                            currentDir = newPath;
+                        } else {
+                            printOutput("Cartella non trovata");
+                        }
+                    }
+                    break;
+                case "echo":
+                    printOutput(args.slice(1).join(" "));
+                    break;
+                case "mkdir":
+                    if (args[1]) {
+                        let newDir = currentDir + "/" + args[1];
+                        if (!fileSystem[newDir]) {
+                            fileSystem[newDir] = [];
+                            fileSystem[currentDir].push(args[1]);
+                        } else {
+                            printOutput("Cartella già esistente");
+                        }
+                    }
+                    break;
+                case "touch":
+                    if (args[1]) {
+                        if (!fileSystem[currentDir].includes(args[1])) {
+                            fileSystem[currentDir].push(args[1]);
+                        } else {
+                            printOutput("File già esistente");
+                        }
+                    }
+                    break;
+                case "rm":
+                    if (args[1]) {
+                        const index = fileSystem[currentDir].indexOf(args[1]);
+                        if (index !== -1) {
+                            fileSystem[currentDir].splice(index, 1);
+                        } else {
+                            printOutput("File o cartella non trovata");
+                        }
+                    }
+                    break;
+                case "clear":
+                    terminal.innerHTML = "";
+                    break;
+                case "cat":
+                    if (args[1] && fileSystem[currentDir].includes(args[1])) {
+                        printOutput(fileSystem[currentDir][args[1]] || "(file vuoto)");
+                    } else {
+                        printOutput("File non trovato");
+                    }
+                    break;
+                case "vi":
+                    if (args[1]) {
+                        viMode = true;
+                        viFile = args[1];
+                        viContent = fileSystem[currentDir][viFile] || "";
+                        printOutput("Modalità vi: digita ':wq' per salvare e uscire, 'i' per inserire testo, 'ESC' per uscire dalla modalità inserimento, 'u' per annullare, '/' per cercare.");
+                    }
+                    break;
+                default:
+                    printOutput(`Comando '${cmd}' non riconosciuto`);
+            }
+        }
+        
+        input.addEventListener("keydown", function(event) {
+            if (event.key === "Enter") {
+                let command = input.value.trim();
+                printOutput(`$ ${command}`);
+                executeCommand(command);
+                input.value = "";
+            }
+        });
+    </script>
+</body>
+</html>

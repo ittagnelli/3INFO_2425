@@ -1,0 +1,20 @@
+div{
+    align-items: center;
+}
+.parent{
+    float: none;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    width:  700px;
+    height: 175px;
+}
+#child{
+    float: inline-end;
+    border-radius: 5px;
+    background-color: lightgreen;
+    color: white;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}

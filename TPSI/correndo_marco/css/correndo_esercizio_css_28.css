@@ -1,0 +1,16 @@
+table{
+    text-align: center;
+    border: 20px solid lightblue;
+    width: max-content;
+    margin: auto;
+}
+
+td{
+    font-weight: bold;
+    border: 1px solid grey;
+    margin: 5px;
+}
+
+img{
+    width: 150px;
+}

@@ -1,0 +1,16 @@
+.box{
+    float: left;
+    height: 50px;
+}
+
+.viola {
+    background-color: #8a2be2;
+    border-radius: 5px;
+    padding: 5px;
+    color: #ffffff;
+    width: 50px;
+}
+
+.no{
+    float: inline-end;
+}

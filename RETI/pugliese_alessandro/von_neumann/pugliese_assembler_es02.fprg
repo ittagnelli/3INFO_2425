@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="pugliese_assembler_02"/>
+        <attribute name="authors" value="root"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-11 10:23:53 AM"/>
+        <attribute name="created" value="cm9vdDs5OUUwRDQ0NTg1QTY7MjAyNS0wMy0xMDswOToyMjoyNyBBTTsyNDAw"/>
+        <attribute name="edited" value="cm9vdDs5OUUwRDQ0NTg1QTY7MjAyNS0wMy0xMDswOToyMzo1MyBBTTsxOzI1MDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, totale" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <assign variable="b" expression="2"/>
+            <assign variable="c" expression="3"/>
+            <assign variable="totale" expression="2*a"/>
+            <assign variable="totale" expression="totale + 3*b"/>
+            <assign variable="totale" expression="totale - c"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,54 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-rows: 100px 1fr 50px;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    grid-area: header;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav {
+    font-style: italic;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+article {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

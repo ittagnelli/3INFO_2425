@@ -1,0 +1,18 @@
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.moon{
+    font-family: 'Moon Dance', serif;
+    font-weight: 400;
+    font-style: normal;}
+#shaf{
+    font-family: 'Shafarik', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul.cercho {
+    list-style-type: circle;
+  }
+  ol.roman {
+    list-style-type: upper-roman;
+  }

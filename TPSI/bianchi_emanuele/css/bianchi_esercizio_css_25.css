@@ -1,0 +1,43 @@
+/* Stile generale */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Contenitore principale */
+.container {
+  width: 80%;
+  margin: 50px auto;
+  overflow: hidden; /* Per evitare problemi di float */
+}
+
+/* Box */
+.box {
+  width: 120px;
+  height: 120px;
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+/* Posizionamento con float */
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* Testo centrale */
+.text {
+  display: inline-block;
+  font-size: 18px;
+  width: calc(100% - 300px);
+  vertical-align: middle;
+}

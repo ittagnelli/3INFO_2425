@@ -1,0 +1,26 @@
+.rosso {
+    background-color: red;
+    width: 400px;
+    height: 200px;
+    border: 1px;
+}
+
+.viola{
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.verde{
+    height: 221px;
+    background-color: green;
+}
+
+.w-1-4 { width: 25%;}
+.w-2-4 { width: 50%;}
+.w-3-4 { width: 75%;}
+.w-4-4 { width: 100%;}
+
+.w-1-8{width: 12.5%;}
+.w-3-6{width: 50%;}
+.w-5-8{width: 62.5%;}
+.w-2-9{width: 22.2%;}

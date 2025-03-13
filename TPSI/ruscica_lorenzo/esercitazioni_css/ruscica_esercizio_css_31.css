@@ -1,0 +1,17 @@
+
+img{
+  width: 500px; 
+}
+
+.text {
+  left: 180px;
+  top: 50px;
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.418);
+  display: inline-block;
+  padding: 15px;
+}
+
+

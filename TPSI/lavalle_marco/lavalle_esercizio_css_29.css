@@ -1,0 +1,27 @@
+div {
+    float : left;
+}
+
+#bordo {
+    border:20px solid lightblue;
+    margin-left: 200px;
+}
+
+.celle {
+    margin: 5px;
+    border: 1px solid black;
+    
+}
+
+img {
+    border-bottom: 1px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+

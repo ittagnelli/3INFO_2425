@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background-color: purple;
+  height: auto;
+  width: 570px;
+  color: white;
+}
+
+.box {
+  float: right;
+  background-color: aquamarine;
+  height: 180px;
+  width: 180px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.text {
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+  line-height: 1.5;
+}

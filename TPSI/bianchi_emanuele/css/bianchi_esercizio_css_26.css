@@ -1,0 +1,40 @@
+/* Stile generale */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Contenitore principale */
+.container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: purple;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden; /* Per evitare problemi di float */
+}
+
+/* Box flottante */
+.float-box {
+  width: 120px;
+  height: 120px;
+  background-color: lightcyan;
+  color: darkslategray;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  float: right;
+  margin-left: 20px;
+}
+
+/* Testo */
+.text {
+  display: inline-block;
+  max-width: calc(100% - 140px);
+  text-align: left;
+}
