@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="gorun_assembler_es01"/>
+        <attribute name="authors" value="Jenny"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 08:43:20 "/>
+        <attribute name="created" value="SmVubnk7SkVOTjsyMDI1LTAzLTEzOyIwODoyMToyNCAiOzIwMDM="/>
+        <attribute name="edited" value="SmVubnk7SkVOTjsyMDI1LTAzLTEzOyIwODo0MzoyMCAiOzM7MjExMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="mem[100]"/>
+            <assign variable="B" expression="mem[101]"/>
+            <assign variable="C" expression="mem[102]"/>
+            <assign variable="calcA" expression="2 * A"/>
+            <assign variable="calcB" expression="3 * B"/>
+            <assign variable="RISULTATO" expression="calcA * calcB - c"/>
+            <assign variable="mem[103]" expression="RISULTATO"/>
+        </body>
+    </function>
+</flowgorithm>
