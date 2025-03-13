@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ruscica_assembler_es03"/>
+        <attribute name="authors" value="lorenzo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 08:55:35 "/>
+        <attribute name="created" value="bG9yZW56bztDT01QVVRFUi1SVVNDSTsyMDI1LTAzLTEzOyIwODo1MTo1NyAiOzMwMzI="/>
+        <attribute name="edited" value="bG9yZW56bztDT01QVVRFUi1SVVNDSTsyMDI1LTAzLTEzOyIwODo1NTozNSAiOzI7MzE0MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="20"/>
+            <assign variable="b" expression="13"/>
+            <if expression="a = b">
+                <then>
+                    <assign variable="c" expression="a*b"/>
+                </then>
+                <else>
+                    <assign variable="c" expression="a+b"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
