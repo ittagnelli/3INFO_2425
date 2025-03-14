@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="savio_assembler_es04"/>
+        <attribute name="authors" value="gabbbb"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 10:05:35 PM"/>
+        <attribute name="created" value="Z2FiYmJiO0dBQkJCQi1JREVBUEFELTsyMDI1LTAzLTEyOzA5OjU5OjE4IFBNOzI4NjE="/>
+        <attribute name="edited" value="Z2FiYmJiO0dBQkJCQi1JREVBUEFELTsyMDI1LTAzLTEyOzEwOjA1OjM1IFBNOzE7Mjk1MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, calcolo" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a == b">
+                <then>
+                    <assign variable="calcolo" expression="a * b"/>
+                </then>
+                <else>
+                    <assign variable="calcolo" expression="a +b"/>
+                </else>
+            </if>
+            <output expression="calcolo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

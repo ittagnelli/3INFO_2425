@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.float-box {
+  width: 100px;
+  height: 100px;
+  background-color: lightcyan;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  float: right;
+  margin-left: 20px;
+  color: gray;
+}
+.text {
+  color: white;
+  display: inline-block;
+  max-width: 400px;
+  text-align: left;
+}

@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.text {
+  text-align: start;
+  line-height: 1.5;
+  padding: 0 20px;
+}

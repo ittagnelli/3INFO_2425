@@ -1,0 +1,19 @@
+body {
+    background-color: powderblue;
+}
+
+
+h1 {
+    border-bottom: 5px solid blue;
+    border-left: 7px solid black;
+}
+
+h4{
+    border-top: 2px dashed green;
+}
+
+p {
+    border-bottom: 3px dotted grey;
+    border-left-color: green;
+    border-right-color: green;
+}

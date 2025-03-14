@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="savio_assembler_es03"/>
+        <attribute name="authors" value="gabbbb"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 09:55:27 PM"/>
+        <attribute name="created" value="Z2FiYmJiO0dBQkJCQi1JREVBUEFELTsyMDI1LTAzLTEyOzA5OjUwOjQ4IFBNOzI4NTU="/>
+        <attribute name="edited" value="Z2FiYmJiO0dBQkJCQi1JREVBUEFELTsyMDI1LTAzLTEyOzA5OjU1OjI3IFBNOzE7Mjk2NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c1, c2, q" type="Integer" array="False" size=""/>
+            <input variable="c1"/>
+            <input variable="c2"/>
+            <assign variable="q" expression="(c1*c1)+(c2*c2)"/>
+            <output expression="q" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

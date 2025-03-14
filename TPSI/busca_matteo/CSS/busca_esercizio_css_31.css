@@ -1,0 +1,14 @@
+.parent{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 10px solid black;
+    background-image: url(https://picsum.photos/150/150?random);
+}
+
+p{
+    background-color: rgba(212, 208, 208, 0.5) ;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}

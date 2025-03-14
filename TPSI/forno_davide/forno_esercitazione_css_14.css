@@ -1,0 +1,32 @@
+td, tr{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+table{
+    border: 1px solid black;
+}
+
+.name{
+    background-color: lightblue;
+}
+
+.rgb{
+    background-color: rgb(142, 184, 229);
+}
+
+.HEX{
+    background-color: #6b7f82;
+}
+
+.hsl{
+    background-color: hsl(209, 27%, 60%);
+}
+
+.rgba{
+    background-color: rgba(91, 87, 80, 0.7);
+}
+
+.hsla{
+    background-color: hsla(91, 87%, 80%, 0.3);
+}

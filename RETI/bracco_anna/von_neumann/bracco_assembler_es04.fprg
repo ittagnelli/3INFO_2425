@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bracco_assembler_es04"/>
+        <attribute name="authors" value="root"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 04:14:18 PM"/>
+        <attribute name="created" value="cm9vdDs2MjUwMjZGOThENDU7MjAyNS0wMy0xMjswNDoxMTo0MiBQTTsyMzg4"/>
+        <attribute name="edited" value="cm9vdDs2MjUwMjZGOThENDU7MjAyNS0wMy0xMjswNDoxNDoxOCBQTTsyOzI1MDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A100, B101, R102" type="Integer" array="False" size=""/>
+            <assign variable="A100" expression="2"/>
+            <assign variable="B101" expression="3"/>
+            <if expression="A100==B101">
+                <then>
+                    <assign variable="R102" expression="A100*B101"/>
+                </then>
+                <else>
+                    <assign variable="R102" expression="A100+B101"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

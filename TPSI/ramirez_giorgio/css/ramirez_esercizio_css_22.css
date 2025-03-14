@@ -1,0 +1,15 @@
+.galleggia {
+    color: white;
+    float: left;
+    width: 100px;
+    height:30px;
+    background-color: black;
+    padding: 5px;
+    align-content: center;
+    text-align: center;
+  }
+  div:hover {
+    background-color: gray;
+    color:white;
+  }
+

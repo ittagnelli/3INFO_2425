@@ -1,0 +1,14 @@
+li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    list-style-type: none;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    padding: 15px 0px 15px 0px;
+}
+
+li:hover{
+    background-color: gray;
+}

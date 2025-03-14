@@ -1,0 +1,17 @@
+.container{
+    padding: 10px;
+    height: 100px;
+    width: 300px;
+    background-color: #a50bff;
+    color: #ffffff;
+}
+
+.box {
+    color: #ffffff;
+    background-color: aquamarine;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    float: right;
+}

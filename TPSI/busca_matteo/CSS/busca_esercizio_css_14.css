@@ -1,0 +1,23 @@
+table {
+    text-align: center;  
+  }
+  #id1 { background-color: black; }
+
+
+  #id2 { background-color: #22333B; }
+  
+  
+  
+  #id3 { background-color: rgb(234, 224, 213); }
+  
+  
+  
+  #id4 { background-color: rgba(94, 80, 63, 0.5); }
+  
+  
+  
+  #id5 { background-color: hsl(32, 33%, 67%); }
+  
+  
+  
+  #id6 { background-color: hsla(33, 20%, 31%, 0.75); }

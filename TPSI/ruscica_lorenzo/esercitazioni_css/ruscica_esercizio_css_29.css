@@ -1,0 +1,20 @@
+.tabella {
+  border: 20px solid lightblue;
+  margin: auto;
+}
+
+.colonna {
+  border: 1px solid black;
+  margin: 5px;
+  float: left;
+}
+
+img{
+  width: 150px;
+}
+
+.p { 
+  font-weight: bold;
+  text-align: center;
+  width: 150px;
+}

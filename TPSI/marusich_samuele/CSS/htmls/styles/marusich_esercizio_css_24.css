@@ -1,0 +1,22 @@
+.scacchiera {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  width: 400px; 
+  height: 400px;
+}
+
+.cella {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  font-size: 20px;
+}
+
+.cella:nth-child(odd) {
+  background-color: #ffffff; 
+}
+
+.cella:nth-child(even) {
+  background-color: #cf1515; 
+}

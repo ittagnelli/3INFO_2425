@@ -1,0 +1,54 @@
+.color {
+  background-color: red;
+  height: 200px;
+  width: 400px;
+}
+
+.verde {
+  background-color: rgba(0, 128, 0, 0.65);
+}
+
+.viola {
+  background-color: purple;
+}
+
+#ret1 {
+  height: 150px;
+  width: 25%;
+}
+
+#ret2 {
+  height: 150px;
+  width: 50%;
+}
+
+#ret3 {
+  height: 150px;
+  width: 75%;
+}
+
+#ret4 {
+  height: 150px;
+  width: 100%;
+}
+
+#ret5 {
+  height: 221px;
+  width: 12.5%;
+}
+
+#ret6 {
+  height: 221px;
+  width: 50%;
+}
+
+#ret7 {
+  height: 221px;
+  width: 62.5%;
+}
+
+#ret8 {
+  height: 221px;
+  width: 22.222222222%;
+}
+

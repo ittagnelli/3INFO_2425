@@ -1,0 +1,23 @@
+/* Stile per i titoli di primo livello (h1) */
+h1 {
+    border-bottom: 5px solid blue;  /* Bordo inferiore solido blu */
+    border-left: 7px solid black;   /* Bordo sinistro solido nero */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Stile per i titoli di secondo livello (h2) */
+h2 {
+    border-top: 2px dashed green;   /* Bordo superiore tratteggiato verde */
+    padding: 8px;
+    margin-top: 20px;
+}
+
+/* Stile per i paragrafi (p) */
+p {
+    border-bottom: 3px dashed gray;  /* Bordo inferiore tratteggiato grigio */
+    border-left: 2px solid green;    /* Bordo sinistro solido verde */
+    border-right: 2px solid green;   /* Bordo destro solido verde */
+    padding: 10px;
+    margin: 10px 0;
+}

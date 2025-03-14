@@ -1,0 +1,47 @@
+#div1{
+    background-color: red;
+    width: 400px;
+    height: 200px;
+}
+
+#div2, #div3, #div4, #div5{
+    background-color: purple;
+    height: 150px;
+}
+
+#div2{
+    width: 25%;
+}
+
+#div3{
+    width: 50%;
+}
+
+#div4{
+    width: 75%;
+}
+
+#div5{
+    width: 100%;
+}
+
+#div6, #div7, #div8, #div9{
+    background-color: rgba(0, 255, 0, 0.65);
+    height: 221px;
+}
+
+#div6{
+    width: 12.5%;
+}
+
+#div7{
+    width: 50%;
+}
+
+#div8{
+    width: 62.5%;
+}
+
+#div9{
+    width: 22.2%;
+}

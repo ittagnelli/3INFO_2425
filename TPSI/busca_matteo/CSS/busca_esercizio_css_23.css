@@ -1,0 +1,12 @@
+.menu li {
+  float: left;
+    display: inline;
+    padding: 10px;
+  }
+  .color{
+    background-color: black;
+    color: white;
+  }
+  .menu li:hover{
+    background-color: darkgray;
+  }

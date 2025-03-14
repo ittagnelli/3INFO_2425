@@ -1,0 +1,26 @@
+table,
+td tr {
+  padding: 5px;
+}
+
+h1 {
+font-family: 'Sour Gummy';
+}
+
+ul{
+  list-style-type: circle;
+}
+ol{
+  list-style-type: lower-roman;
+}
+ol:nth-child(2){
+  list-style-type: none;
+}
+
+li:before {
+  content: 'done_outline';
+  font-family: 'Material Icons';
+  color: red;
+  vertical-align: -10%;
+  padding-right: 10px;
+}

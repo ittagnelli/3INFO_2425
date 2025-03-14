@@ -1,0 +1,20 @@
+table,
+td tr {
+  padding: 5px;
+}
+
+h1 {
+  color: blue;
+  border-bottom: 5px solid blue;
+  border-left: 7px solid black;
+}
+
+h2 {
+  border-top: 2px dashed green;
+}
+
+p {
+  border-bottom: 3px dashed gray;
+  border-left-color: green;
+  border-right-color: green;
+}

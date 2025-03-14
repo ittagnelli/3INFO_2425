@@ -1,0 +1,27 @@
+h1, h2, h3{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+
+p{
+    color: blue;
+    text-align: left;
+}
+
+#h2-3{
+    color: green;
+}
+
+#p-7{
+    color: red;
+    text-align: left;
+}
+
+.hr-pari{
+    border: 10px solid black;
+}
+
+.hr-dispari{
+    border: 3px solid red;
+}
