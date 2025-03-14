@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tamaddon_assembler_es01"/>
+        <attribute name="authors" value="kaitl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 07:47:02 "/>
+        <attribute name="created" value="a2FpdGw7TVNJOzIwMjUtMDMtMTI7IjA3OjQwOjMwICI7MTk1MA=="/>
+        <attribute name="edited" value="a2FpdGw7TVNJOzIwMjUtMDMtMTI7IjA3OjQ3OjAyICI7NTsyMDY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, somma, jump, prodotto" type="Integer" array="False" size=""/>
+            <assign variable="jump" expression="0"/>
+            <if expression="a==b">
+                <then>
+                    <assign variable="jump" expression="jump+5"/>
+                </then>
+                <else>
+                    <assign variable="jump" expression="jump+6"/>
+                </else>
+            </if>
+            <assign variable="prodotto" expression="(a*b)"/>
+            <assign variable="somma" expression="a+b"/>
+        </body>
+    </function>
+</flowgorithm>
