@@ -1,0 +1,19 @@
+.grid-conteiner{
+    width: 25%;
+    height: 30vh;
+    display: grid;
+    align-content: space-between;
+    justify-content: space-between;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 50%;
+}
+.grid-item{
+    background-color: rgb(71, 71, 71);
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px;
+    border: solid black 2px;
+}
+.a{
+    grid-column: 2/4;
+}

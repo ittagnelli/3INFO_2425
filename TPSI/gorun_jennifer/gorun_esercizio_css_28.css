@@ -1,0 +1,32 @@
+.gallery-container {
+    width: fit-content;
+    margin: auto;
+    border: 20px solid rgb(129, 103, 243);
+    padding: 10px;
+}
+
+
+.gallery-table {
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+
+.gallery-table td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.gallery-table img {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+
+.caption {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}

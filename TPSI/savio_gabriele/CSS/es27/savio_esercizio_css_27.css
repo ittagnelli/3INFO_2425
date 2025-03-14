@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  width: 550px;
+  margin: 50px auto;
+}
+
+.box {
+  width: 180px;
+  height: 180px;
+  background-color: purple;
+  float: left;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.box > p {
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+  line-height: 1.5;
+}
+
+
+.clear-text {
+  clear: left;
+  margin: 20px;
+}

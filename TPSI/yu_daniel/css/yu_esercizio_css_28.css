@@ -1,0 +1,21 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border: 20px solid lightblue;
+    text-align: center;
+}
+td{
+    border: 1px solid;
+    padding: 5px;
+    width: 150px;
+    object-fit: cover;
+}
+p{
+    font-weight: bold;
+}
+img{
+    width: 150px;
+}

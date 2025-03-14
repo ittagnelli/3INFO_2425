@@ -1,0 +1,8 @@
+.p, .h1, .h2 {
+            color: red;
+  }
+
+.hr {
+        text-decoration: underline;
+        text-decoration-color:blue;
+  }

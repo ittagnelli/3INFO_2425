@@ -1,0 +1,31 @@
+/* Stile generale */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+/* Contenitore dell'immagine */
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Immagine */
+.container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Testo in alto a sinistra */
+.text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: yellow;
+}

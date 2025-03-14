@@ -1,0 +1,91 @@
+#img1{
+    background-image: url(img1.jpg);
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+}
+
+#img2{
+    background-image: url(img2.jpg);
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+}
+
+#img3{
+    background-image: url(img3.jpg);
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+}
+
+#img4{
+    background-image: url(img4.jpg);
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+}
+
+#img5{
+    background-image: url(img5.jpg);
+    width: 1000px;
+    height: 200px;
+    border: 1px solid;
+    background: repeat;
+}
+
+#img6{
+    background-image: url(img6.jpg);
+    width: 1000px;
+    height: 200px;
+    border: 1px solid;
+    background: repeat;
+}
+
+#img7{
+    background-image: url(img7.jpg);
+    width: 1000px;
+    height: 200px;
+    border: 1px solid;
+    background: no-repeat;
+}
+
+#img8{
+    background-image: url(img8.jpg);
+    width: 1000px;
+    height: 200px;
+    border: 1px solid;
+    background: no-repeat;
+}
+
+#img9{
+    background-image: url(img9.jpg);
+    width: 1000px;
+    height: 200px;
+    border: 1px solid;
+    background: repeat-x;
+}
+
+#img10{
+    background-image: url(img10.jpg);
+    width: 1000px;
+    height: 200px;
+    border: 1px solid;
+    background: repeat-x;
+}
+
+#img11{
+    background-image: url(img11.jpg);
+    width: 1000px;
+    height: 200px;
+    border: 1px solid;
+    background: repeat-y;
+}
+
+#img12{
+    background-image: url(img12.jpg);
+    width: 1000px;
+    height: 200px;
+    border: 1px solid;
+    background: repeat-y;
+}

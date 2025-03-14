@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+  border: 5px solid #dce1e4;
+}
+header, footer {
+  background: #f89c5a;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+footer {
+  background: #99cc42;
+}
+.content {
+  display: flex;
+}
+.sidebar {
+  background: #f7b748;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.main {
+  background: #7eaac7;
+  width: 70%;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,37 @@
+body {
+    background-color: powderblue;
+}
+
+#h1_1 {
+  font-family: sans-serif;
+}
+
+#h1_2 {
+  font-family: Sofia, sans-serif;;
+}
+
+#h1_3 {
+  font-family: Audiowide, sans-serif;;
+}
+
+
+
+#ul_1 {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+  
+#ul_3 {
+  list-style-type: 'done_outline';
+}
+  
+li:nth-child:before {
+  font-family: 'Material Icons';
+  color: red;
+  vertical-align: -10%;
+  padding-right: 10px;
+}
+

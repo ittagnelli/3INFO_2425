@@ -1,0 +1,40 @@
+/* Stile generale */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+/* Contenitore gallery */
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 5px; /* Distanza tra colonne */
+  padding: 10px;
+  border: 20px solid lightblue; /* Bordo esterno */
+  background-color: white;
+}
+
+/* Colonne con immagini */
+.photo {
+  text-align: center;
+  border: 1px solid black; /* Bordo delle colonne */
+  padding: 10px;
+  background-color: white;
+}
+
+/* Immagini */
+.photo img {
+  width: 150px;
+  display: block;
+}
+
+/* Testo sotto le immagini */
+.photo p {
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+}

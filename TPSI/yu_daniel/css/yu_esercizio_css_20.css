@@ -1,0 +1,15 @@
+h1{
+    text-transform: uppercase;
+    color: blue;
+}
+h2{
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: red;
+}
+p{
+    text-align: justify;
+}
+#ciao{text-align: right;}
+
+blockquote{text-shadow: 4px 4px 3px red;}
