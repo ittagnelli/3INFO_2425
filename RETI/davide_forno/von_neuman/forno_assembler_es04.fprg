@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tamaddon_assembler_es01"/>
+        <attribute name="authors" value="kaitl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 09:18:49 "/>
+        <attribute name="created" value="a2FpdGw7TVNJOzIwMjUtMDMtMTI7IjA3OjQwOjMwICI7MTk1MA=="/>
+        <attribute name="edited" value="a2FpdGw7TVNJOzIwMjUtMDMtMTI7IjA3OjQ3OjAyICI7NTsyMDY4"/>
+        <attribute name="edited" value="RGF2aWRlO0lPOzIwMjUtMDMtMTI7IjA5OjE4OjQ5ICI7MTsyMDUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, s, j, p" type="Integer" array="False" size=""/>
+            <assign variable="jump" expression="0"/>
+            <if expression="n1==n2">
+                <then>
+                    <assign variable="j" expression="j+5"/>
+                </then>
+                <else>
+                    <assign variable="j" expression="j+6"/>
+                </else>
+            </if>
+            <assign variable="p" expression="(n1*n2)"/>
+            <assign variable="s" expression="n2+n1"/>
+        </body>
+    </function>
+</flowgorithm>
