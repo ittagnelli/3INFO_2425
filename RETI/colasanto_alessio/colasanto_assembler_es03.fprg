@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="pugliese_assembler_es03"/>
+        <attribute name="authors" value="root"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 10:40:26 AM"/>
+        <attribute name="created" value="cm9vdDs5OUUwRDQ0NTg1QTY7MjAyNS0wMy0xMDswOTozNjowOCBBTTsyNDA0"/>
+        <attribute name="edited" value="cm9vdDs5OUUwRDQ0NTg1QTY7MjAyNS0wMy0xMDswOTo0MDoyNiBBTTsxOzI1MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, area" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="5"/>
+            <assign variable="b" expression="10"/>
+            <assign variable="area" expression="a * a"/>
+            <assign variable="area" expression="area + b * b"/>
+        </body>
+    </function>
+</flowgorithm>
