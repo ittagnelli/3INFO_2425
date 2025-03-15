@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <flowgorithm fileversion="4.2">
     <attributes>
-        <attribute name="name" value="correndo_es07"/>
+        <attribute name="name" value="correndo_assembler_es07"/>
         <attribute name="authors" value="marco"/>
         <attribute name="about" value=""/>
         <attribute name="saved" value="2025-03-15 06:22:36 PM"/>
