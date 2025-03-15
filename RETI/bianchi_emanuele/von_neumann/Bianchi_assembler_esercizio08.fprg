@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Bianchi_assembler_esercizio08"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-15 11:59:06 "/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUxFTzExTU87MjAyNS0wMy0xNTsiMTE6NTA6MDkgIjsyNjY1"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUxFTzExTU87MjAyNS0wMy0xNTsiMTE6NTk6MDYgIjsxOzI3Nzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="gc, gf" type="Real" array="False" size=""/>
+            <input variable="gc"/>
+            <assign variable="gf" expression="(gc*9)/5+32"/>
+            <output expression="&quot;la conversione &#232;: &quot;&amp;gf" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

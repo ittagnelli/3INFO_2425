@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Bianchi_assembler_esercizio05"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-15 11:18:28 "/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUxFTzExTU87MjAyNS0wMy0xNTsiMTE6MTI6MjcgIjsyNjYz"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUxFTzExTU87MjAyNS0wMy0xNTsiMTE6MTg6MjggIjsxOzI3Nzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="i" expression="1"/>
+            <if expression="i&lt;= n">
+                <then>
+                    <for variable="i" start="0" end="n" direction="inc" step="1">
+                        <assign variable="i" expression="i+1"/>
+                    </for>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
