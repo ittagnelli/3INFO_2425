@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="prevedi_assembler_es06"/>
+        <attribute name="authors" value="danie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-15 08:03:48 "/>
+        <attribute name="created" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTE1OyIwNzoyODo0MSAiOzIzOTg="/>
+        <attribute name="edited" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTE1OyIwODowMzo0OCAiOzI7MjUwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="somma" type="Integer" array="False" size=""/>
+            <assign variable="somma" expression="0"/>
+            <assign variable="a" expression="5"/>
+            <for variable="i" start="b" end="1" direction="dec" step="1">
+                <assign variable="somma" expression="somma + a"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
