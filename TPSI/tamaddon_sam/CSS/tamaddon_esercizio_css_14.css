@@ -1,0 +1,30 @@
+tr {
+    border: 2px solid rgb(255, 0, 0);
+  }
+  td {
+    border: 2px solid rgb(0, 0, 0);
+  }
+
+.td1 {
+    background-color: rgb(0, 124, 0);
+}
+.td2 {
+    background-attachment: #00ffff;
+}
+
+.td3 {
+    background-color: hsla(0, 100%, 50%, 0.81);
+}
+.td4 {
+    background-color: #eeff00;
+}
+
+.td5 {
+    background-color: rgba(0, 255, 13, 0.5);
+}
+
+.td6 {
+    background-color: rgb(0, 81, 255);
+}
+
+

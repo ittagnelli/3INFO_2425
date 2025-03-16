@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "UTF-8">
+    <title>Form Server</title>
+  </head>
+  <body>
+    <h1>Database Studenti</h1>
+    <form action="/aggiungi" method="POST">
+      <fieldset>
+        <h3>Aggiunta Nuovo Studente</h3>
+        <label for="ids">ID Studente</label>
+        <input type ="text" id="ids" name='id_studente' required>
+        <br><br>
+        
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome_studente" required>
+        <br><br>
+
+        <label for="nome">Cognome</label>
+        <input type="text" id="cognome" name="cognome_studente" required>
+        <br><br>
+        
+        <label for="eta">Età</label>
+        <input type="range" id="eta" name="eta" min="0" max="100" value="25" step="1" oninput="this.nextElementSibling.value = this.value">
+        <output>25</output> anni
+        <br><br>
+        
+        <button type ="reset">Cancella</button>
+        <button type ="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

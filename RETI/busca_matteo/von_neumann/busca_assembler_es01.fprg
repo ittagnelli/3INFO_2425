@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ramirez_assembler_es01"/>
+        <attribute name="authors" value="root"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-10 09:58:39 AM"/>
+        <attribute name="created" value="cm9vdDs0M0U4RUFCM0FCNDE7MjAyNS0wMy0xMDswOTo1Njo0NSBBTTsyNDM0"/>
+        <attribute name="edited" value="cm9vdDs0M0U4RUFCM0FCNDE7MjAyNS0wMy0xMDswOTo1ODozOSBBTTsxOzI1NDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="somma, A100, B101, C102" type="Integer" array="False" size=""/>
+            <assign variable="A100" expression="1"/>
+            <assign variable="B101" expression="2"/>
+            <assign variable="C102" expression="3"/>
+            <assign variable="somma" expression="A100+B101+C102"/>
+        </body>
+    </function>
+</flowgorithm>

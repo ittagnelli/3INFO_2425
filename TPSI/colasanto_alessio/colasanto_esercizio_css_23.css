@@ -1,0 +1,17 @@
+div{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    float: left;
+}
+
+div:hover{
+    background-color: grey;
+}
+
+div:first-child{
+    margin-left: calc(50% - 200px);
+}

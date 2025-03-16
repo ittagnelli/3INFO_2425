@@ -1,0 +1,25 @@
+body {
+   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+
+
+.col{
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+.immagine {
+    border: 5px solid red;
+    padding: 8px;
+    margin-top: 5px;
+    background-color: white;
+}

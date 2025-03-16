@@ -1,0 +1,35 @@
+div.pari{
+    background-color: grey;
+    border: 2px solid white;
+    float:left;
+    width: 20px;
+    height: 20px;
+}
+
+div.pari:nth-child(even){
+    background-color: black;
+    border: 2px solid white;
+    float:left;
+    width: 20px;
+    height: 20px;
+}
+
+div.dispari{
+    background-color: black;
+    border: 2px solid white;
+    float:left;
+    width: 20px;
+    height: 20px;
+}
+
+div.dispari:nth-child(odd){
+    background-color: grey;
+    border: 2px solid white;
+    float:left;
+    width: 20px;
+    height: 20px;
+}
+
+.fine-linea{
+    float:none;
+}

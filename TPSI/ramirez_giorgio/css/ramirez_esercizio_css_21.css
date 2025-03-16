@@ -1,0 +1,26 @@
+.sigmar-regular {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+.josefin-sans{
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} 
+  
+ul.cercho {
+  list-style-type: circle;
+}
+
+ol.roman {
+  list-style-type: upper-roman;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ruscica"/>
+        <attribute name="authors" value="root"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-10 09:33:56 AM"/>
+        <attribute name="created" value="cm9vdDsxMUYyREI2Q0VBMUY7MjAyNS0wMy0xMDswOTozMjoxNCBBTTsyNDM5"/>
+        <attribute name="edited" value="cm9vdDsxMUYyREI2Q0VBMUY7MjAyNS0wMy0xMDswOTozMzo1NiBBTTsxOzI1NTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, s" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="30"/>
+            <assign variable="b" expression="23"/>
+            <assign variable="c" expression="40"/>
+            <assign variable="s" expression="a + b + c"/>
+        </body>
+    </function>
+</flowgorithm>

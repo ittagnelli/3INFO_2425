@@ -1,0 +1,13 @@
+.parent {
+    background-color: purple;
+    border: 1px solid;
+    width: 300px;
+    height: 100px;
+  }
+
+  #child1 {
+    background-color: turquoise;
+    border: 1px solid;
+    width: 50%;
+    height: 50%;
+  }

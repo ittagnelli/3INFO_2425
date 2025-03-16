@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 450px;
+  margin: 20px auto;
+  height: 100px;
+  text-align: center;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: purple;
+  color: white;
+  text-align: left;
+  line-height: 40px;
+  border-radius: 10px;
+}
+
+.box-center{
+  text-align: justify;
+  float: left;
+  margin-top: -10px;
+  width: 150px;
+  height: 100px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+

@@ -1,0 +1,46 @@
+.red {
+    background-color: red;
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+  }
+.purple{
+    background-color: purple;
+    height: 150px;
+    width: calc(100%*1/4);
+    border: 1px solid;
+}
+#id1{
+    width: calc(100%*1/4);
+}
+#id2{
+    width: calc(100%*2/4);
+}
+#id3{
+    width: calc(100%*3/4);
+}
+#id4{
+    width: calc(100%*4/4);
+}
+
+.green{
+
+    background-color: rgba(21, 168, 21, 0.65);
+    
+    height: 221px;
+    border: 1px solid;
+}
+#ii1{
+    width: calc(100%*1/8);
+
+}
+#ii2{
+    width: calc(100%*3/6);
+
+}
+#ii3{
+    width: calc(100%*5/8);
+}
+#ii4{
+    width: calc(100%*2/9);
+}

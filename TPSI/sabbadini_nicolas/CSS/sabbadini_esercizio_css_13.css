@@ -1,0 +1,6 @@
+td:nth-child(odd){
+    color: blue;
+}
+td:nth-child(even){
+    color: red;
+}

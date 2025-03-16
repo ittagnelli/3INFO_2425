@@ -1,0 +1,29 @@
+.text {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.float {
+    background-color: lightgreen;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.text, .float{
+    float: right;
+    color:  white;
+}
+
+.container {
+    margin: auto;
+    width: 380px;
+    height: 180px;
+    background-color: blueviolet;
+}

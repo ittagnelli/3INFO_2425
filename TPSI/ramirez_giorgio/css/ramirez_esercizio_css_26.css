@@ -1,0 +1,22 @@
+.container {
+    width: 450px;
+    height: 200px;
+    line-height: 40px;
+    color: white;
+    background-color: purple;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.box-right {
+    padding: 10px;
+    margin-top: -70px;
+    width: 150px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    color: white;
+    text-align: left;
+    line-height: 40px;
+    float: right;
+}

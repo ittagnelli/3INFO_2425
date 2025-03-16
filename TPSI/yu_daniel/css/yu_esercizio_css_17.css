@@ -1,0 +1,12 @@
+div
+{
+    width: 250px;
+    height: 300px;
+    background-image:url(https://picsum.photos/seed/picsum/300/300)  ;
+    padding: 5px ;
+}
+p
+{
+    border: 8px solid;
+    border-color: red;
+}

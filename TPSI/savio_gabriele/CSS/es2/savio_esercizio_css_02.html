@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Gabriele Savio" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, TPSI, esercizio1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100" />
+    <title>Esercitazione 01 HTML</title>
+
+    <style>
+      body {
+        background-color: rgb(0, 11, 110);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+      }
+
+      h1 {
+        color: rgb(112, 110, 255);
+        font-weight: bold;
+      }
+
+      button {
+        background-color: rgb(0, 82, 177);
+        color: rgb(127, 140, 255);
+        width: 190px;
+        height: 50px;
+        border-radius: 100px;
+        border: none;
+        box-shadow: 0px 0px 0px #000;
+        transition: all 0.5s;
+
+        &:hover {
+          transform: translateY(-5px);
+          box-shadow: 0px 0px 20px #ffffff5b;
+        }
+
+        &:active {
+          transform: translateY(5px);
+          transform: scale(0.96);
+          box-shadow: 0px 0px 0px #000;
+        }
+      }
+    </style>
+    <script>
+      function myFunction() {
+        document.getElementById("titolo").innerHTML =
+          "STRUTTURA BASE DI UNA PAGINA WEB";
+      }
+    </script>
+  </head>
+  <body>
+    <h1 id="titolo">La mia prima pagina HTML</h1>
+    <button onclick="myFunction()">Clicca per cambiare il titolo</button>
+  </body>
+</html>

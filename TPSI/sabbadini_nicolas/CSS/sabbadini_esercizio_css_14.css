@@ -1,0 +1,23 @@
+.id1 , .id2{
+    background-color: red;
+}
+
+.id3 , .id4{
+    background-color: #f1f1f1;
+}
+
+.id5 , .id6{
+    background-color: rgb(red, green, blue);
+}
+
+.id7 , .id8{
+    background-color: hsl(hue, saturation, lightness);
+}
+
+.id9 , .id10{
+    background-color: rgba(red, green, blue, alpha);
+}
+
+.id11 , .id12{
+    background-color: hsla(hue, saturation, lightness, alpha);
+}

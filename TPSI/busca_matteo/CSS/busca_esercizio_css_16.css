@@ -1,0 +1,14 @@
+.bg1, .bg2, .bg3, .bg4 {
+    background-image: url(https://picsum.photos/90/250/?random=1);
+    width: 250px;
+    height: 90px;
+    border: 1px solid black;
+  }
+
+  .bg1 { background-repeat: repeat; }
+  
+  .bg2 { background-repeat: no-repeat; }
+  
+  .bg3 { background-repeat: repeat-x; }
+  
+  .bg4 { background-repeat: repeat-y; }

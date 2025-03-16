@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .left {
+    float: left;
+    margin-right: 20px;
+  }
+  .right {
+    float: right;
+    margin-left: 20px;
+  }
+  .text {
+    display: inline-block;
+    max-width: 200px;
+    vertical-align: middle;
+  }

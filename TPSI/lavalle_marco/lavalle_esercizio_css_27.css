@@ -1,0 +1,31 @@
+.text_1 {
+    float: left;
+    width: 215px;
+    height: 90px;
+}
+
+.text_2 {
+    width: 279px;
+    height: 40px;
+}
+
+.float {
+    color: white;
+    float: left;
+    background-color: purple;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.container{
+    width: 335px;
+    height: 120px;
+}
+
+
+.center {
+    margin: auto;
+    width: 335px;
+    height: 242px;
+}

@@ -1,0 +1,23 @@
+.celle1 {
+    background-color: blue;
+}
+
+.celle2{
+    background-color: #F1A3C4;
+}
+
+.celle3{
+    background-color: rgb(240,124,22);
+}
+
+.celle4{
+    background-color: rgba(124,22,240,0.5);
+}
+
+.celle5{
+    background-color: hsl(5, 30%, 54%);
+}
+
+.celle6{
+    background-color: hsla(5, 54%, 30%, 0.81);
+}

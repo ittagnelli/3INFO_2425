@@ -1,0 +1,20 @@
+h1 { 
+     text-transform: uppercase;
+     color: blue ;
+}
+
+h2{
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: red;
+}
+
+p{
+    text-align: justify;
+}
+
+.h1{
+    text-shadow: 2px 3px pink;
+}
+
+body {background-color: #ffffff ;}

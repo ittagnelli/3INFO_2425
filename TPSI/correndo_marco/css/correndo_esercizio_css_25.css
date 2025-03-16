@@ -1,0 +1,19 @@
+
+div{
+    float: left;
+    font-size: 5rem;
+    height: 50vh;
+    width: 20vw;
+}
+div:nth-child(2){
+    width: 25vw;
+    padding: 10px;
+    padding-left: 50px;
+    text-align: left;
+}
+div:nth-child(2n+1){
+    background-color: purple;
+    border-radius: 2%;
+    color: white;
+    padding: 30px;
+}
