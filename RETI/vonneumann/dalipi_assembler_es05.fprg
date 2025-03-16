@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="dalipi_assembler_es05"/>
+        <attribute name="authors" value="Andi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 10:22:12 PM "/>
+        <attribute name="created" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTE1OyIxMDo0NDoxMCAiOzIzODY="/>
+        <attribute name="edited" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTE1OyIwMToyMzo1MCAiOzE7MjQ5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="val" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="10"/>
+            <for variable="i" start="n" end="0" direction="dec" step="1">
+                <assign variable="val" expression="n - i"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
