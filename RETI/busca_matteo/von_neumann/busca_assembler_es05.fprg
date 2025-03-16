@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ramirez_assembler_es05"/>
+        <attribute name="authors" value="ramir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 11:56:35 "/>
+        <attribute name="created" value="cmFtaXI7TVNJOzIwMjUtMDMtMTY7IjA2OjQ1OjA2ICI7MTk2Nw=="/>
+        <attribute name="edited" value="cmFtaXI7TVNJOzIwMjUtMDMtMTY7IjA2OjQ4OjU5ICI7MTsyMDg2"/>
+        <attribute name="edited" value="QURNSU47TEFQVE9QLUtJTktJSjZFOzIwMjUtMDMtMTY7IjExOjU2OjM1ICI7MTsyNzQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2" type="Integer" array="False" size=""/>
+            <assign variable="n1" expression="5"/>
+            <assign variable="n2" expression="0"/>
+            <for variable="n1" start="n1" end="1" direction="dec" step="1">
+                <assign variable="n2" expression="n2+1"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

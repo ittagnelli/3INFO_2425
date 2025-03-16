@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ramirez_assembler_es06"/>
+        <attribute name="authors" value="ramir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 11:54:26 "/>
+        <attribute name="created" value="cmFtaXI7TVNJOzIwMjUtMDMtMTQ7IjEwOjE0OjEzICI7MTk1NA=="/>
+        <attribute name="edited" value="cmFtaXI7TVNJOzIwMjUtMDMtMTQ7IjEwOjE5OjA5ICI7MTsyMDcy"/>
+        <attribute name="edited" value="QURNSU47TEFQVE9QLUtJTktJSjZFOzIwMjUtMDMtMTY7IjExOjU0OjI2ICI7MTsyNzQy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, s" type="Integer" array="False" size=""/>
+            <assign variable="n1" expression="2"/>
+            <assign variable="s" expression="((n1+1)*n1)/2"/>
+        </body>
+    </function>
+</flowgorithm>
