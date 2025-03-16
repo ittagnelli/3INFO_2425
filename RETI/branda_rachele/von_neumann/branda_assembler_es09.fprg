@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tamaddon_assembler_es05"/>
+        <attribute name="authors" value="kaitl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 12:47:33 "/>
+        <attribute name="created" value="a2FpdGw7TVNJOzIwMjUtMDMtMTY7IjEyOjM3OjU1ICI7MTk2Mw=="/>
+        <attribute name="edited" value="a2FpdGw7TVNJOzIwMjUtMDMtMTY7IjEyOjQ3OjMzICI7NTsyMDcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c, f, temp" type="Integer" array="False" size=""/>
+            <assign variable="temp" expression="c*9"/>
+            <assign variable="temp" expression="temp/5"/>
+            <assign variable="f" expression="temp+32"/>
+        </body>
+    </function>
+</flowgorithm>

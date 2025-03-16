@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tamaddon_assembler_es05"/>
+        <attribute name="authors" value="kaitl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 12:39:57 "/>
+        <attribute name="created" value="a2FpdGw7TVNJOzIwMjUtMDMtMTY7IjEyOjM3OjU1ICI7MTk2Mw=="/>
+        <attribute name="edited" value="a2FpdGw7TVNJOzIwMjUtMDMtMTY7IjEyOjM5OjU3ICI7MTsyMDc1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, n, i" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="10"/>
+            <for variable="i" start="0" end="n" direction="inc" step="1">
+                <assign variable="b" expression="i"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
