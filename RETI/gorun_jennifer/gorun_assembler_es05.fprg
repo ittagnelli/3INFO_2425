@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="gorun_assembler_es05"/>
+        <attribute name="authors" value="Jenny"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 05:21:27 "/>
+        <attribute name="created" value="SmVubnk7SkVOTjsyMDI1LTAzLTE2OyIwNToxNToxMSAiOzIwMDI="/>
+        <attribute name="edited" value="SmVubnk7SkVOTjsyMDI1LTAzLTE2OyIwNToyMToyNyAiOzE7MjExNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="n" expression="ram[100]"/>
+            <assign variable="indirizzo" expression="ram[101]"/>
+            <for variable="i" start="1" end="n" direction="inc" step="i"/>
+        </body>
+    </function>
+</flowgorithm>
