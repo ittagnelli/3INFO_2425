@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="savio_assembler_es06"/>
+        <attribute name="authors" value="gabbbb"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 07:07:29 "/>
+        <attribute name="created" value="Z2FiYmJiO0dBQkJCQi1JREVBUEFELTsyMDI1LTAzLTE1OzEyOjM3OjA4IFBNOzI4NTM="/>
+        <attribute name="edited" value="Z2FiYmJiO0dBQkJCQi1JREVBUEFELTsyMDI1LTAzLTE1OzEyOjQxOjI2IFBNOzE7Mjk1Ng=="/>
+        <attribute name="edited" value="RGF2aWRlO0lPOzIwMjUtMDMtMTY7IjA3OjA3OjI5ICI7MTsyMDQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, s" type="Integer" array="False" size=""/>
+            <assign variable="s" expression="0"/>
+            <assign variable="s" expression="3"/>
+            <for variable="i" start="n" end="1" direction="dec" step="1">
+                <assign variable="s" expression="s + i"/>
+            </for>
+            <output expression="s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

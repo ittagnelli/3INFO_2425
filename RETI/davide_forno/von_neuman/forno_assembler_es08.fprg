@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="savio_assembler_es08"/>
+        <attribute name="authors" value="gabbbb"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 07:08:55 "/>
+        <attribute name="created" value="Z2FiYmJiO0dBQkJCQi1JREVBUEFELTsyMDI1LTAzLTE1OzEyOjQxOjM5IFBNOzI4NTI="/>
+        <attribute name="edited" value="Z2FiYmJiO0dBQkJCQi1JREVBUEFELTsyMDI1LTAzLTE1OzEyOjQ0OjIwIFBNOzE7Mjk1Mw=="/>
+        <attribute name="edited" value="RGF2aWRlO0lPOzIwMjUtMDMtMTY7IjA3OjA4OjU1ICI7MTsyMDQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="k, n" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="100"/>
+            <assign variable="k" expression="(n *9 /5)+32"/>
+            <output expression="k" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
