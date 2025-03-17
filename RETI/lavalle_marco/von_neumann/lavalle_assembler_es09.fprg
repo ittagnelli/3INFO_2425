@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="marco"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 11:57:42 "/>
+        <attribute name="created" value="bWFyY287TEVOT1ZPLUlERUFQQUQ7MjAyNS0wMy0xNjsiMTE6NDM6MzIgIjsyNzE4"/>
+        <attribute name="edited" value="bWFyY287TEVOT1ZPLUlERUFQQUQ7MjAyNS0wMy0xNjsiMTE6NTc6NDIgIjs1OzI4MzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, s" type="Integer" array="False" size=""/>
+            <assign variable="s" expression="(a-32)*5/9"/>
+        </body>
+    </function>
+</flowgorithm>
