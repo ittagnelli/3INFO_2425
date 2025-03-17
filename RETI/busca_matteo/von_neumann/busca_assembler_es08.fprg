@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ramirez_assembler_es08"/>
+        <attribute name="authors" value="ramir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 11:29:29 "/>
+        <attribute name="created" value="cmFtaXI7TVNJOzIwMjUtMDMtMTY7IjA2OjI5OjE1ICI7MTk2OQ=="/>
+        <attribute name="edited" value="cmFtaXI7TVNJOzIwMjUtMDMtMTY7IjA2OjMyOjEwICI7MTsyMDY2"/>
+        <attribute name="edited" value="QURNSU47TEFQVE9QLUtJTktJSjZFOzIwMjUtMDMtMTY7IjExOjI5OjI5ICI7MTsyNzQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="C, F" type="Integer" array="False" size=""/>
+            <assign variable="C" expression="20"/>
+            <assign variable="F" expression="((C*9)/5)+32"/>
+        </body>
+    </function>
+</flowgorithm>
