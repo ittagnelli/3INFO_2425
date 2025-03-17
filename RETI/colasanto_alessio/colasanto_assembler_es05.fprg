@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="colasanto_assembler_es05"/>
+        <attribute name="authors" value="gabbbb"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-15 11:57:10 AM"/>
+        <attribute name="created" value="Z2FiYmJiO0dBQkJCQi1JREVBUEFELTsyMDI1LTAzLTE1OzExOjM4OjEyIEFNOzI4MzM="/>
+        <attribute name="edited" value="Z2FiYmJiO0dBQkJCQi1JREVBUEFELTsyMDI1LTAzLTE1OzExOjU3OjEwIEFNOzM7Mjk0Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="4" end="0" direction="dec" step="1">
+                <output expression="i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
