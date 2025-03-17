@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="prevedi_assembler_es11"/>
+        <attribute name="authors" value="danie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-17 09:45:19 "/>
+        <attribute name="created" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTE3OyIwOTo0MzozNiAiOzI0MDM="/>
+        <attribute name="edited" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTE3OyIwOTo0NToxOSAiOzE7MjUxNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="risultato" type="Integer" array="False" size=""/>
+            <for variable="i" start="y" end="0" direction="dec" step="1">
+                <assign variable="risultato" expression="risultato * x"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
