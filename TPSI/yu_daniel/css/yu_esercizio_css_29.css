@@ -1,6 +1,7 @@
 div.container{
     border: 20px solid lightblue;
     margin: auto;
+    height: 100%;
 }
 
 div.colonna{

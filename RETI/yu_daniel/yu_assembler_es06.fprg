@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="yu_assembler_es05"/>
+        <attribute name="authors" value="HYPERX"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 10:27:53 "/>
+        <attribute name="created" value="SFlQRVJYO0RFU0tUT1AtNktSUDJWTDsyMDI1LTAzLTE2OyIxMDoxOTowOSAiOzI3NjA="/>
+        <attribute name="edited" value="SFlQRVJYO0RFU0tUT1AtNktSUDJWTDsyMDI1LTAzLTE2OyIxMDoyNzo1MyAiOzI7Mjg2Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <declare name="RAM101" type="Integer" array="False" size=""/>
+            <assign variable="RAM101" expression="0"/>
+            <declare name="N" type="Integer" array="False" size=""/>
+            <assign variable="N" expression="0"/>
+            <do expression="A-N != 0">
+                <assign variable="N" expression="N+1"/>
+                <assign variable="RAM101" expression="RAM101+N"/>
+                <output expression="RAM101" newline="True"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
