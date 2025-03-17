@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="danci_es05"/>
+        <attribute name="authors" value="davide"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-15 06:08:13 PM"/>
+        <attribute name="created" value="bWFyY287TUFSQ08tT1BUSVBMRVg3OzIwMjUtMDMtMTU7MDY6MDQ6NTggUE07MjkxNA=="/>
+        <attribute name="edited" value="bWFyY287TUFSQ08tT1BUSVBMRVg3OzIwMjUtMDMtMTU7MDY6MDg6MTMgUE07MTszMDE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, somma" type="Integer" array="False" size=""/>
+            <assign variable="somma" expression="0"/>
+            <while expression="numero != 0">
+                <assign variable="somma" expression="somma + numero"/>
+                <assign variable="numero" expression="numero - 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
