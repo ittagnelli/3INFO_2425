@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Bianchi_assembler_esercizio06"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-15 11:30:22 "/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUxFTzExTU87MjAyNS0wMy0xNTsiMTE6Mjc6MzMgIjsyNjY2"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUxFTzExTU87MjAyNS0wMy0xNTsiMTE6MzA6MjIgIjsxOzI3NjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, s, i" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="s" expression="0"/>
+            <assign variable="i" expression="1"/>
+            <if expression="i&lt;=a">
+                <then>
+                    <for variable="i" start="0" end="a" direction="inc" step="1">
+                        <assign variable="s" expression="s+i"/>
+                    </for>
+                </then>
+                <else>
+                    <output expression="&quot;somma: &quot;&amp;s" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
