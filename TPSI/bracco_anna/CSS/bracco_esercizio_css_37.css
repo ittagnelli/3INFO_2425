@@ -1,0 +1,90 @@
+.card {
+    display: flex;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    width: 800px;
+    height: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.left-section {
+    width: 40%;
+    height: 100%;
+
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.left-section img {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.left-section h1 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.left-section h1 span {
+    font-size: 16px;
+    color: rgb(8, 8, 8);
+}
+
+.left-section h2 {
+    font-size: 16px;
+    color: rgb(8, 8, 8);
+    margin: 5px 0 15px;
+}
+
+.email-button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.right-section {
+
+    padding: 20px;
+    background-color: rgba(146, 208, 233, 0.856);
+}
+
+.right-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.right-section p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.buttons {
+    margin: 15px 0;
+}
+
+.outline-button {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 24px;
+    margin-right: 10px;
+}
