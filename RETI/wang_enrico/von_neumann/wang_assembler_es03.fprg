@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="wang_assembler_es01"/>
+        <attribute name="authors" value="root"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-10 08:55:06 AM"/>
+        <attribute name="created" value="cm9vdDtGMDg1OTY5RkMzNUM7MjAyNS0wMy0xMDswODo0Njo1NiBBTTsyNDI2"/>
+        <attribute name="edited" value="cm9vdDtGMDg1OTY5RkMzNUM7MjAyNS0wMy0xMDswODo1NTowNiBBTTs0OzI1MzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserire numero A&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;inserire numero B&quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;inserire valore C &quot;" newline="True"/>
+            <assign variable="S" expression="sqrt(A*A+B*B)^2"/>
+            <output expression="&quot;la soluzione &#232; &quot; &amp;S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

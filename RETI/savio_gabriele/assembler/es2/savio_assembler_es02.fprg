@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="savio_assembler_es02"/>
+        <attribute name="authors" value="gabbbb"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 09:42:13 PM"/>
+        <attribute name="created" value="Z2FiYmJiO0dBQkJCQi1JREVBUEFELTsyMDI1LTAzLTEyOzA5OjM4OjI3IFBNOzI4NTg="/>
+        <attribute name="edited" value="Z2FiYmJiO0dBQkJCQi1JREVBUEFELTsyMDI1LTAzLTEyOzA5OjQyOjEzIFBNOzE7Mjk1Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="calcolo, a, b, c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="calcolo" expression="(a*2)+(3*b)-c"/>
+            <output expression="calcolo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

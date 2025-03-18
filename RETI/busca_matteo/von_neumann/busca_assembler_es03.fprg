@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="busca_assembler_es03"/>
+        <attribute name="authors" value="root"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 04:16:01 PM"/>
+        <attribute name="created" value="cm9vdDsyNzFDNDI5RTM0MjE7MjAyNS0wMy0xMjswNDoxMzoxNyBQTTsyMzc4"/>
+        <attribute name="edited" value="cm9vdDsyNzFDNDI5RTM0MjE7MjAyNS0wMy0xMjswNDoxNjowMSBQTTsyOzI0ODM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c1, c2, i" type="Integer" array="False" size=""/>
+            <assign variable="c1" expression="4"/>
+            <assign variable="c2" expression="2"/>
+            <assign variable="i" expression="c1^2+c2^2"/>
+            <output expression="i" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

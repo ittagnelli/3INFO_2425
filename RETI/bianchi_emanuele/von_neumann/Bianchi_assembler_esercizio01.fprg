@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Bianchi_assembler_esercizio01"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 07:22:08 "/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUxFTzExTU87MjAyNS0wMy0xMzsiMDc6MTc6NDEgIjsyNjY3"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUxFTzExTU87MjAyNS0wMy0xMzsiMDc6MjI6MDggIjsxOzI3NzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, somma" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="somma" expression="a+b+c"/>
+            <output expression="&quot;la somma vale: &quot;&amp;somma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

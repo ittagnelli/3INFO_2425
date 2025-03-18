@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ruscica_assembler_es05"/>
+        <attribute name="authors" value="lorenzo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 06:06:57 "/>
+        <attribute name="created" value="bG9yZW56bztDT01QVVRFUi1SVVNDSTsyMDI1LTAzLTE2OyIwNTo0OTo0MiAiOzMwMzM="/>
+        <attribute name="edited" value="bG9yZW56bztDT01QVVRFUi1SVVNDSTsyMDI1LTAzLTE2OyIwNjowNjo1NyAiOzg7MzE0OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c, f" type="Integer" array="False" size=""/>
+            <assign variable="c" expression="100"/>
+            <assign variable="f" expression="c*9/5+32"/>
+            <output expression="f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

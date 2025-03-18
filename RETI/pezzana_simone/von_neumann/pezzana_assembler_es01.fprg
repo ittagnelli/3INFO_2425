@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="pezzana_assembler_es01"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 06:52:21 "/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUExUTBKTEc7MjAyNS0wMy0xMzsiMDY6NDg6NTMgIjsyNjU5"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUExUTBKTEc7MjAyNS0wMy0xMzsiMDY6NTI6MjEgIjsxOzI3NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="A+B"/>
+            <assign variable="A" expression="A+C"/>
+        </body>
+    </function>
+</flowgorithm>

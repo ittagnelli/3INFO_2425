@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tamaddon_assembler_es01"/>
+        <attribute name="authors" value="kaitl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 07:43:03 "/>
+        <attribute name="created" value="a2FpdGw7TVNJOzIwMjUtMDMtMTI7IjA3OjQwOjMwICI7MTk1MA=="/>
+        <attribute name="edited" value="a2FpdGw7TVNJOzIwMjUtMDMtMTI7IjA3OjQzOjAzICI7MzsyMDYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, somma" type="Integer" array="False" size=""/>
+            <assign variable="somma" expression="2*a+3*b-c"/>
+        </body>
+    </function>
+</flowgorithm>

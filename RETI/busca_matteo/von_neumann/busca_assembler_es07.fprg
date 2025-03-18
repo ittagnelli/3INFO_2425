@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ramirez_assembler_es07"/>
+        <attribute name="authors" value="ramir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 11:50:17 "/>
+        <attribute name="created" value="cmFtaXI7TVNJOzIwMjUtMDMtMTY7IjA2OjE3OjExICI7MTk2Mg=="/>
+        <attribute name="edited" value="cmFtaXI7TVNJOzIwMjUtMDMtMTY7IjA2OjI1OjM2ICI7MTsyMDc2"/>
+        <attribute name="edited" value="QURNSU47TEFQVE9QLUtJTktJSjZFOzIwMjUtMDMtMTY7IjExOjUwOjE3ICI7MTsyNzM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, s" type="Integer" array="False" size=""/>
+            <assign variable="n1" expression="2"/>
+            <assign variable="n2" expression="3"/>
+            <assign variable="s" expression="0"/>
+            <for variable="n2" start="n2" end="1" direction="dec" step="1">
+                <assign variable="s" expression="s+n1"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

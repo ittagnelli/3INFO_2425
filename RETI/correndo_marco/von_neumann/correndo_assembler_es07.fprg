@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="correndo_assembler_es07"/>
+        <attribute name="authors" value="marco"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-15 06:22:36 PM"/>
+        <attribute name="created" value="bWFyY287TUFSQ08tT1BUSVBMRVg3OzIwMjUtMDMtMTU7MDY6MDg6MTcgUE07MjkxMw=="/>
+        <attribute name="edited" value="bWFyY287TUFSQ08tT1BUSVBMRVg3OzIwMjUtMDMtMTU7MDY6MjI6MzYgUE07MTszMDE4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fattore1, fattore2, risultato" type="Integer" array="False" size=""/>
+            <assign variable="risultato" expression="0"/>
+            <while expression="fattore2 != 0">
+                <assign variable="risultato" expression="risultato + fattore1"/>
+                <assign variable="fattore2" expression="fattore2-1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
