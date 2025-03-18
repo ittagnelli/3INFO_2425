@@ -1,0 +1,36 @@
+body {
+    background-color: aquamarine;
+}
+
+#box1 {
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    width: 30%;
+    height: 100%;
+    position: absolute;
+}
+
+img {
+    width: 100%;
+    border: 1px solid purple;
+}
+
+#name {
+    text-align: center;
+}
+
+#bl_bo {
+    text-align: center;
+    margin: auto;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 200px;
+}
+
+#box2 {
+    height: 100%;
+    width: 30%;
+    border: 1px solid black;
+}
