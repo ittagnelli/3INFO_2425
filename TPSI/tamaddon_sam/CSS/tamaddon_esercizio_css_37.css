@@ -1,0 +1,90 @@
+.left{
+    width: 30vw;
+    height: 75vh;
+    float: left;
+}
+
+img{
+    border: 2px solid #8b3dff;
+    width: calc(30vw - 4px);
+}
+
+.intro{
+    padding: 5vw;
+}
+
+.name{
+    font-size: 2.75em;
+    font-family: sans-serif;
+}
+
+.job{
+    font-family: sans-serif;
+    margin-top: 2.25vw;
+}
+
+.email{
+    width: 15vw;
+    height: 2.5em;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    line-height: 2.5em;
+    margin-top: 3.5vh;
+}
+
+.right{
+    background-color: #b4d7ff;
+    width: 50vw;
+    height: 65vh;
+    padding: 8vw;
+    float: left;
+}
+
+.title{
+    font-size: 2.3em;
+    font-family: sans-serif;
+}
+
+hr{
+    background-color: black;
+}
+
+.desc{
+    font-family: sans-serif;
+    font-size: 1.25em;
+}
+
+.buttons{
+    margin-top: 8vw;
+}
+
+.resume{
+    width: 13vw;
+    height: 2em;
+    background-color: #b4d7ff;
+    border: 1px solid black;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    line-height: 2em;
+    float: left;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.portfolio{
+    width: 13vw;
+    height: 2em;
+    background-color: #b4d7ff;
+    border: 1px solid black;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    line-height: 2em;
+    margin-left: 2vw;
+    float: left;
+    font-weight: bold;
+    font-size: 1.3em;
+}
