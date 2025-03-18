@@ -1,19 +1,65 @@
-body {
-    font-family: Arial, sans-serif;
-    color: white;
-}   
-
-.container {
-    padding: 10px white;
-    width: 700px;
-    height: 300px;
-    background-color: rgb(0, 255, 115);
+body{
+    background-color: #66b6c2; 
+    font-family: sans-serif; 
+    text-align: center;
 }
 
-.left-content {
+.contenitore{ 
+    margin: auto;
+} 
+
+.partedx{
     float: left;
-    width: 70%;
-    height: 100%;
-    background-color: brown;
-    margin: 20px white;
+    width: 45vh;
+    background-color: #062e47;
+    padding: 37px;
+    color: white;
+    height: calc(90vh - 27px - 27px);
+}
+
+img{
+    height: 100%; 
+}
+
+.foto{ 
+    height: 90vh;
+    width: 90vh;
+    padding: 10px;
+    background-color: white;
+    float: left;
+}
+ 
+h2{
+    color: #72ccda;
+}
+ 
+hr{
+    background-color: white;
+    height: 2px;
+}
+
+.info{
+    color: white;
+}
+
+.logo{ 
+    width: 18vh;
+    height: 18vh;
+    border: 5px solid #81deec;
+    border-radius: 5px;
+} 
+
+li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    text-align: left;
+    margin-top: 3.5vh;
+}
+ 
+li:first-child{
+    margin-top: 3vh;
+}
+ 
+li:last-child{
+    margin-bottom: 3vh;
 }
