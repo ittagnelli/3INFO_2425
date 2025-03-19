@@ -1,0 +1,74 @@
+body{
+    background-color: orangered;
+}
+
+.contenitore-master{
+    background-color: orangered;
+    width: 1100px;
+    height: 600px;
+}
+
+.titolo{
+    width: 1100px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 5em;
+    margin-top: 40px;
+}
+
+.blocchi{
+    width: 1100px;
+    margin-top: 60px;
+}
+
+.blocco{
+    background-color: white;
+    border-radius: 20px;
+    border: 3px;
+    width: 300px;
+    height: 270px;
+    margin-left: 50px;
+    float: left;
+}
+
+.blocco-titolo{
+    color: orangered;
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.blocco-intestazione{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+.blocco-testo{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.blocco-pulsante{
+    color: orangered;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: rgba(255,69,0,0.3);
+    padding: 5px;
+    text-align: center;
+    width: 200px;
+    border-radius: 4px;
+}
+
+
+.blocco:nth-child(2), .blocco:nth-child(3){
+    position: relative;
+    left: 10px;
+}
