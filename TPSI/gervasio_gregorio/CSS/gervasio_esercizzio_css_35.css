@@ -1,0 +1,59 @@
+body {
+    background-color: aqua;
+}
+
+#box {
+    background-color: darkblue;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 90%;
+}
+
+#img {
+    border: 20px solid white;
+    height: 93%;
+}
+
+#logo {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    right: 140px;
+    top: 100px;
+}
+
+#text {
+    position: absolute;
+    right: 70px;
+    top: 140px;
+    color: white;
+    text-align: center;
+}
+
+#undertitle {
+    position: absolute;
+    right: 95px;
+    top: 240px;
+    color: aquamarine;
+    text-align: center;
+}
+
+#underbox {
+    position: absolute;
+    right: 95px;
+    top: 300px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+#titolo {
+    color: white;
+    text-align: center;
+}
+
+#par {
+    color: white;
+    text-align: left;
+}
