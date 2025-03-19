@@ -8,6 +8,16 @@ body {
  text-align: center;
  color:white;
  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ border: 20px solid black;
+ margin: auto;
+}
+
+.container {
+  max-width: 40%;
+ margin: auto;
+ margin-top: 2%;
+ 
+
 }
 
 .qud, .qud2, .qud3{
