@@ -1,0 +1,125 @@
+.contenitore-master{
+    width: 1500px;
+    height: 750px;
+}
+
+.parte-sinistra{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.parte-destra{
+    width: 70%;
+    height: 100%;
+    background-color: lightblue;
+}
+
+.imgg{
+    width: 100%;
+    height: 40%;
+    background-color: purple;
+   
+}
+
+.imgg > img{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.bio{
+    width: 100%;
+    height: 60%;
+    background-color: white;
+}
+
+.bio-titolo{
+    font-size: 4rem;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.bio-pronomi{
+    font-size: 4rem;
+    padding-left: 50px;
+}
+
+.bio-lavoro{
+    padding-top: 30px;
+    font-size: 2.7rem;
+    padding-left: 50px;
+    padding-bottom: 70px;
+}
+
+.bio-email{
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border-left: 40px;
+    padding: 20px 75px 20px 75px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    margin-left: 40px;
+}
+
+.titolo{
+    position: relative;
+    top: 100px;
+    left: 130px;
+    font-size: 3.1rem;
+}
+
+.spaziatura{
+    position: relative;
+    top: 120px;
+    left: 580px;
+    background-color: black;
+    height: 1px;
+    width: 300px;   
+}
+
+.testo{
+    position: absolute;
+    top: 190px;
+    left: 590px;
+    width: 300px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.pulsante{
+    padding: 10px 30px 10px 30px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 400px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.resume{
+    left: 590px;
+}
+.portfolio{
+    left: 830px;
+}
+
+.social{
+    position: absolute;
+    top: 630px;
+}
+.ig{
+    left: 700px;
+}
+.tw{
+    left: 780px;
+}
+.fc{
+    left: 860px;
+}
+.ln{
+    left: 940px;
+}
