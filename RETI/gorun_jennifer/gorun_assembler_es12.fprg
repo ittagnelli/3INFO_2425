@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="gorun_assembler_es12"/>
+        <attribute name="authors" value="Jenny"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-23 08:32:07 "/>
+        <attribute name="created" value="SmVubnk7SkVOTjsyMDI1LTAzLTIyOyIwMzoyNToyMSAiOzE5OTk="/>
+        <attribute name="edited" value="SmVubnk7SkVOTjsyMDI1LTAzLTIzOyIwODozMjowNyAiOzI7MjExNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="n" expression="100"/>
+            <if expression="n / 11">
+                <then>
+                    <assign variable="n" expression="0"/>
+                    <assign variable="jmp" expression="4"/>
+                </then>
+                <else>
+                    <assign variable="n" expression="else"/>
+                    <assign variable="jmp" expression="5"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
