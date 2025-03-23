@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3e5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+.image-section img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.info-section {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+.info-section h1, .info-section h2 {
+    margin: 10px 0;
+}
+.contact p {
+    margin: 5px 0;
+}
+.contact a {
+    color: #b3e5fc;
+    text-decoration: none;
+}
+.logo {
+    width: 80px;
+    height: auto;
+}

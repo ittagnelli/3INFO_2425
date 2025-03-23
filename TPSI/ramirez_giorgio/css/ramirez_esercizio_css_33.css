@@ -17,7 +17,7 @@ body {
 }
 
 .header, .footer {
-    text-align: center;
+    text-align: left;
     font-size: 12px;
     line-height: 20px;
     height: 20px;

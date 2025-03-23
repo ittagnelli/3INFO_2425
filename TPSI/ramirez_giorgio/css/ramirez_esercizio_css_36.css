@@ -1,0 +1,58 @@
+body{
+    background-color: #ff6f28;
+}
+
+.titolo{ 
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3.5vh;
+    margin-bottom: 10vh;
+    font-size: 4em;
+}
+
+.contenitore{
+    height: 44vh;
+    margin-left: 10vw;
+}
+
+.box{ 
+    float: left;
+    width: 20vw;
+    height: 40vh;
+    padding: 2vw;
+    background-color: white;
+    border-radius: 20px;
+    margin: 2vh;
+}
+
+.ttgoal{
+    color: #ff6f28;
+    font-weight: bold;
+}
+
+.scrittacntr{
+    color: black;
+    font-family: sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: 3vw;
+}
+
+.sottotitolo{
+    margin-top: 2vw;
+    color: black;
+    font-size: 1.5em;
+    margin-bottom: 4vw;
+}
+
+.tasto{
+    background-color: #f6e7de;
+    color: #ff6f28;
+    text-align: center;
+    border-radius: 5px;
+    height: 3em;
+    line-height: 3em;
+    font-weight: bold;
+}
