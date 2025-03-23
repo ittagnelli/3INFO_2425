@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ramirez_assembler_es12"/>
+        <attribute name="authors" value="ramir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-23 09:45:18 "/>
+        <attribute name="created" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTIyOyIxMToxMzo1OCAiOzIzOTM="/>
+        <attribute name="edited" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTIzOyIwNjo0NjoyNSAiOzY7MjUxMQ=="/>
+        <attribute name="edited" value="cmFtaXI7TVNJOzIwMjUtMDMtMjM7IjA5OjQ1OjE4ICI7MjsyMDgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A100, R101" type="Integer" array="False" size=""/>
+            <assign variable="A100" expression="60"/>
+            <assign variable="R101" expression="0"/>
+            <if expression="A100 % 2 == 0">
+                <then>
+                    <assign variable="R101" expression="1"/>
+                </then>
+                <else>
+                    <if expression="A100 % 3 == 0">
+                        <then>
+                            <assign variable="R101" expression="1"/>
+                        </then>
+                        <else>
+                            <if expression="A100 % 5 == 0">
+                                <then>
+                                    <assign variable="R101" expression="1"/>
+                                </then>
+                                <else>
+                                    <if expression="A100 % 7 == 0">
+                                        <then>
+                                            <assign variable="R101" expression="1"/>
+                                        </then>
+                                        <else>
+                                            <assign variable="R101" expression="0"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
