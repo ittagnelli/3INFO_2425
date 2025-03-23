@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="prevedi_assembler_es12"/>
+        <attribute name="authors" value="danie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-22 11:16:40 "/>
+        <attribute name="created" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTIyOyIxMToxMzo1OCAiOzIzOTM="/>
+        <attribute name="edited" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTIyOyIxMToxNjo0MCAiOzE7MjQ5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="risultato" type="Integer" array="False" size=""/>
+            <if expression="((n / 11) * 11) - n == 0">
+                <then>
+                    <assign variable="risultato" expression="1"/>
+                </then>
+                <else>
+                    <assign variable="risultato" expression="0"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
