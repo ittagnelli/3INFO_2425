@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="pugliese_assembler_es10"/>
+        <attribute name="authors" value="danie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-17 09:37:06 "/>
+        <attribute name="created" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTE3OyIwOTozNDo1OCAiOzI0MDc="/>
+        <attribute name="edited" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTE3OyIwOTozNzowNiAiOzE7MjUxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="somma" type="Integer" array="False" size=""/>
+            <assign variable="somma" expression="0"/>
+            <assign variable="i" expression="n"/>
+            <for variable="i" start="n" end="0" direction="dec" step="1">
+                <assign variable="somma" expression="somma + i"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
