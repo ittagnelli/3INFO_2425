@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="danci_assembler_es11"/>
+        <attribute name="authors" value="Jenny"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-22 03:41:53 "/>
+        <attribute name="created" value="SmVubnk7SkVOTjsyMDI1LTAzLTIyOyIwMzoyNToyMSAiOzE5OTk="/>
+        <attribute name="edited" value="SmVubnk7SkVOTjsyMDI1LTAzLTIyOyIwMzo0MTo1MyAiOzE7MjExMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="risultato" expression="1"/>
+            <assign variable="x" expression="100"/>
+            <assign variable="y" expression="101"/>
+            <if expression="y==0">
+                <then>
+                    <assign variable="risultato * x" expression="102"/>
+                </then>
+                <else>
+                    <assign variable="risultato" expression="1"/>
+                    <if expression="y == 0">
+                        <then/>
+                        <else>
+                            <assign variable="risultato" expression="102"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
