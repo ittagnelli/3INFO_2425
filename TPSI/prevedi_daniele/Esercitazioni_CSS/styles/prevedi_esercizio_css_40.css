@@ -1,0 +1,114 @@
+.main{
+    background-color: #004b84;
+    width: 1300px;
+    height: 700px;
+}
+
+div{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.05em;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.lightblue{
+    background-color: #79c9fa;
+}
+
+.fuchsia{
+    background-color: #f974a6;
+}
+
+.pink{
+    background-color: #ffa5c6;
+}
+
+.left{
+    width: 20%;
+    float: left;
+    height: 93%;
+    margin-top: 1.75%;
+    border-radius: 0;
+    margin-right: calc((100% - 20% - 28% - 30%)/16);
+    margin-left: calc((100% - 20% - 28% - 30%)/16*7);
+}
+
+.center{
+    width: 28%;
+    float: left;
+    height: 93%;
+    margin-top: 1.75%;
+    border-radius: 0;
+    margin-right: calc((100% - 20% - 28% - 30%)/16);
+}
+
+.right{
+    width: 30%;
+    float: left;
+    height: 93%;
+    margin-top: 1.75%;
+    border-radius: 0;
+}
+
+.a{
+    width: 100%;
+    height: calc((100% - 3%)/3);
+    background-color: white;
+    color: #f974a6;
+    margin-bottom: 3%;
+    line-height: 1000%;
+}
+
+.b{
+    width: 100%;
+    height: calc((100% - 3%) / 3 * 2);
+    line-height: 400%;
+}
+
+.c{
+    width: 100%;
+    height: calc((100% - 6%) / 3);
+    line-height: 1000%;
+    margin-bottom: 3%;
+}
+
+.d{
+    width: 100%;
+    height: calc((100% - 6%) / 3);
+    line-height: 1000%;
+    margin-bottom: 3%;
+}
+
+.e{
+    width: 100%;
+    height: calc((100% - 6%) / 3);
+    line-height: 1000%;
+}
+
+.f{
+    width: 100%;
+    height: calc((100% - 3%)/3);
+    line-height: 1000%;
+    margin-bottom: 3%;
+}
+
+.bottom{
+    width: 100%;
+    height: calc((100% - 3%) / 3 * 2);
+}
+
+.g{
+    height: 100%;
+    width: 48%;
+    margin-right: 4%;
+    float: left;
+    line-height: 400%;
+}
+
+.h{
+    height: 100%;
+    width: 48%;
+    float: left;
+    line-height: 400%;
+}
