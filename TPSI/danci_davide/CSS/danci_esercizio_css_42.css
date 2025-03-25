@@ -1,0 +1,28 @@
+.container {
+   padding: 5vh;
+   width: 90%;
+   height: 80vh;
+   margin: auto;
+   margin-top: 5vh;
+   border-radius: 10px;
+   background-color: rgb(200, 200, 200);
+}
+
+
+.container .div, .image{
+   width: 23.5%;
+   height: 30%;
+   border-radius: 30px;
+   margin-top: 1%;
+   margin-left: 1%;
+   background-color: rgb(255, 255, 255);
+   border: 1px solid rgb(0, 0, 0);
+   float: left;
+   overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+
+}
