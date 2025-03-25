@@ -1,0 +1,13 @@
+
+#parent {
+    width: 120px;
+    height: 120px;
+    background-image: url("https://picsum.photos/120");
+  }
+  
+  #child {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    width: 120px;
+    text-align: center;
+  }

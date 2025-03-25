@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="correndo_assembler_es03"/>
+        <attribute name="authors" value="root"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-10 09:46:51 AM"/>
+        <attribute name="created" value="cm9vdDtDMzU4Qzg0RDM4MjU7MjAyNS0wMy0xMDswOTo0NTo0MSBBTTsyMzk3"/>
+        <attribute name="edited" value="cm9vdDtDMzU4Qzg0RDM4MjU7MjAyNS0wMy0xMDswOTo0Njo1MSBBTTsxOzI1MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="A*A"/>
+            <assign variable="B" expression="B*B"/>
+            <assign variable="B" expression="B + A"/>
+        </body>
+    </function>
+</flowgorithm>

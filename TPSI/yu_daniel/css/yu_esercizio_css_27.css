@@ -1,0 +1,19 @@
+body {
+    font: 1.2em / 1.5 sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .box {
+    padding: 0.5em;
+  }
+
+  .float {
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: rebeccapurple;
+    color: #fff;
+    padding: 1em;
+  }

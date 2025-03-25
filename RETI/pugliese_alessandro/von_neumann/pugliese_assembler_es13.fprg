@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="pugliese_assembler_es12"/>
+        <attribute name="authors" value="danie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-23 06:46:25 "/>
+        <attribute name="created" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTIyOyIxMToxMzo1OCAiOzIzOTM="/>
+        <attribute name="edited" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTIzOyIwNjo0NjoyNSAiOzY7MjUxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="risultato" type="Integer" array="False" size=""/>
+            <assign variable="risultato" expression="0"/>
+            <if expression="risultato == 1">
+                <then/>
+                <else>
+                    <if expression="((n / 2) * 2) - n == 0">
+                        <then>
+                            <assign variable="risultato" expression="1"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <if expression="risultato == 1">
+                <then/>
+                <else>
+                    <if expression="((n / 3) * 3) - n == 0">
+                        <then>
+                            <assign variable="risultato" expression="1"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <if expression="risultato == 1">
+                <then/>
+                <else>
+                    <if expression="((n / 5) * 5) - n == 0">
+                        <then>
+                            <assign variable="risultato" expression="1"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <if expression="risultato == 1">
+                <then/>
+                <else>
+                    <if expression="((n / 7) * 7) - n == 0">
+                        <then>
+                            <assign variable="risultato" expression="1"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

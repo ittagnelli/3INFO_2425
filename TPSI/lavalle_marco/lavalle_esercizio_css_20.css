@@ -1,0 +1,27 @@
+body {
+    background-color: powderblue;
+}
+
+
+h1 {
+  text-transform: uppercase;
+  color: blue;
+}
+
+h4{
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: red; 
+}
+
+p {
+    text-align: justify;
+}
+
+#p_3 {
+  text-align: right;
+}
+
+#shadow {
+  text-shadow: 2px 2px 5px purple;
+}

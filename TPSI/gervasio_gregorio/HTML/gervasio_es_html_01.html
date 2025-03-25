@@ -1,0 +1,56 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="it"> <!-- Pagina HTML -->
+    <head>
+        <meta name="author" content="Antonio Mancuso" />
+        <title>es_01</title>
+        <style>
+            body {background-color: rgb(32, 21, 189);}
+            #grid {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                height: 500px;
+                width: 1000px;
+                background-color: rgb(255, 255, 255);
+                border: 3px solid rgb(0, 0, 0);
+            }
+            #ciao {
+                background-color: rgb(0, 0, 0);
+                color: white;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                height: 20px;
+                width: 160px;
+}
+        </style>
+        <script>
+            mobx = 0
+            moby = 0
+            xdirmob=1
+            ydirmob=1
+            movemob = setInterval(muovi , 1)
+            function muovi(){
+            if(mobx >= 840)
+                xdirmob=-1
+            if(moby >= 480 )
+                ydirmob=-1
+            if(mobx <= 0)
+            xdirmob=1
+            if(moby <= 0)
+                ydirmob=1
+            mobx += 1 * xdirmob
+            moby += 1 * ydirmob
+            ciao.style.left = mobx + "px"
+            ciao.style.top = moby +"px"
+}
+        </script>
+    </head>
+    <body>
+        <grid id="grid">
+            <ciao id="ciao">
+                benvenuto nel mio html
+            </ciao>
+        </grid>
+    </body>
+</html>

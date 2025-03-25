@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(251,108,44);
+}
+
+#tito{
+    border: 10px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+#box {
+    
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 290px;
+    width: 810px;
+}
+
+#mini_box {
+    margin: auto;
+    height: 270px;
+    width: 250px;
+    border: 10px solid rgb(251,108,44);
+    background-color: white;
+    border-radius: 20px;
+    float: left;
+}
+
+#red_m {
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    color: rgb(251,108,44);
+    background-color: rgba(246,231,222,255);
+}
+
+#mini_tito {
+    color: rgb(251,108,44);
+}

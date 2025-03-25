@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+  
+    <meta charset="UTF-8" />
+    <meta name="author" content="Marco La Valle" />
+    <meta name="description" content="esercitazione 13" />
+    <meta name="keywords" content="Form" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+    <title>Form</title>
+    <style>
+      body {background-color: powderblue;}
+      h1 {color: rgb(255, 0, 0);}
+    </style>
+</head>
+<body>
+    <form>
+        <center><table border="1">
+            <caption><h2>Modulo richiesta di lavoro</h2></caption>
+            <tbody>
+                <tr>
+                    <td align="right"><label for="idnome">Nome e Cognome: </label></td> <td><input type="text" size="50" maxlength="50" id="idnome" name="nome" placeholder="Nome e Cognome"></td>
+                </tr>
+
+                <tr>
+                    <td align="right"><label for="iddata"> Data di nascita</label></td> <td><input type="date" id="iddata" name="birthday"></td>
+                </tr>
+
+                <tr>
+                    <td align="right">Sesso</td> <td><input type="radio" id="maschio" name="sesso" value="maschio">
+                        <label for="maschio"> Maschio</label><br>
+                        <input type="radio" id="femmina" name="sesso" value="femmina">
+                        <label for="femmina"> Femmina</label><br>
+                        <input type="radio" id="altro" name="sesso" value="altro">
+                        <label for="altro">Altro</label></td>
+                        
+                </tr>
+
+                <tr>
+                    <td align="right"><label for="idcap">CAP: </label></td> <td><input type="text" size="5" maxlength="5" id="idcap" name="cap" placeholder="CAP"></td>
+                </tr>
+
+                <tr>
+                    <td align="right"><label for="Università">Università:  </label></td> <td><select name="Università" id="Università">
+                <option value="dialettica">dialettica</option>
+                <option value="letteratura">letteratura</option>
+                <option value="storia">storia</option>
+                <option value="nessuna">nessuna</option>
+                </select></td>
+                </tr>
+
+
+                <tr>
+                    <td align="right"><label for="Università">Occupazione:</label></td>
+                    <td>
+                        <input type="checkbox" id="Studente" name="Occupazione" value="Studente">
+                        <label for="Studente">Studente</label>
+                        <input type="checkbox" id="Lavoratore" name="Occupazione" value="Lavoratore">
+                        <label for="Lavoratore">Lavoratore</label>            
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"><label for="idnome">Descrivi il tuo lavoro:</label></td> <td><input type="text" size="80" maxlength="80" id="Descrizione lavoro" name="nome" placeholder="Descrivi il tuo lavoro"></td>
+                </tr>
+
+                <tr>
+                    <td align="right">Reset del modulo</td> <td><input type="reset"></td>
+                </tr>
+
+                <tr>
+                    <td align="right">Invia il modulo</td> <td><input type="submit"></td>
+                </tr>
+            </tbody>
+        </table></center>
+      </form>
+      

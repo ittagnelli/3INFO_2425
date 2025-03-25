@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Matteo Busca" />
+    <meta name="description" content="Esercizio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100" />
+    <title>Esercizio 14</title>
+  <style>
+    body {background-color:olive;}
+    h1 {color: rgb(47, 47, 47);}
+  </style>
+</head>
+<body>
+    <strong>
+  <form>
+      <center><table border="1">
+          <tbody>
+              <tr>
+                  <td align="right"><label for="idnome">Nome e Cognome: </label></td> <td><input type="text" size="50" maxlength="50" id="idnome" name="nome" placeholder="Nome e Cognome"></td>
+              </tr>
+
+              <tr>
+                  <td align="right"><label for="iddata"> Data di nascita</label></td> <td><input type="date" id="iddata" name="birthday"></td>
+              </tr>
+
+              <tr>
+                  <td align="right"><label for="idcap">Laurea: </label></td> <td><input type="radio" id="laureato" name="laurea" value="laureato">
+                      <label for="laureato"> Sono laureato</label><br>
+                      <input type="radio" id="laureato" name="laurea" value="non laureato">
+                      <label for="laureato"> Non sono laureato</label><br>
+                      <input type="radio" id="altro" name="laurea" value="altro">
+                      <label for="altro"> Altro...</label></td>
+              </tr>
+
+              <tr>
+                  <td align="right"><label for="Università">Università:  </label></td> <td><select name="Università" id="Università">
+              <option value="dialettica">dialettica</option>
+              <option value="letteratura">letteratura</option>
+              <option value="storia">storia</option>
+              <option value="nessuna">nessuna</option>
+              </select></td>
+              </tr>
+
+
+              <tr>
+                  <td align="right"><label for="Università">Ambito:</label></td>
+                  <td>
+                      <input type="checkbox" id="energetico" name="lavoro" value="energetico">
+      <label for="energetico">  energetico</label><br>
+      <input type="checkbox" id="informatico" name="lavoro" value="informatico">
+      <label for="informatico">  informatico</label><br>
+      <input type="checkbox" id="assicurativo" name="sport" value="assicurativo">
+      <label for="assicurativo"> assicurativo</label><br>
+      <input type="checkbox" id="elettronico" name="lavoro" value="elettronico">
+      <label for="elettronico">  elettronico</label><br>
+      <input type="checkbox" id="meccanico" name="sport" value="meccanico">
+      <label for="meccanico"> meccanico</label>           
+                  </td>
+              </tr>
+              <tr>
+                  <td align="right">Campo inutile</td> <td><input type="button" id="idbutton" value="non cliccarmi"></td>
+              </tr>
+
+              <tr>
+                  <td align="right">Ore lavorative <br>desiderate</td> <td><label for="orelun">Lunedì</label>
+                      <input type="number" id="orelun" min="6" max="12" />
+                      <br>
+                      <label for="oremar">Martedì</label>
+                      <input type="number" id="oremar" min="6" max="12" />
+                      <br>
+                      <label for="oremer">Mercoledì</label>
+                      <input type="number" id="oremer" min="6" max="12" />
+                      <br>
+                      <label for="oregio">Giovedì</label>
+                      <input type="number" id="oregio" min="6" max="12" />
+                      <br>
+                      <label for="oreven">Venerdì</label>
+                      <input type="number" id="oreven" min="6" max="12" /></td>
+              </tr>
+
+              <tr>
+                  <td align="right">Colore del badge <br>del lavoro</td> <td><input type="color" id="colorbadge" name="colorbadge" value="#ff0000"></td>
+              </tr>
+
+              <tr>
+                  <td align="right">Dimensioni badge</td> <td><input type="range" min="1" max="10" value="4" id="Lunghezza" />
+                      <label for="Lunghezza">Lunghezza</label><br />
+                      <input type="range" min="1" max="10" value="4" id="Larghezza" />
+                      <label for="Larghezza">Larghezza</label><br />
+                      <input type="range" min="1" max="10" value="4" id="Profondità" />
+                      <label for="Profondità">Profondità</label></td>
+              </tr>
+
+              <tr>
+                  <td align="right">Oggetto familiare</td> <td><label for="sede"><label>
+                      <select id="sede">
+                          <option value="Computer">Computer</option>
+                          <option value="Saldatore">Saldatore</option>
+                          <option value="Stagno">Stagno</option>
+                          <option value="Monitor">Monitor</option>
+                          <option value="Chiave inglese">Chiave inglese</option>
+                      </select></label></td>
+              </tr>
+
+              <tr>
+                  <td align="right">Oggetto:</td><td><label for="oggetti"> </label><br>
+                      <input list="oggetto" name="oggetti" id="oggetti">
+                      <datalist id="oggetto">
+                          <option value="Computer">
+                          <option value="Saldatore">
+                          <option value="Stagno">
+                          <option value="Monitor">
+                          <option value="Chiave inglese"></datalist>
+                          </td>
+              </tr>
+
+              <tr>
+                  <td align="right">Richieste aggiuntive</td> <td><label for="Richieste aggiuntive"></label>
+                      <textarea id="Richieste aggiuntive" rows="6" cols="60" placeholder="Richieste aggiuntive"></textarea></td>
+              </tr>
+
+              <tr>
+                  <td align="right">Invia il modulo</td> <td><input type="submit"></td>
+              </tr>
+          </tbody>
+      </table></center>
+    </form>
+</strong>

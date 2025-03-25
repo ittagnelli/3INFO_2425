@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+#grid {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 920px;
+    width: 1040px;
+}
+
+#box1 {
+    background-color: yellow;
+    height: 900px;
+    width: 500px;
+    border-radius: 20px;
+    border: 10px solid black;
+    float: left;
+}
+
+#box2 {
+    background-color: white;
+    height: 900px;
+    width: 500px;
+    border-radius: 20px;
+    border: 10px solid black;
+    float: left;
+}
+
+#title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#textbox {
+    margin: auto;
+    width: 450px;
+    height: 750px;
+}
+
+li {
+    font-size: 25px;
+}

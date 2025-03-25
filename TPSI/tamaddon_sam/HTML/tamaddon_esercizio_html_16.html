@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html lang="it"> 
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Sam Tamaddon" />
+        <meta name="description" content="Template HTML" />
+        <meta name="keywords" content="template, html, lezioni, scuola,esercitazione"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="refresh" content="100">
+        <title>wikipedia Local host </title>
+        <style>
+                  body {background-color: powder red;}
+                  h1 {color: orange;}
+        </style>
+</head>
+<body>
+
+<form>
+
+         <label for="idnome">Nome: </label>
+            <input type="text" id="idnome" name="nome" placeholder="Nome"></td>
+        <label for="idcognome">Cognome: </label>
+            <input type="text" id="idcognome" name="cognome" placeholder="Cognome"></td>
+            <br>
+    <label for="cars"> Genere:  </label>
+    <select name="genere" id="cars">
+        <option value="maschio">Maschio</option>
+        <option value="femmina">Femmina</option><br>
+    </select><br>
+    <h3>Data di Nascita</h3><br>
+  
+        <label for="nazioni">Nazionalità: </label><br>
+        <input list="nations" name="nazioni" id="nazioni">
+        <datalist id="nations">
+            <option value="Albanese">
+            <option value="Argentina">
+            <option value="Belga">
+            <option value="Biellorussa">
+            <option value="Italiana">
+            <option value="Irlandese">
+            <option value="Israeliana">
+        </datalist> <br>
+     
+
+    <input type="date" id="idata" name="birthday"><br><br>
+
+      <form action="/action_page.php">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+        
+        
+
+        <label for="altezza">altezza: </label>
+        <input type="range" min="150" ><br> 
+        <label for="peso">Peso: </label>
+        <input type="range" min="50" max="100" value="60" class="slider" id="peso"><br> 
+        
+
+  
+
+   
+    <h2>colore preferito :</h2>
+    <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+
+          <label for="bio">Biografia:</label>
+    <textarea id="bio" name="bio" rows="6" cols="60" placeholder="Inserisci la tua biografia"></textarea>
+    <br>
+    <input type="submit">
+  
+
+
+</form>
+
+
+
+</body>
+</html>

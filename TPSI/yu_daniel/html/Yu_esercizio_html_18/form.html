@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "UTF-8">
+    <title>Form Server</title>
+  </head>
+  <body>
+    <h1>Database Studenti</h1>
+    <form action="/aggiungi" method="POST">
+      <fieldset>
+        <h3>Aggiunta Nuovo Studente</h3>
+        <label for="ids">ID Studente</label>
+        <input type ="text" id="ids" name='id_studente' required>
+        <br><br>
+        
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome_studente" required>
+        <br><br>
+
+        <label for="nome">cognome</label>
+        <input type="text" id="cognome" name="cognome_studente" required>
+        <br><br>
+        
+        <label for="eta">Età</label>
+        <input type="range" max="100" min="0" id="eta" name="eta_studente" required>
+        <br><br>
+
+        
+        <button type ="reset">Cancella</button>
+        <button type ="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

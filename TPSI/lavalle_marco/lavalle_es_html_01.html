@@ -1,0 +1,34 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="it"> <!-- Pagina HTML -->
+<head>
+    <!-- Qui vanno inserite informazioni relative alla pagina ma che non saranno visualizzate -->
+    <!-- sezione meta Fornisce informazioni al web browser e ai motori di ricerca per il processo di indicizzazione -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Marco La Valle" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="compiti, esercitazione, template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100"><!-- Duranbte la fase di sviluppo permette il refresh  automatico della pagina  -->
+    <title>Prima pagina HTML di Marco La Valle</title><!-- titolo della pagina -->
+    <style>
+      body {background-color: yellow;}
+      h1 {color: red;}
+      h3 {color: orange;}
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("sottotitolo nascosto").innerHTML = "Hyper Text Markup Language (linguaggio di markup per ipertesti), comunemente noto con l'acronimo di HTML, è un linguaggio di markup per la creazione di una pagina web ";
+      }
+    </script>
+</head>
+<body><!-- Corpo principale della pagina HTML-->
+    <center>
+        <h1 id="titolo">Struttura base di una pagina web</h1>
+        <h3 id="sottotitolo">creato da Marco La Valle</h3>
+        <h4 id="sottotitolo nascosto"></h4>
+        <br/><br/>
+        <img src="https://media.istockphoto.com/id/182465097/it/foto/codice-html.jpg?s=1024x1024&w=is&k=20&c=_5--PeUMspjmNAJjjugYEFo2yiRRn6yFyqZxLi_pO04=" width="40%"/>
+        <div><button type="button" onclick="myFunction()">Premimi</button></div>
+    </center>
+</body>
+</html>

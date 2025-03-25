@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="yu_assembler_es05"/>
+        <attribute name="authors" value="HYPERX"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 10:32:19 "/>
+        <attribute name="created" value="SFlQRVJYO0RFU0tUT1AtNktSUDJWTDsyMDI1LTAzLTE2OyIxMDoxOTowOSAiOzI3NjA="/>
+        <attribute name="edited" value="SFlQRVJYO0RFU0tUT1AtNktSUDJWTDsyMDI1LTAzLTE2OyIxMDozMjoxOSAiOzM7Mjg2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <declare name="N" type="Integer" array="False" size=""/>
+            <input variable="N"/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <assign variable="B" expression="0"/>
+            <declare name="R" type="Integer" array="False" size=""/>
+            <assign variable="R" expression="0"/>
+            <do expression="N-B != 0">
+                <assign variable="B" expression="B+1"/>
+                <assign variable="R" expression="R+A"/>
+                <input variable="R"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+  
+    <meta charset="UTF-8" />
+    <meta name="author" content="Marco La Valle" />
+    <meta name="description" content="esercitazione 16" />
+    <meta name="keywords" content="Form" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+    <title>Form</title>
+    <style>
+      body {background-color: powderblue;}
+    </style>
+</head>
+<body>
+    <center>
+        <table>
+            <caption><h2>FORM</h2></caption>
+            <tbody>
+                <tr>
+                    <td align="right"><label for="idnome">Nome e Cognome: </label></td> <td><input type="text" id="idnome" name="nome" placeholder="Nome e Cognome"></td>
+                </tr>
+
+                <tr>
+                    <td align="right"><label for="iddata"> Data di nascita</label></td> <td><input type="date" id="iddata" name="birthday"></td>
+                </tr>
+
+                <tr>
+                    <td align="right">Genere</td> <td>
+                        <select name="genere" id="genere">
+                            <option value="maschio">Maschio</option>
+                            <option value="femmina">Femmina</option>
+                            <option value="Altro">Altro</option>
+                        </select></td>
+                <tr>
+                    <td align="right">Email</td> <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td align="right">Data di nascita</td> <td><input type="date"></td>
+                </tr>
+                <td align="right">Nazionalità</td>
+                <td>
+                <input list="nazionalit" id="nazionalità" placeholder="nazionalità">
+                <datalist id="nazionalit">
+                    <option value="russo"></option>
+                    <option value="olandes"></option>
+                    <option value="francese"></option>
+                    <option value="italiano"></option>
+                </select>            
+                </td>
+                <tr>
+                    <td align="right">Attività <br> lavorativa</td> <td><input type="radio" id="programmatore" name="Attività lavorativa" value="programmatore">
+                        <label for="programmatore"> programmatore</label><br>
+                        <input type="radio" id="elettronico" name="Attività lavorativa" value="elettronico">
+                        <label for="elettronico"> elettronico</label><br>
+                        <input type="radio" id="altro" name="Attività lavorativa" value="altro">
+                        <label for="altro">Altro</label></td>
+                <tr>
+                <tr>
+                <td align="right"><label for="Università">Hobby:</label></td>
+                    <td>
+                        <input type="checkbox" id="cucinare" name="lavoro" value="cucinare">
+                        <label for="cucinare">  cucinare</label><br>
+                        <input type="checkbox" id="pesca" name="lavoro" value="pesca">
+                        <label for="pesca">  pesca</label><br>
+                        <input type="checkbox" id="stampa 3d" name="sport" value="stampa 3d">
+                        <label for="stampa 3d"> stampa 3d</label><br>          
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Altezza</td> <td><input type="number" min="100" max="200"></td>
+                </tr>
+                <tr>
+                    <td align="right">Peso</td> <td><input type="range"></td>
+                </tr>   
+                <tr>
+                    <td align="right">Colore preferito</td> <td><input type="color"></td>
+                </tr>
+                <tr>
+                    <td align="right">Note personali</td> <td>
+                        <textarea id="Note personali" rows="2" cols="30" maxlength="70" placeholder="Richieste aggiuntive"></textarea></td>
+                </tr>
+                <tr>
+                    <td align="right">Invia il modulo</td> <td><input type="submit"></td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="pugliese_assembler_es14"/>
+        <attribute name="authors" value="danie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-23 11:50:48 "/>
+        <attribute name="created" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTIzOyIxMTowNjozNCAiOzIzOTA="/>
+        <attribute name="edited" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTIzOyIxMTo1MDo0OCAiOzE7MjUwMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="primo" type="Integer" array="False" size=""/>
+            <assign variable="primo" expression="1"/>
+            <for variable="i" start="n - 1" end="2" direction="dec" step="1">
+                <if expression="primo == 1">
+                    <then>
+                        <if expression="n % i == 0">
+                            <then>
+                                <assign variable="primo" expression="0"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

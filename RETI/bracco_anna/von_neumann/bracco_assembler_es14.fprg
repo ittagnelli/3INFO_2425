@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ramirez_assembler_es14"/>
+        <attribute name="authors" value="ramir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-23 09:49:34 "/>
+        <attribute name="created" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTIzOyIxMTowNjozNCAiOzIzOTA="/>
+        <attribute name="edited" value="ZGFuaWU7UEMtREFOSUVMRTsyMDI1LTAzLTIzOyIxMTo1MDo0OCAiOzE7MjUwMg=="/>
+        <attribute name="edited" value="cmFtaXI7TVNJOzIwMjUtMDMtMjM7IjA5OjQ5OjM0ICI7MTsyMDgx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A100, primo, i" type="Integer" array="False" size=""/>
+            <assign variable="A100" expression="3"/>
+            <assign variable="primo" expression="1"/>
+            <for variable="i" start="A100 - 1" end="2" direction="dec" step="1">
+                <if expression="primo == 1">
+                    <then>
+                        <if expression="A100 % i == 0">
+                            <then>
+                                <assign variable="primo" expression="0"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

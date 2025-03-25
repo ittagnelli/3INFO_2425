@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="gorun_assembler_es06"/>
+        <attribute name="authors" value="Jenny"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 05:57:30 "/>
+        <attribute name="created" value="SmVubnk7SkVOTjsyMDI1LTAzLTE2OyIwNToxNToxMyAiOzIwMDQ="/>
+        <attribute name="edited" value="SmVubnk7SkVOTjsyMDI1LTAzLTE2OyIwNTo1NzozMCAiOzE7MjExNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="A" expression="ram[100]"/>
+            <assign variable="somma" expression="0"/>
+            <for variable="i" start="i" end="A" direction="inc" step="1"/>
+            <assign variable="somma" expression="somma + i"/>
+        </body>
+    </function>
+</flowgorithm>

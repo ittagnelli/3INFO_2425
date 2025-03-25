@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Matteo Busca" />
+    <meta name="description" content="Esercizio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100" />
+    <title>Esercizio 16</title>
+<style>
+    body {background-color: white;}
+    h1 {color: rgb(0, 0, 0);}
+  </style>
+  
+  <center>
+        <form>
+            <table border="1" style="width: 1200px;">
+                <legend><strong>Dati Personali</strong></legend>
+                
+            <tbody>
+            <strong>
+               <tr>
+                <td align="right"><label for="nome e Cognome">Nome e Cognome:</label></td>
+                    <td><input type="text" id="nome e Cognome" name="nome e Cognome"></td>
+               <tr>
+                <td align="right"><label for="genere">Genere</label>
+                    </td><td><select name="genere" id="genere">
+                    <option value="maschio">Maschio</option>
+                    <option value="femmina">Femmina</option></td>
+               </tr>
+               <tr>
+                <td align="right"><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+               </tr>
+               <tr>
+                <td align="right"><label for="password">Password:</label></td>
+                    <td><input type="password" id="Password" name="Password"></td>
+               </tr>
+               <tr>
+                <td align="right"><label for="iddata"> Data di nascita</label></td> 
+                    <td><input type="date" id="iddata" name="birthday"></td>
+            </tr>
+            <td align="right">Nazione di provenienza</td> 
+            <td><input list="Nations" id="Nazione" placeholder="nascita di provenienza">
+            <datalist id="Nations">
+                <option value="italina"></option>
+                <option value="Canadese"></option>
+                <option value="americano"></option>
+                <option value="olandese"></option>
+                <option value="francese"></option>
+                <option value="tedesco"></option>
+            </select></td>
+            <tr>
+            <td align="right"><label for="idcap">Attività Lavorativa: </label></td>
+            <td>
+                        <input type="radio" id="lavoro" name="Attività Lavorativa" value="lavoro">
+                        <label for="lavoro"> Lavoro</label><br>
+                        <input type="radio" id="non lavoro" name="Attività Lavorativa" value="non lavoro">
+                        <label for="non lavoro"> Non lavoro</label><br>
+                        <input type="radio" id="in cerca" name="Attività Lavorativa" value="in cerca">
+                        <label for="in cerca"> in cerca</label>
+            </td>
+            </tr>
+            <tr>
+                <td align="right"><label for="Hobby">Hobby:</label></td>
+                    <td><input type="text" id="Hobby" name="Hobby"></td>
+               </tr>
+               <tr>
+                <td align="right"><label for="Altezza">Altezza:</label></td>
+                <td>
+                 <input type="number" id="altezza" name="altezza" min="150" max="200">
+                </td>
+               </tr>
+               <tr>
+                <td align="right"><label for="Peso">Peso:</label></td>
+                <td>
+                 <input type="range" min="50" max="100" value="60" class="slider" id="peso">
+                </td>
+               </tr>
+               <tr>
+                <td align="right"><label for="colore">Colore preferito:</label></td>
+                <td>
+                 <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                </td>
+               </tr>
+               <tr>
+                <td align="right"><label for="nota">Nota:</label></td>
+                <td>
+                    <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Inserisci la tua biografia"></textarea>    
+                </td>
+               </tr>
+            </strong>
+            </tbody>
+            </table>      
+        </form>
+            <input type="submit" value="Invia">
+  </center>

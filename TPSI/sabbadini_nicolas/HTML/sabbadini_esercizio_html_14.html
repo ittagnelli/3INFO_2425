@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabbadini - Esercizio 12</title>
+    <meta name="author" content="Nicolas Sabbadini">
+</head>
+<body>
+    <table style="width: 100%; height: 100%;">
+        <tr>
+            <td align="center" valign="middle">
+                <form>
+                    <label for="idnome">Nome: </label>
+                    <input type="text" id="idnome" name="nome" placeholder="Nome" required><br><br>
+
+                    <label for="idcognome">Cognome: </label>
+                    <input type="text" id="idcognome" name="cognome" placeholder="Cognome" required><br><br>
+
+                    <h3>Occupazione:</h3>
+                    <input type="radio" id="studente" name="occupazione" value="studente">
+                    <label for="studente">Studente</label><br>
+                    <input type="radio" id="occupato" name="occupazione" value="occupato">
+                    <label for="occupato">Occupato</label><br>
+                    <input type="radio" id="disoccupato" name="occupazione" value="disoccupato">
+                    <label for="disoccupato">Disoccupato</label><br><br>
+
+                    <h3>Sport:</h3>
+                    <input type="checkbox" id="tennis" name="sport" value="tennis">
+                    <label for="tennis">Tennis</label><br>
+                    <input type="checkbox" id="calcio" name="sport" value="calcio">
+                    <label for="calcio">Calcio</label><br>
+                    <input type="checkbox" id="nuoto" name="sport" value="nuoto">
+                    <label for="nuoto">Nuoto</label><br><br>
+
+                    <h3>Data di Nascita:</h3>
+                    <input type="date" id="iddata" name="birthday" required><br><br>
+
+                    <h3>Altezza</h3>
+                    <input type="number" id="altezza" name="altezza" min="150" max="210"><br><br>
+
+                    <h3>Taglia</h3>
+                    <input type="number" id="taglia" name="taglia" min="1" max="3"><br><br>
+
+                    <h3>Numero di scarpe</h3>
+                    <input type="number" id="numero_scarpe" name="numero_scarpe" min="35" max="53"><br><br>
+
+                    <h3>Colore Preferito</h3>
+                    <input type="color" id="favcolor" name="favcolor" value="#0000FF"><br><br>
+
+                    <label for="peso">Peso: </label>
+                    <input type="range" min="50" max="100" value="60" class="slider" id="peso"><br> 
+
+                    <label for="contento">Quanto sei contento:</label>
+                    <input type="range" min="50" max="100" value="60" class="slider" id="contento"><br>
+                    
+                    <label for="gentile">Quanto sei gentile:</label>
+                    <input type="range" min="50" max="100" value="60" class="slider" id="gentile"><br>
+                    
+                    <label for="genere">Genere:</label>
+                    <select name="genere" id="genere">
+                        <option value="maschio">Maschio</option>
+                        <option value="femmina">Femmina</option>
+                        <option value="trans">Transgender</option>
+                        <option value="no_identita">Non mi identifico</option>
+                    </select>
+
+                    <label for="malattie">Malattie:</label>
+                    <select name="malattie" id="malattie">
+                        <option value="none">Non ne ho</option>
+                        <option value="tumore">Tumore</option>
+                        <option value="malaria">Malaria</option>
+                        <option value="peste">Peste bubbonica</option>
+                    </select>
+
+                    <label for="bio">Biografia:</label>
+                    <textarea id="bio" name="bio" rows="6" cols="60" placeholder="Inserisci la tua biografia"></textarea>    
+
+                    <input type="submit" id="idbutton" value="Invia">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

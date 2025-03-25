@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="sabbo"/>
+        <attribute name="authors" value="nico"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-15 06:30:35 PM"/>
+        <attribute name="created" value="bWFyY287TUFSQ08tT1BUSVBMRVg3OzIwMjUtMDMtMTU7MDY6MjU6MDUgUE07MjkwOQ=="/>
+        <attribute name="edited" value="bWFyY287TUFSQ08tT1BUSVBMRVg3OzIwMjUtMDMtMTU7MDY6MzA6MzUgUE07MjszMDE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tempc, tempf" type="Integer" array="False" size=""/>
+            <assign variable="tempc" expression="tempf - 32"/>
+            <assign variable="tempc" expression="tempc * 5"/>
+            <assign variable="tempc" expression="tempc / 9"/>
+        </body>
+    </function>
+</flowgorithm>

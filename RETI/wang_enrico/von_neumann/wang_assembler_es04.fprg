@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="wang_assembler_es01"/>
+        <attribute name="authors" value="root"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-10 08:56:47 AM"/>
+        <attribute name="created" value="cm9vdDtGMDg1OTY5RkMzNUM7MjAyNS0wMy0xMDswODo0Njo1NiBBTTsyNDI2"/>
+        <attribute name="edited" value="cm9vdDtGMDg1OTY5RkMzNUM7MjAyNS0wMy0xMDswODo1Njo0NyBBTTs1OzI1Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserire numero A&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;inserire numero B&quot;" newline="True"/>
+            <input variable="B"/>
+            <if expression="A==B">
+                <then>
+                    <assign variable="S" expression="A+B"/>
+                </then>
+                <else>
+                    <assign variable="S" expression="A-B"/>
+                </else>
+            </if>
+            <output expression="&quot;La soluzione &#232;&quot;&amp;S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

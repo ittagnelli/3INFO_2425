@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="pezzana_assembler_es5"/>
+        <attribute name="authors" value="simone"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-15 06:35:22 PM"/>
+        <attribute name="created" value="bWFyY287TUFSQ08tT1BUSVBMRVg3OzIwMjUtMDMtMTU7MDY6MzI6NDYgUE07MjkxMg=="/>
+        <attribute name="edited" value="bWFyY287TUFSQ08tT1BUSVBMRVg3OzIwMjUtMDMtMTU7MDY6MzU6MjIgUE07MTszMDE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, numero" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <while expression="numero - i != 0">
+                <assign variable="i" expression="i + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

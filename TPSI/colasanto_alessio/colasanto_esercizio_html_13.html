@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alessio Colasanto">
+    <title>Modulo Iscrizione</title>
+</head>
+<body>
+    <center>
+        <h1>Modulo di Iscrizione</h1>
+    </center>
+    <form>
+        <fieldset>
+            <legend>Dati Personali</legend>
+            
+            <label for="nome">Nome:</label>
+            <input maxlength="50" size="50" type="text" id="nome" name="nome">
+            <br><br>
+            
+            <label for="cognome">Cognome:</label>
+            <input maxlength="50" size="50" type="text" id="cognome" name="cognome">
+            <br><br>
+            
+            <h3>Sesso:</h3>
+            <input type="radio" id="maschio" name="sesso" value="maschio">
+            <label for="maschio">Maschio</label><br>
+            <input type="radio" id="femmina" name="sesso" value="femmina">
+            <label for="femmina">Femmina</label>
+            <br><br>
+            
+            <label for="ateneo">Ateneo:</label>
+            <select id="ateneo" name="ateneo">
+                <option value="">Seleziona un'opzione</option>
+                <option value="sapienza">La Sapienza</option>
+                <option value="torvergata">Tor Vergata</option>
+                <option value="roma3">Roma Tre</option>
+            </select>
+            <br><br>
+            
+            <label for="cap">CAP:</label>
+            <input maxlength="5" size="5" type="text" id="cap" name="cap">
+            <br><br>
+            
+            <h3>Posizione Sociale:</h3>
+            <input type="checkbox" id="studente" name="posizione_sociale" value="studente">
+            <label for="studente">Studente</label><br>
+            <input type="checkbox" id="lavoratore" name="posizione_sociale" value="lavoratore">
+            <label for="lavoratore">Lavoratore</label>
+            <br><br>
+            
+            <label for="descrizione_lavoro">Descrizione del lavoro svolto:</label>
+            <input maxlength="80" size="80" type="text" id="descrizione_lavoro" name="descrizione_lavoro">
+            <br><br>
+            
+            <input type="submit" value="Invia">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>

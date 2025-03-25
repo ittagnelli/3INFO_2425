@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="colasanto_assembler_es08"/>
+        <attribute name="authors" value="gabbbb"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-15 12:44:20 PM"/>
+        <attribute name="created" value="Z2FiYmJiO0dBQkJCQi1JREVBUEFELTsyMDI1LTAzLTE1OzEyOjQxOjM5IFBNOzI4NTI="/>
+        <attribute name="edited" value="Z2FiYmJiO0dBQkJCQi1JREVBUEFELTsyMDI1LTAzLTE1OzEyOjQ0OjIwIFBNOzE7Mjk1Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tk, c" type="Integer" array="False" size=""/>
+            <assign variable="c" expression="100"/>
+            <assign variable="tk" expression="(c *9 /5)+32"/>
+            <output expression="tk" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

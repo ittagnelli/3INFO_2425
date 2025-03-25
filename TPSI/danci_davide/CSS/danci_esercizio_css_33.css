@@ -1,0 +1,57 @@
+.contenitore{
+    border: 10px solid lightblue;
+    width: 1000px;
+    height: 400px;
+}
+
+div{
+    color: white;
+    font-weight: bold;
+}
+
+.head{
+    width: 980px;
+    padding-left: 20px;
+    height: 50px;
+    background-color: rgb(205, 140, 20);
+    line-height: 50px;
+}
+
+.contenitore > div:nth-child(2){
+    height: 300px;
+}
+
+.left{
+    float: left; 
+    width: 330px;
+    text-align: center;
+    height: 300px;
+    background-color: orange;
+    line-height: 300px;
+}
+
+.center{
+    float: left; 
+    width: 340px;
+    text-align: center;
+    height: 300px;
+    background-color: rgb(8, 123, 123);
+    line-height: 300px;
+}
+
+.right{
+    float: left; 
+    width: 330px;
+    text-align: center;
+    height: 300px;
+    background-color:blue;
+    line-height: 300px;
+}
+
+.foot{
+    width: 980px;
+    height: 50px;
+    background-color: rgb(87, 200, 87);
+    line-height: 50px;
+    padding-left: 20px;
+}

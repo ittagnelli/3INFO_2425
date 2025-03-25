@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>TPSI 3 INFO ramirez</title>
+    <meta name="author" content="Ramirez Giorgio" />
+    <meta name="description" content="Esercitazione 12" />
+    <meta name="keywords" content="form" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100" />
+</head>
+<body>
+    <align ="center">Inserisci i dati per la prenotazione</align><br>
+    <form>
+        <label for="idnome">Nome: </label>
+        <input type="text" id="idnome" name="nome" placeholder="Nome">
+        <label for="idcognome">Cognome: </label>
+        <input type="text" id="idcognome" name="cognome" placeholder="Cognome"><br> 
+        <label for="idemail">email: </label>
+        <input type="text" id="idemail" name="email" placeholder="email"><br> 
+
+        <h3>cittadinanza</h3>
+        <input type="radio" id="italia" name="cittadinanza" value="Si">
+        <label for="italia">  Italiana</label><br>
+        <input type="radio" id="UE" name="cittadinanza" value="no">
+        <label for="UE">  estero presente nell'UE</label><br>
+        <input type="radio" id="estero" name="cittadinanza" value="no">
+        <label for="esterbo">  estero al di fuori dell UE</label><br>
+        <h3>inserire giorno di disponibilità</h3><br>
+        <input type="checkbox" id="lunedi" name="giorno" value="lunedi">
+        <label for="lunedi">  lunedi</label><br>
+        <input type="checkbox" id="martedi" name="giorno" value="martedi">
+        <label for="martedi">  martedi</label><br>
+        <input type="checkbox" id="mercoledi" name="giorno" value="mercoledi">
+        <label for="mercoledi">  mercoledi</label><br>
+        <input type="checkbox" id="giovedi" name="giorno" value="giovedi">
+        <label for="giovedi">  giovedi</label><br>
+        <input type="checkbox" id="venerdi" name="giorno" value="venerdi">
+        <label for="venerdi">  venerdi</label><br>
+        <input type="checkbox" id="sabato" name="giorno" value="sabato">
+        <label for="sabato"> sabato</label><br><br>
+        <h3>Data di Nascita(se minore devono essere accompagnati da genitore/tutore)</h3><br>
+         <input type="date" id="iddata" name="birthday"><br><br>
+
+        <label for="idbutton">premere per inviare dati: </label>
+        <input type="button" id="idbutton" value="Invio">     
+      </form>
+</body>
+</html>

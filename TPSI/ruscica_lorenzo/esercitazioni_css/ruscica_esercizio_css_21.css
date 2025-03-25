@@ -1,0 +1,24 @@
+#tit1 {
+  font-family: fantasy;
+}
+
+#tit2 {
+  font-family: Trebuchet;
+}
+
+#tit3 {
+  font-family:serif;
+}
+
+ol.Ordered {
+  list-style-type: upper-roman;
+}
+
+ul#Unordered {
+  list-style-type: circle;
+}
+
+ul.icon-list {
+  list-style: none;
+  padding: 0;
+}

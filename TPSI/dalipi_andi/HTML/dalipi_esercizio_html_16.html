@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DALIPI ES_16</title>
+    </head>
+    <body>
+        <form>
+                <legend>Dati Personali</legend>
+                <table>
+                    <tr>
+                        <td><label for="nome">Nome:</label></td>
+                        <td><input type="text" id="nome" name="nome"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="cognome">Cognome:</label></td>
+                        <td><input type="text" id="cognome" name="cognome"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="genere">Genere:</label></td>
+                        <td>
+                            <select name="genere" id="genere">
+                                <option value="maschio">Maschio</option>
+                                <option value="femmina">Femmina</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pwd">Password:</label></td>
+                        <td><input type="password" id="pwd" name="pwd"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="iddata">Data di nascita:</label></td>
+                        <td><input type="date" id="iddata" name="birthday"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nazioni">Nazionalità:</label></td>
+                        <td>
+                            <input list="nations" name="nazioni" id="nazioni">
+                            <datalist id="nations">
+                                <option value="Albanese">
+                                <option value="Argentina">
+                                <option value="Belga">
+                                <option value="Biellorussa">
+                                <option value="Italiana">
+                                <option value="Irlandese">
+                                <option value="Israeliana">
+                            </datalist>
+                        </td>
+                    </tr>
+                </table>
+    
+                <h3>Occupazione:</h3>
+                <table>
+                    <tr>
+                        <td><input type="radio" id="studente" name="occupazione" value="studente"></td>
+                        <td><label for="studente">Studente</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="occupato" name="occupazione" value="occupato"></td>
+                        <td><label for="occupato">Occupato</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="disoccupato" name="occupazione" value="disoccupato"></td>
+                        <td><label for="disoccupato">Disoccupato</label></td>
+                    </tr>
+                </table>
+    
+                <h3>Sport:</h3>
+                <table>
+                    <tr>
+                        <td><input type="checkbox" id="tennis" name="sport" value="tennis"></td>
+                        <td><label for="tennis">Tennis</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="calcio" name="sport" value="calcio"></td>
+                        <td><label for="calcio">Calcio</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="nuoto" name="sport" value="nuoto"></td>
+                        <td><label for="nuoto">Nuoto</label></td>
+                    </tr>
+                </table>
+    
+                <h3>Altezza:</h3>
+                <table>
+                    <tr>
+                        <td><label for="altezza">Altezza (cm):</label></td>
+                        <td><input type="number" id="altezza" name="altezza" min="150" max="200"></td>
+                    </tr>
+                </table>
+    
+                <h3>Peso:</h3>
+                <table>
+                    <tr>
+                        <td><label for="peso">Peso (kg):</label></td>
+                        <td><input type="range" min="50" max="100" value="60" class="slider" id="peso"></td>
+                    </tr>
+                </table>
+    
+                <h3>Colore preferito:</h3>
+                <table>
+                    <tr>
+                        <td><label for="favcolor">Colore:</label></td>
+                        <td><input type="color" id="favcolor" name="favcolor" value="#ff0000"></td>
+                    </tr>
+                </table>
+    
+                <h3>Biografia:</h3>
+                <table>
+                    <tr>
+                        <td><label for="bio">Biografia:</label></td>
+                        <td><textarea id="bio" name="bio" rows="4" cols="50" placeholder="Inserisci la tua biografia"></textarea></td>
+                    </tr>
+                </table>
+
+        </form>
+    </body>
+    </html>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.container {
+  height: 150px;
+  width: 750px;
+  border: 20px solid blue;
+  margin: auto;
+  overflow: hidden;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  float: left;
+}

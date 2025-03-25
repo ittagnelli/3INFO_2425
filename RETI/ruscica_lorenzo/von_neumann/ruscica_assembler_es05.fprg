@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ruscica_assembler_es05"/>
+        <attribute name="authors" value="lorenzo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 05:52:17 "/>
+        <attribute name="created" value="bG9yZW56bztDT01QVVRFUi1SVVNDSTsyMDI1LTAzLTE2OyIwNTo0OTo0MiAiOzMwMzM="/>
+        <attribute name="edited" value="bG9yZW56bztDT01QVVRFUi1SVVNDSTsyMDI1LTAzLTE2OyIwNTo1MjoxNyAiOzE7MzEzNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, s, c" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="20"/>
+            <for variable="s" start="1" end="a" direction="inc" step="1">
+                <output expression="s" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

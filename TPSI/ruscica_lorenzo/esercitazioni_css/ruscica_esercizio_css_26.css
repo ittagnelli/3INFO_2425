@@ -1,0 +1,28 @@
+.blocchi {
+  width: 80%;
+  margin: auto;
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  float: right;
+  margin-left: 20px;
+  color: gray;
+}
+.testo {
+  color: white;
+  display: inline-block;
+  max-width: 400px;
+  text-align: left;
+}

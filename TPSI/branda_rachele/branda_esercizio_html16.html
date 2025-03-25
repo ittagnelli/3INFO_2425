@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo per l'inserimento di dati personali</title>
+    <style>
+        body {
+            text-align: center; 
+        }
+        table {
+            margin: 0 auto; 
+            width: auto; 
+            border-collapse: collapse;
+        }
+        td, th {
+            padding: 8px; 
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Modulo per l'inserimento di dati personali</h1>
+    <form>
+        <table>
+            <tr>
+                <th colspan="2"><b>Informazioni Personali</b></th>
+                <th><b>Dettagli</b></th>
+            </tr>
+
+            <tr>
+                <td><label for="nome"><h4>Nome</h4></label></td>
+                <td colspan="2"><input type="text" id="nome" placeholder="Nome" maxlength="50" /></td>
+            </tr>
+
+            <tr>
+                <td><label for="cognome"><h4>Cognome</h4></label></td>
+                <td colspan="2"><input type="text" id="cognome" placeholder="Cognome" maxlength="50" /></td>
+            </tr>
+
+            <tr>
+                <td><label for="Email"><h4>Email</h4></label></td>
+                <td colspan="2"><input type="text" id="Email" placeholder="Email" maxlength="50" /></td>
+            </tr>
+
+            <tr>
+                <td><label for="Password"><h4>Password</h4></label></td>
+                <td colspan="2"><input type="text" id="Password" placeholder="Password" maxlength="50" /></td>
+            </tr>
+
+                
+            <tr>
+                <td><label for="datadinascita"><h4>Data di nascita</h4></label></td>
+                <td colspan="2"><input type="date" id="datadinascita" /> <br /></td>
+            </tr>
+
+            <tr>
+                <td><label for="Nazionalità"><h4>Nazionalità</h4></label></td>
+                <td colspan="2"><input type="text" id="Nazionalità" placeholder="Nazionalità" maxlength="50" /></td>
+            </tr> 
+            <tr>
+                <td><h4>Genere</h4></td>
+                <td colspan="2">
+                    <input type="radio" id="Maschio" value="Maschio" name="genere" /> <label for="Maschio">Maschio</label><br />
+                    <input type="radio" id="Femmina" value="Femmina" name="genere" /> <label for="Femmina">Femmina</label><br />
+                    <input type="radio" id="NonBinary" value="Non-Binary" name="genere" /> <label for="NonBinary">Non-Binary</label><br />
+                    <input type="radio" id="Altro" value="Altro" name="genere" /> <label for="Altro">Altro</label>
+                </td>
+            </tr>
+            <tr>
+                <td><h4>Sono uno...</h4></td>
+                <td colspan="2">
+                    <input type="checkbox" id="Studente" name="occupazione" value="Studente">
+                    <label for="Studente">Studente </label>
+                    <input type="checkbox" id="Lavoratore" name="occupazione" value="Lavoratore">
+                    <label for="Lavoratore">Lavoratore</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Lavoro"><h4>Lavoro</h4></label></td>
+                <td colspan="2"><input type="text" id="Lavoro" placeholder="Lavoro" maxlength="50" /></td>
+            </tr>
+            <tr>
+                <td><label for="Hobby"><h4>Hobby</h4></label></td>
+                <td colspan="2"><input type="text" id="Hobby" placeholder="Hobby" maxlength="80"></td>
+            </tr>
+            <tr>
+                <td><h3>Altezza</h3><br><br></td>
+                <td colspan="2"><input type="number" id="altezza" name="altezza" min="150" max="200"><br><br></td>
+        </tr>
+        <tr>
+            <td><label for="peso">Peso: </label></td>
+            <td colspan="2"><input type="range" min="50" max="100" value="60" class="slider" id="peso"><br> </td>
+        </tr>
+        <tr>
+            <td><h3>Colore preferito</h3><br></td>
+            <td colspan="2"><input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+            </form></td>
+        </tr>
+        <tr>
+            <td><label for="bio">Biografia:</label></td>
+            <td colspan="2"><textarea id="bio" name="bio" rows="4" cols="50" placeholder="Inserisci la tua biografia"></textarea> </td>  
+        </tr>
+            <tr>
+                <td><label for="reset">Reset del modulo</label></td>
+                <td colspan="2"><input type="reset" id="reset" /></td>
+            </tr>
+            <tr>
+                <td><label for="submit">Invia il modulo</label></td>
+                <td colspan="2"><input type="submit" id="submit" /></td>
+
+            </tr>
+            
+        </table>
+    </form>
+</body>
+</html>
+      

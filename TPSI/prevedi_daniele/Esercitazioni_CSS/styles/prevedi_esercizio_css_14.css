@@ -1,0 +1,51 @@
+table{
+    width: 100%;
+}
+
+#A1{
+    background-color: red;
+}
+
+#A2{
+    background-color: aqua;
+}
+
+#A3{
+    background-color: #29bf12;
+}
+
+#B1{
+    background-color: #6adf31;
+}
+
+#B2{
+    background-color: rgb(171, 255, 79);
+}
+
+#B3{
+    background-color: rgb(131, 239, 107);
+}
+
+#C1{
+    background-color: rgba(90, 222, 134, 0.3);
+}
+
+#C2{
+    background-color: rgba(8, 189, 189, 0.7);
+}
+
+#C3{
+    background-color: hsl(297, 8%, 46%);
+}
+
+#D1{
+    background-color: hsl(346, 46%, 49%);
+}
+
+#D2{
+    background-color: hsla(350, 89%, 53%, 0.5);
+}
+
+#D3{
+    background-color: hsla(34, 100%, 54%, 0.8);
+}

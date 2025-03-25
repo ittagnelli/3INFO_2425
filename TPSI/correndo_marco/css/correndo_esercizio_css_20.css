@@ -1,0 +1,25 @@
+h1{
+    text-transform: uppercase;
+    color: blue;
+}
+
+h2{
+    color: red;
+    text-decoration: underline;    
+}
+
+h2::first-letter{
+    text-transform: uppercase;
+}
+
+p{
+    text-align: justify;
+}
+
+body > p:nth-child(3){
+    text-align: right;
+}
+
+cite:first-child{
+    text-shadow: 3px 1px  green;
+}

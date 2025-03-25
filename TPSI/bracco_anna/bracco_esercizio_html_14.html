@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+ <head>
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>Esercizio HTML 14</title> 
+</head>
+ <body> 
+      <h1>Modulo Esteso</h1>
+       <form action="#" method="post">
+          <label for="number1">Numero 1 (min: 0, max: 10):</label>
+           <input type="number" id="number1" name="number1" min="0" max="10"><br><br> 
+           <label for="number2">Numero 2 (min: 5, max: 50):</label> 
+           <input type="number" id="number2" name="number2" min="5" max="50"><br><br>
+            <label for="number3">Numero 3 (min: 100, max: 200):</label>
+             <input type="number" id="number3" name="number3" min="100" max="200"><br><br> 
+            <label for="number4">Numero 4 (min: -10, max: 10):</label> 
+            <input type="number" id="number4" name="number4" min="-10" max="10"><br><br> 
+            <label for="color">Seleziona un colore:</label>
+             <input type="color" id="color" name="color"><br><br>
+            <label for="range1">Range 1 (min: 0, max: 50):</label> 
+            <input type="range" id="range1" name="range1" min="0" max="50"><br><br> 
+            <label for="range2">Range 2 (min: 10, max: 100):</label> 
+            <input type="range" id="range2" name="range2" min="10" max="100"><br><br> 
+            <label for="range3">Range 3 (min: -20, max: 20):</label>
+             <input type="range" id="range3" name="range3" min="-20" max="20"><br><br> 
+             <label for="combo">Scegli un'opzione:</label> 
+             <select id="combo" name="combo"> 
+            <option value="opzione1">Opzione 1</option>
+             <option value="opzione2">Opzione 2</option>
+              <option value="opzione3">Opzione 3</option>
+               <option value="opzione4">Opzione 4</option> 
+               <option value="opzione5">Opzione 5</option> 
+            </select><br><br> 
+            <label for="datalist">Scegli un valore:</label>
+             <input list="valori" id="datalist" name="datalist">
+              <datalist id="valori"> <option value="Valore 1"> 
+                <option value="Valore 2"> <option value="Valore 3">
+                     <option value="Valore 4"> <option value="Valore 5"> 
+                     </datalist><br><br> 
+                     <label for="textarea">Descrizione (min 6 righe, 60 colonne):</label><br>
+                      <textarea id="textarea" name="textarea" rows="6" cols="60"></textarea><br><br>
+                         <button type="submit">Invia</button>
+                          <button type="reset">Reset</button> 
+                        </form>
+                     </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="it"> <!-- Pagina HTML -->
+<head>
+    <!-- Qui vanno inserite informazioni relative alla pagina ma che non saranno visualizzate -->
+    <!-- sezione meta Fornisce informazioni al web browser e ai motori di ricerca per il processo di indicizzazione -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Anna Bracco" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100"><!-- Duranbte la fase di sviluppo permette il refresh  automatico della pagina  -->
+    <title>Prima pagina HTML</title><!-- titolo della pagina -->
+    <style>
+      body {background-color: powderblue;}
+      h1 {color: blue;}
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "STRUTTURA BASE DI UNA PAGINA WEB";
+      }
+    </script>
+</head>
+<body><!-- Corpo principale della pagina HTML-->
+    <center>
+        <h1 id="titolo">La mia una pagina web</h1>
+        <br/><br/>
+        <img src="https://source.unsplash.com/collection/94734566/1920x1080" width="60%"/>
+        <div><button type="button" onclick="myFunction()">Prova a premere</button></div>
+    </center>
+</body>
+</html>

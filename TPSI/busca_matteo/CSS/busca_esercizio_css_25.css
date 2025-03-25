@@ -1,0 +1,23 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 200px dashed;
+}
+
+.parent{
+    color: white;
+    padding: 10px;
+    float: inline-start;
+    background-color: purple;
+
+}
+.parent1{
+    float: none;
+
+}
+.parent2{
+    color: white;
+    padding: 10px;
+    float: inline-end;
+    background-color: purple;
+}

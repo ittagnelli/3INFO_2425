@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>form</title>
+    <meta name="author" content="Lorenzo Ruscica" />
+    <meta name="description" content="Esercitazione 16" />
+    <meta name="keywords" content="form" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+</head>
+<style>
+    body {background-color: rgb(129, 234, 241);}
+</style>
+<body>
+    <center>
+        <h1>Form</h1>
+    <form>
+        <table>
+            <tr>
+        <td align="right">Nome</td> <td><input type="text" id="nome" name="nome" placeholder="Nome"></td>
+        </tr>
+        <tr>
+            <td align="right">Cognome</td> <td><input type="text" id="cognome" name="cognnome" placeholder="Cognome">
+        </tr>
+    <tr>
+        <td align="right">Inserisci la tua mail</td> <td colspan="2"><label for="email"></label>
+        <input type="email" id="mail" name="mail"></td>
+    </tr>
+    <tr>
+        <td align="right">Genere</td> <td><label for="mf"></label>
+        <select name="Genere" id="mf">
+        <option value="maschio">Maschio</option>
+        <option value="femmina">Femmina</option></td>
+    </select>
+    </tr>
+    <tr>
+        <td align="right">Password</td><td><label for="pwd"></label>
+        <input type="password" id="pwd" name="pwd"></td>
+           
+        </tr>
+        <tr>
+            <td align="right">Data di nascita</td><td><input type="date" id="data" name="nascita"></td>
+        </tr>
+        <tr>
+            <td align="right">Nazione di residenza</td><td><input list="nations" name="nazioni" id="nazioni">
+            <datalist id="nations">
+              <option value="fillandia">
+              <option value="albania">
+              <option value="svizzera">
+              <option value="Inghilterra">
+              <option value="Italia">
+              <option value="Francia">
+              <option value="ucraina">
+            </datalist></td>
+        </tr>
+        <tr>
+            <td align="right">Attività lavorativa</td><td><input type="radio" id="Studente" name="lavorativa" value="persona">
+            <label for="studente">studente</label><br>
+            <input type="radio" id="disoccupato" name="lavorativa" value="persona">
+            <label for="disoccupat">disoccupato</label><br>
+            <input type="radio" id="in cerca di lavoro" name="lavorativa" value="persona">
+            <label for="in cerca di lavoro">in cerca di lavoro</label><br>
+            <input type="radio" id="contratto stabile" name="lavorativa" value="persona">
+            <label for="contratto stabile">contratto stabile</label></td>
+        </tr>
+        <tr>
+            <td align="right">Hobby</td><td>
+                  <input type="checkbox" id="sport" name="sport" value="sport">
+                  <label for="tennis">Sport</label><br>
+                  <input type="checkbox" id="niete" name="sport" value="niente">
+                  <label for="calcio">Niente</label><br>
+                  <input type="checkbox" id="corsa" name="sport" value="corsa">
+                  <label for="nuoto">corsa</label></td>
+        </tr>
+        <tr>
+            <td align="right">Altezza</td><td><input type="number" id="altezza" name="altezza" min="20" max="100"></td>
+        </tr>
+        <tr>
+            <td align="right">Peso</td><td><input type="range" min="25" max="100" value="60" class="slider" id="peso"><br></td>
+        </tr>
+        <tr>
+            <td align="right">Colore preferito</td><td><input type="color" id="colore" name="colore" value="#3700f"></td>
+        </tr>
+        <tr>
+            <td align="right">Note personali</td><td><textarea id="bio" name="bio" rows="4" cols="50" placeholder="Inserisci note aggiuntive"></textarea></td>
+        </tr>
+    </table>
+    </form>
+</center>
+</body>

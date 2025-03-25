@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>  Sabbadini - Esercitazione 3 HTML</title>
+    <meta name="author" content="Sabbadini Nicolas" />
+    <meta http-equiv="refresh" content="100" />
+    <style>
+         body {background-color: green;}
+         h1 {color: black;}
+         p {color: black;}
+    </style>
+</head>
+    <body>
+        <p>da <a href="https://en.wikipedia.org/wiki/Localhost">https://en.wikipedia.org/wiki/Localhost</a></p>
+        <h1>localhost</h1>
+            <img src="https://www.borsainside.com/content/uploads/2023/04/Localhost.png" width="250" alt="localhost"/>
+            </a>
+        <p>In <a href="https://en.wikipedia.org/wiki/Computer_network">computer networking,</a> localhost is a <a href="https://en.wikipedia.org/wiki/Hostname">hostname</a> that <u>refers</u> to the current computer used to access it. It is used to access the <a href="https://en.wikipedia.org/wiki/Network_service">network services</a> that are running on the host via the loopback network interface. Using the loopback interface bypasses any local <a href="https://en.wikipedia.org/wiki/Network_interface_controller">network interface hardware.</a></p>
+        
+        <h2><a href="https://en.wikipedia.org/wiki/Loopback">Loopback</a></h2>
+            <img src="file:////home/nicholas.sabbadini@agnelli.priv/Scaricati/LoopBack-1000x457.jpg" width="250" alt="Loopback"/>
+            </a>
+        <p>The local <b>loopback</b> mechanism may be used to run a network <ins>service</ins> on a host without <ins>requiring</ins> a physical network interface, or <u>without</u> making the service accessible from the networks the computer may be connected to. For example, a locally installed website may be accessed from a Web browser by the URL http://localhost to display its home page. <br />
+            The name <ins>localhost</ins> normally resolves to the IPv4 loopback address 127.0.0.1, and to the IPv6 loopback <strong>address</strong> ::1.</p>
+        
+        <h2>Name resolution</h2>
+        <a href="https://en.wikipedia.org/wiki/Name_resolution" target="_blank">
+            <img src="https://www.researchgate.net/publication/342003872/figure/fig2/AS:900085244248066@1591608453435/Domain-name-resolution-process-with-DNS.ppm" width="250" alt="name resolution"/>
+            </a>
+        <p><span style="color:green">IPv4</span> <em>etwork standards reserve the entire address block</em> <span style="color:red">127.0.0.0/8</span> (more than 16 million addresses) for <span style="color:green">loopback purposes.</span>[2] That means any packet sent to any of those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1. <br />
+            <em>The resolution of the name localhost</em> to one or more IP addresses is normally <small>configured</small> by the following lines in the operating system's hosts file: <br />
+            127.0.0.1    localhost <br />
+            ::1          localhost</p>
+        
+        <p>The name may also be <strong>resolved</strong> by Domain Name System (DNS) <strong>resolved</strong>, but queries for this name should be resolved locally, and should not be forwarded to remote name servers.</p>
+        
+        <p>In <b>addition</b> to the mapping of <em>localhost to the loopback addresses</em> (127.0.0.1 and ::1), localhost may also be <strong>mapped</strong> to other IPv4 (loopback) addresses and it is also possible to assign other, or additional, names to any loopback address. The mapping of localhost to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally.</p>
+        
+        <p>In the <b>Domain Name System</b>, the name <small>localhost</small> is reserved as a top-level domain name, originally <small>set aside</small> to avoid confusion with the hostname used for loopback purposes.[3] IETF standards prohibit domain name registrars from assigning the name localhost.</p>
+        
+        <h2><span style="color:white">IETF standards</span></h2>
+        <p>The name <span style="color:blue">localhost</span> is reserved for loopback <s>purpose</s> by RFC 6761 (Special-Use Domain Names),[4] which <s>achieved</s> the Proposed Standard maturity level in February 2013. The <s>standard</s> sets forth a number of special considerations governing the use of the name in the Domain Name System:</p>
+        
+        <p>An <b>IPv4</b> or <b>IPv6</b> address query for the name <blockquote>localhost</blockquote> must always resolve to the respective loopback address, which is specified in a separate standard. <br />
+            Applications may resolve the name to a loopback <ins>address</ins> themselves, or <del>pass</del> it to the local name resolver <del>mechanisms</del>. <br />
+            When a name resolver receives an address (A or AAAA) query for localhost, it should return the appropriate loopback addresses, and negative <abbr>responses</abbr> for any other requested record types. Queries for <s>localhost</s> should not be sent to caching name<s>boh</s>. <br />
+            To <del>avoid</del> burdening the Domain Name System root servers with traffic, caching name servers should <q>never</q> request name <abbr>server</abbr> records for localhost, or forward resolution to authoritative name servers. <br />
+            DNS registrars are precluded from delegating domain names in the <del>top-level</del> domain <u>localhost</u>. <br />
+            When authoritative name servers receive <ins>queries</ins> for 'localhost' in spite of the provisions <abbr>mentioned</abbr> resolve them appropriately. <br />
+            The IPv4 loopback <small>addresses</small> are reserved within the IPv4 address space by the IETF <cite>"Special Use IPv4 Addresses"</cite> <sup>standard </sup>(RFC 5735).[5] The reservation can be traced back to the November 1986 "Assigned Numbers" standard (RFC 990). </p>
+        
+        <p><div style="color:red; background-color:white;">In contrast, <em>the IETF "IP Version 6 Addressing Architecture"</em> standard (RFC 4291) <u>reserves</u> the single IPv6 loopback address ::1 within the IPv6 address space. The standard precludes the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it. </div></p>        
+  
+        <h3>Packet processing</h3>
+        <p>The <b>processing</b> of any <mark>packet</mark> sent to a <u>loopback</u> address, is <del>implemented</del> in the link layer of the TCP/IP stack. Such packets are never passed to any network interface controller (NIC) or hardware device driver and must not appear outside of a computing system, or be routed by any router. This permits software testing and local services in the absence of any hardware network interfaces.</p>
+        
+        <p><mark>Looped-back</mark> packets are distinguished from any <q>other</q> packets traversing the <mark>TCP/IP</mark> stack only by the special <mark>IP address</mark> they were addressed to. Thus, the services that ultimately receive them respond according to the specified destination. For example, an HTTP service could route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different Web servers, or to a single server that returns different web pages. To simplify such testing, the hosts file may be configured to provide appropriate names for each address.</p>
+        
+        <p><em>Packets received on a non-loopback</em> interface with a <small>loopback source</small> or destination address must be <q>dropped</q>. <em>Such packets</em> are sometimes referred to as Martian packets.[6] As with any other bogus packets, they may be malicious and any problems they might cause can be avoided by applying bogon filtering.</p>
+        
+        <h3>Special cases</h3>
+        <p>The releases of the <strong>MySQL</strong> database <del>differentiate</del> between the use of the hostname <mark>localhost</mark> and the use of the addresses 127.0.0.1 and ::1.[7] When using localhost as the destination in a client connector interface of an application, the MySQL application programming interface connects to the database using a Unix domain socket, while a TCP connection via the loopback interface requires the direct use of the explicit address.</p>
+        
+        <p><div style="color:red; background-color:white;"><small>One notable exception</small> to the use of the 127.0.0.0/8 addresses is their use in <sub>Multiprotocol</sub> Label Switching (MPLS) traceroute error detection, in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.</div></p>
+        <p>for install code in linux do : <code>apt install vscode</code></p>
+        <pre>
+            Questo testo       viene visualizzato esatta 
+            mente come fornito dallo sviluppatore.    
+            Venogno rispettrati    gli spazi e i ritorni 
+            a 
+            capo.
+        </pre>
+         <br> what <br>
+        chromium <br>VSUALSTUDIO CODE<br>ah. <br>boh<br>sqlserver. <br> 
+<br>localhost <br>    
+Per inserire una linea orizzontale di separazione usa <hr>
+Per inserire una linea orizzontale di separazione usa <hr>
+Per inserire una linea orizzontale di separazione usa <hr>
+Un modo molto efficace per visualizzare il progresso di un attività o evento è l'uso del tag <meter>
+
+    Andamento dei voti:<br>
+    
+    Studente 1 <meter min="0" max="10" value="8.0">8 su 10</meter><br />
+    Studente 2 <meter min="0" max="10" value="6.5">6.5 su 10</meter><br />
+    Studente 3 <meter min="0" max="10" value="9.5">9.5 su 10</meter><br />
+    Studente 4 <meter min="0" max="10" value="4.5">4.5 su 10</meter><br /> 
+    Studente 5 <meter min="0" max="10" value="4.5">4.5 su 10</meter><br /> 
+    In alternativa si può visualizzare un progress bar tramite l'uso del tag <progress>
+
+        Andamento dei voti:<br>
+        
+        Studente 1 <progress min="0" max="10" value="8">8 di 10</progress><br />
+        Studente 2 <progress min="0" max="10" value="6.5">6.5 di 10</progress><br />
+        Studente 3 <progress min="0" max="10" value="9.5">9.5 di 10</progress><br />
+        Studente 4 <progress min="0" max="10" value="4.5">4.5 di 10</progress><br />
+        Studente 5 <progress min="0" max="10" value="4.5">4.5 di 10</progress><br />
+    </body>
+<html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>TPSI 3 INFO ramirez</title>
+    <meta name="author" content="Ramirez Giorgio" />
+    <meta name="description" content="Esercitazione 16" />
+    <meta name="keywords" content="form" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100" />
+</head>
+<body>
+    <h1 style="text-align: center;">Raccolta dati personali</h1>
+        <form>
+            <table border="1" align="center">
+                <tr>
+                    <th><label for="nome_cognome">Cognome e Nome</label></th>
+                    <td><input type="text" id="nome_cognome" name="nome_cognome" maxlength="50"></td>
+                </tr>
+                <tr>
+                    <th>Genere</th>
+                    <td>
+                        <input type="radio" id="maschio" name="sesso" value="Maschio">
+                        <label for="maschio">Maschio</label>
+                        <input type="radio" id="femmina" name="sesso" value="Femmina">
+                        <label for="femmina">Femmina</label>    
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="email">email</label></th>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <th><label for="pwd">Password</label></th>
+                    <td><input type="password" id="pwd" name="pwd"></td>
+                </tr>
+                <tr>
+                    <th><label for="data_nascita">Data nascita</label></th>
+                    <td><input type="date" id="iddata" name="birthday"><br><br></td>
+                </tr>
+                <tr>
+                    <th><label for="nazionalità">nazionalità</label></th>
+                    <td>
+                        <input list="nations" name="nazioni" id="nazioni">
+                        <datalist id="nations">
+                            <option value="Italiana">
+                            <option value="dentro UE">
+                            <option value="Europea fuori UE">
+                            <option value="Estera">
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="Attivita_lavorativa">Attivita lavorativa</label></th>
+                    <td>
+                        <select id="Attivita_lavorativa" name="Attivita_lavorativa">
+                            <option value="" disabled selected>Seleziona uno tra i seguenti</option>
+                            <option value="occupato">occupato</option>
+                            <option value="disoccupato">disoccupato</option>
+                            <option value="studente">studente</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="descrizione">hobby propri</label></th>
+                    <td><textarea id="descrizione" name="descrizione" maxlength="80"></textarea></td>
+                </tr>
+                <tr>
+                    <th><label for="altezza">Altezza(cm)</label></th>
+                    <td>
+                        <input type="number" id="altezza" name="altezza" min="0" max="300"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="peso">Peso: </label></th>
+                    <td>
+                       <input type="range" min="50" max="100" value="60" class="slider" id="peso"><br> 
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="colore">colore preferito</label></th>
+                    <td>
+                        <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="descrizione">note personali</label></th>
+                    <td><textarea id="descrizione" name="descrizione" maxlength="100"></textarea></td>
+                </tr>
+              </table>
+        </form>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body {
+    background-color: rgba(113, 247, 247, 0.954);
+}
+
+.image_bg {
+    float: left;
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 50%;
+    height:  530px;
+    border: 5px solid white;
+}
+
+
+.menu {
+    margin-top: 1%;
+    float: left;
+    width: 30%;
+    height: 540px;
+    background-color: rgb(32, 56, 101);
+}
+
+#image_2 {
+    border: 5px solid rgba(113, 247, 247, 0.954);
+    border-radius: 3px;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+
+#title, #description, #contatti {
+    color: white;
+    text-align: center;
+    font-family:'Gill Sans', sans-serif;
+}
+
+#title{
+    color: white;
+    
+}
+
+#description {
+    color: rgba(113, 247, 247, 0.954);
+   
+}
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#contatti {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+span {
+    float: left;
+    color:rgba(113, 247, 247, 0.954);
+    margin-left: 10%;
+    margin-right: 6%;
+}
+ p {
+    color: rgb(222, 222, 222);
+    font-weight: lighter;
+    font-size: small;
+ }
+
+ hr:nth-of-type(2) {
+    margin-top: 8%;
+ }

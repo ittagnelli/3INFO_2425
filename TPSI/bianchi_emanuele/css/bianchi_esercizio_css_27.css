@@ -1,0 +1,41 @@
+/* Stile generale */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Contenitore principale */
+.container {
+  width: 80%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+/* Box flottante */
+.float-box {
+  width: 120px;
+  height: 120px;
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  float: left;
+  margin-right: 20px;
+}
+
+/* Testo accanto al float */
+.text {
+  display: inline-block;
+  max-width: calc(100% - 140px);
+  vertical-align: top;
+}
+
+/* Testo sotto il float */
+.clear-text {
+  clear: both;
+  margin-top: 20px;
+}

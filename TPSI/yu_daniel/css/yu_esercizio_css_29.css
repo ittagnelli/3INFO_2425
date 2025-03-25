@@ -1,0 +1,21 @@
+div.container{
+    border: 20px solid lightblue;
+    margin: auto;
+    height: 100%;
+}
+
+div.colonna{
+    border: 1px solid black;
+    margin: 5px;
+    float: left;
+}
+
+img{
+    width: 150px;
+}
+
+div.p{
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+}

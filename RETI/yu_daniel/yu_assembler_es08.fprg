@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="yu_assembler_es08"/>
+        <attribute name="authors" value="HYPERX"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-16 10:34:07 "/>
+        <attribute name="created" value="SFlQRVJYO0RFU0tUT1AtNktSUDJWTDsyMDI1LTAzLTE2OyIxMDozMjoyNSAiOzI3NTM="/>
+        <attribute name="edited" value="SFlQRVJYO0RFU0tUT1AtNktSUDJWTDsyMDI1LTAzLTE2OyIxMDozNDowNyAiOzE7Mjg2Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="C" type="Integer" array="False" size=""/>
+            <declare name="F" type="Integer" array="False" size=""/>
+            <input variable="C"/>
+            <assign variable="F" expression="(C*9/5)+32"/>
+            <output expression="F" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

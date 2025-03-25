@@ -1,0 +1,66 @@
+div {
+    color: white;
+    border: 1px solid black;
+}
+
+
+
+#header {
+    background-color: darkorange;
+    position: sticky;
+    height: 60px;
+    width: 100%;
+    top: 0px;
+    left: 0%;
+}
+
+#logo {
+    background-color: rgb(255, 72, 0);
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    margin: 15px;
+    text-align: center;
+}
+
+#navig {
+    background-color: rgb(255, 72, 0);
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    margin: 15px;
+    right: 0px;
+    text-align: center;
+}
+
+
+ #background {
+    background-color: rgb(56, 117, 208);
+    position: relative;
+    height: 1000px;
+    width: 100%;
+} 
+
+.post {
+    background-attachment: fixed;
+    background-color: greenyellow;
+    width: 94%;
+    height: 230px;
+    margin: 30px auto;
+}
+
+.image {
+    position: absolute;
+    border: 10px solid #4e9a1c;
+    width: 280px;
+    height: 80px;
+    left: 8%;
+}
+
+.text {
+    position: absolute;
+    background-color:  #4e9a1c;
+    width: 650px;
+    height: 100px;
+    right: 8%;
+}

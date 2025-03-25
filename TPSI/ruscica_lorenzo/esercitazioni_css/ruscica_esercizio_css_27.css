@@ -1,0 +1,27 @@
+.blocchi {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  float: left;
+  margin-right: 20px;
+}
+.testo {
+  display: inline-block;
+  max-width: 400px;
+  text-align: left;
+}
+
+.testo_clear {
+  clear: both;
+  margin-top: 10px;
+}

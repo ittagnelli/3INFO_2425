@@ -1,0 +1,44 @@
+.red{
+    background-color: red;
+    height: 400px;
+    width: 200px;
+}
+.p1, .p2, .p3, .p4{
+    height: 150px;
+    background-color: purple;
+}
+.v1, .v2, .v3, .v4{
+    height: 221px;
+    background-color: rgba(0, 255, 0, 0.65);
+}
+.p1{
+    width: 25%;
+}
+
+.p2{
+    width: 50%;
+}
+
+.p3{
+    width: 75%;
+}
+
+.p4{
+    width: 100%;
+}
+
+.v1{
+    width: calc(100%*1/8);
+}
+
+.v2{
+    width: calc(100%*3/6);
+}
+
+.v3{
+    width: calc(100%*5/8);
+}
+
+.v4{
+    width: calc((100%*2)/9);
+}

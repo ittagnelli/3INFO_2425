@@ -1,0 +1,15 @@
+h1 span{
+    background-color: blue;
+}
+
+h2 span{
+    background-color: red;
+}
+
+p span{
+    background-color: purple;
+}
+
+div p span {
+    background-color: darkgreen;
+}

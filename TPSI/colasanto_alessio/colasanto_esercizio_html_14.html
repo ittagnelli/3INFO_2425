@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alessio Colasanto">
+    <title>Prenotazione Cena - Esteso</title>
+</head>
+<body>
+    <center>
+        <h1>PRENOTAZIONE CENA</h1>
+    </center>
+    <form>
+        <fieldset>
+            <legend>Dati Personali</legend>
+
+            
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br><br>
+            <label for="cognome">Cognome:</label>
+            <input type="text" id="cognome" name="cognome"><br><br>
+
+            
+            <label for="genere">Genere:</label>
+            <select name="genere" id="genere">
+                <option value="maschio">Maschio</option>
+                <option value="femmina">Femmina</option>
+            </select><br><br>
+
+            
+            <label for="telefono">Telefono:</label>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+
+            
+            <label for="data">Data Prenotazione:</label>
+            <input type="date" id="data" name="data"><br><br>
+
+            
+            <h3>Quanti siete?</h3>
+            <input type="radio" id="1" name="persone" value="1">
+            <label for="1">1</label><br>
+            <input type="radio" id="2" name="persone" value="2">
+            <label for="2">2</label><br>
+            <input type="radio" id="2+" name="persone" value="2+">
+            <label for="2+">2+</label><br><br>
+
+            
+            <h3>Preferenze</h3>
+            <input type="checkbox" id="vegano" name="preferenze" value="vegano">
+            <label for="vegano">Vegano</label><br>
+            <input type="checkbox" id="vegetariano" name="preferenze" value="vegetariano">
+            <label for="vegetariano">Vegetariano</label><br>
+            <input type="checkbox" id="glutine" name="preferenze" value="glutine">
+            <label for="glutine">Allergia al glutine</label><br>
+            <input type="checkbox" id="lattosio" name="preferenze" value="lattosio">
+            <label for="lattosio">Allergico al lattosio</label><br>
+            <input type="text" id="altre_preferenze" name="altre_preferenze" placeholder="Altre preferenze"><br><br>
+            
+            
+            <h3>Valutazioni (1-10):</h3>
+            <label for="numero1">Servizio:</label>
+            <input type="number" id="numero1" name="numero1" min="1" max="10"><br>
+            <label for="numero2">Cibo:</label>
+            <input type="number" id="numero2" name="numero2" min="1" max="10"><br>
+            <label for="numero3">Pulizia:</label>
+            <input type="number" id="numero3" name="numero3" min="1" max="10"><br>
+            <label for="numero4">Atmosfera:</label>
+            <input type="number" id="numero4" name="numero4" min="1" max="10"><br><br>
+
+            
+            <label for="colore">Scegli il colore preferito della tovaglia:</label>
+            <input type="color" id="colore" name="colore"><br><br>
+
+           
+            <h3>Soddisfazione (1-100):</h3>
+            <label for="range1">Cibo:</label>
+            <input type="range" id="range1" name="range1" min="1" max="100"><br>
+            <label for="range2">Servizio:</label>
+            <input type="range" id="range2" name="range2" min="1" max="100"><br>
+            <label for="range3">Atmosfera:</label>
+            <input type="range" id="range3" name="range3" min="1" max="100"><br><br>
+
+           
+            <label for="bevande">Bevanda preferita:</label>
+            <input list="bevande" id="bevanda" name="bevanda">
+            <datalist id="bevande">
+                <option value="Acqua Naturale">
+                <option value="Acqua Frizzante">
+                <option value="Vino Bianco">
+                <option value="Vino Rosso">
+                <option value="Birra">
+            </datalist><br><br>
+
+            
+            <label for="commenti">Commenti:</label><br>
+            <textarea id="commenti" name="commenti" rows="6" cols="60"></textarea><br><br>
+
+            
+            <input type="submit" value="Invia">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>

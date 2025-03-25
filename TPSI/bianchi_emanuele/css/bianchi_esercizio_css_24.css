@@ -1,0 +1,44 @@
+/* Stile generale */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+/* Titolo */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Contenitore della scacchiera */
+.scacchiera {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+  gap: 0;
+  margin: 0 auto;
+  width: 400px;
+  border: 5px solid black;
+}
+
+/* Stile delle celle */
+.cella {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  width: 50px;
+  height: 50px;
+}
+
+/* Colorazione a scacchiera */
+.bianco {
+  background-color: #fff;
+  color: black;
+}
+
+.nero {
+  background-color: #000;
+  color: white;
+}

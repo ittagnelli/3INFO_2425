@@ -1,0 +1,301 @@
+<!DOCTYPE html> <!-- HTML5-->
+    <html lang="it"> <!-- Pagina HTML -->
+    <head>
+        <!-- Qui vanno inserite informazioni relative alla pagina ma che non saranno visualizzate -->
+        <!-- sezione meta Fornisce informazioni al web browser e ai motori di ricerca per il processo di indicizzazione -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Pugliese Alessandro" />
+        <meta name="description" content="Template HTML" />
+        <meta name="keywords" content="template, html, lezioni, scuola" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="refresh" content="100"><!-- Duranbte la fase di sviluppo permette il refresh  automatico della pagina  -->
+        <title>Menu ristorante Simba</title><!-- titolo della pagina -->
+        <style>
+          body {background-color: white;}
+          h1 {color: black;}
+          h2 {color: black;}
+        </style>
+        <script>
+          function myFunction() { 
+            document.getElementById("titolo").innerHTML = "PAGINA WEB LOCAL HOST";
+          }
+        </script>
+    </head>
+    <body>
+    <table border="1" style="width: 100%;">
+        <tbody> 
+            <center>
+                <form>
+                    <tr>
+                        <center><h1>Inserimento Dati</h1></center>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="idnom">Nome </label>
+                            <input type="text" name="nome " id="idnom"><br>
+                        </td> 
+                        <td>
+                            <label for="idcog">Cog </label>
+                            <input type="text" name="Cognome " id="idcog"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><label for="idnomcog">Genere:</label><br></td>
+                        <td>
+                            <input type="radio" name="genere" value="Maschio" id="idgene">
+                            <label for="Maschio">Maschio</label>
+                            <input type="radio" name="genere" value="femmina" id="idgene">
+                            <label for="Femmina">Femmina</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="idnomcog">Email</label>
+                            <input type="text" name="email" id="idemail" maxlenght="30"><br>
+                        </td>
+                        <td>
+                            <label for="idpassw">Password</label>
+                            <input type="password" name="password" id="idpassw"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="iddata">Data</label>
+                            <input type="date" name="data" id="iddata"><br>
+                        </td>
+                        <td>
+                            <label for="nazioni">Nazionalità: </label><br>
+                            <input list="nations" name="nazioni" id="nazioni">
+                            <datalist id="nations">
+                                <option value="italiana">Italiana</option>
+
+                                <option value="francese">Francese</option>
+                    
+                                <option value="spagnola">Spagnola</option>
+                    
+                                <option value="tedesca">Tedesca</option>
+                    
+                                <option value="inglese">Inglese</option>
+                    
+                                <option value="portoghese">Portoghese</option>
+                    
+                                <option value="olandese">Olandese</option>
+                    
+                                <option value="belga">Belga</option>
+                    
+                                <option value="svizzera">Svizzera</option>
+                    
+                                <option value="austriaca">Austriaca</option>
+                    
+                                <option value="danese">Danese</option>
+                    
+                                <option value="norvegese">Norvegese</option>
+                    
+                                <option value="svedese">Svedese</option>
+                    
+                                <option value="finlandese">Finlandese</option>
+                    
+                                <option value="russo">Russo</option>
+                    
+                                <option value="cinese">Cinese</option>
+                    
+                                <option value="giapponese">Giapponese</option>
+                    
+                                <option value="coreano">Coreano</option>
+                    
+                                <option value="indiano">Indiano</option>
+                    
+                                <option value="messicano">Messicano</option>
+                    
+                                <option value="brasiliano">Brasiliano</option>
+                    
+                                <option value="argentino">Argentino</option>
+                    
+                                <option value="colombiano">Colombiano</option>
+                    
+                                <option value="peruviano">Peruviano</option>
+                    
+                                <option value="sudafricano">Sudafricano</option>
+                    
+                                <option value="egiziano">Egiziano</option>
+                    
+                                <option value="turco">Turco</option>
+                    
+                                <option value="israeliano">Israeliano</option>
+                    
+                                <option value="arabo">Arabo</option>
+                    
+                                <option value="filippino">Filippino</option>
+                    
+                                <option value="malese">Malese</option>
+                    
+                                <option value="tailandese">Tailandese</option>
+                    
+                                <option value="vietnamita">Vietnamita</option>
+                    
+                                <option value="neozelandese">Neozelandese</option>
+                    
+                                <option value="australiano">Australiano</option>
+                    
+                                <option value="canadese">Canadese</option>
+                    
+                                <option value="americano">Americano</option>
+                    
+                                <option value="cubano">Cubano</option>
+                    
+                                <option value="giamaicano">Giamaicano</option>
+                    
+                                <option value="haitiano">Haitiano</option>
+                    
+                                <option value="nigeriano">Nigeriano</option>
+                    
+                                <option value="ghanese">Ghanese</option>
+                    
+                                <option value="senegalese">Senegalese</option>
+                    
+                                <option value="keniota">Keniota</option>
+                    
+                                <option value="tanzaniano">Tanzaniano</option>
+                    
+                                <option value="ugandese">Ugandese</option>
+                    
+                                <option value="zambiano">Zambiano</option>
+                    
+                                <option value="zimbabweano">Zimbabweano</option>
+                    
+                                <option value="algerino">Algerino</option>
+                    
+                                <option value="marocchino">Marocchino</option>
+                    
+                                <option value="tunisino">Tunisino</option>
+                    
+                                <option value="libico">Libico</option>
+                    
+                                <option value="siriano">Siriano</option>
+                    
+                                <option value="iracheno">Irachena</option>
+                    
+                                <option value="iraniano">Iraniano</option>
+                    
+                                <option value="afghano">Afghano</option>
+                    
+                                <option value="pakistano">Pakistano</option>
+                    
+                                <option value="bangladese">Bangladese</option>
+                    
+                                <option value="nepalese">Nepalese</option>
+                    
+                                <option value="sri-lankese">Sri-Lankese</option>
+                    
+                                <option value="maldiviano">Maldiviano</option>
+                    
+                                <option value="mongolo">Mongolo</option>
+                    
+                                <option value="kazako">Kazako</option>
+                    
+                                <option value="uzbeko">Uzbeko</option>
+                    
+                                <option value="turkmeno">Turkmeno</option>
+                    
+                                <option value="kirghizo">Kirghizo</option>
+                    
+                                <option value="tibetano">Tibetano</option>
+                    
+                                <option value="birmana">Birmana</option>
+                    
+                                <option value="laotiano">Laotiano</option>
+                    
+                                <option value="cambogiano">Cambogiano</option>
+                    
+                                <option value="bruniano">Bruniano</option>
+                    
+                                <option value="singaporiano">Singaporiano</option>
+                    
+                                <option value="indonesiano">Indonesiano</option>
+                    
+                                <option value="malese">Malese</option>
+                    
+                                <option value="filippino">Filippino</option>
+                    
+                                <option value="vietnamita">Vietnamita</option>
+                    
+                                <option value="cinese">Cinese</option>
+                    
+                                <option value="giapponese">Giapponese</option>
+                    
+                                <option value="coreano">Coreano</option>
+                    
+                                <option value="mongolo">Mongolo</option>
+                    
+                                <option value="nepalese">Nepalese</option>
+                    
+                                <option value="afghano">Afghano</option>
+                    
+                                <option value="iraniano">Iraniano</option>
+                    
+                                <option value="iracheno">Irachena</option>
+                    
+                                <option value="siriano">Siriano</option>
+                    
+                                <option value="libico">Libico</option>
+                    
+                                <option value="marocchino">Marocchino</option>
+                    
+                                <option value="algerino">Algerino</option>
+                    
+                                <option value="tunisino">Tunisino</option>
+                    
+                                <option value="nigeriano">Nigeriano</option>
+                    
+                                <option value="ghanese">Ghanese</option>
+                    
+                                <option value="senegalese">Senegalese</option>rowspan
+                    
+                                <option value="keniota">Keniota</option>
+                    
+                                <option value="tanzaniano">Tanzaniano</option>
+                    
+                                <option value="ugandese">Ugandese</option>
+                    
+                                <option value="zambiano">Zambiano</option>
+
+                                <option value="zimbabweano">Zimbabweano</option>
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="idatt">Attività lavorativa:</label>
+                            <input type="text" name="att" id="idatt"><br>
+                        </td>
+                        <td> 
+                            <label for="idhob">Hobby</label>
+                            <input type="text" name="hob" id="idhob"><br> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="idalt">Altezza:</label>
+                            <input type="number" id="altezza" name="altezza" min="150" max="240"><br>
+                        </td>
+                        <td> 
+                            <label for="idpes">Peso:</label>
+                            <input type="range" min="50" max="130" value="60" class="slider" id="idpes"><br>
+                        </td>    
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="idcol">Colore preferito:</label>
+                            <input type="color" id="idcol" name="favcolor" value="#ff0000"><br>
+                        </td>
+                        <td>
+                            <label for="idbio">Biografia:</label>
+                            <textarea id="idbio" name="biografia" rows="4" cols="50" placeholder="Inserisci la tua biografia"></textarea>    
+                        </td>
+                    </tr>
+                </form>
+            </center>
+        </tbody>
+    </table> 
+    </body>
+</html>

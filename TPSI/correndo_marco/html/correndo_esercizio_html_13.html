@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Marco Correndo" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="prova,html,scuola,lezione" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+    <title>Esercitazione 13</title>
+</head>
+<body>
+    <form>
+        <label for="idcognomenome">Cognome e Nome:</label>
+        <input type="text" id="idcognomenome" name="cognomenome" maxlength="50"><br><br>
+
+        <label>Sesso:</label><br>
+        <input type="radio" id="idmasc" name="sesso" value="maschio">
+        <label for="idmasc">Maschio</label><br>
+        <input type="radio" id="idfemm" name="sesso" value="femmina">
+        <label for="idfemm">Femmina</label><br><br>
+
+        <label for="ateneo">Ateneo:</label><br>
+
+        <input type="radio" id="idsapienza" name="ateneo" value="Sapienza">
+        <label for="idsapienza">Sapienza</label><br>
+        <input type="radio" id="idtorverg" name="ateneo" value="Tor Vergata">
+        <label for="idtorverg">Tor Vergata</label><br>
+        <input type="radio" id="idromatre" name="ateneo" value="Roma Tre">
+        <label for="idromatre">Roma Tre</label><br><br>
+        
+        <label for="cap">CAP:</label>
+        <input type="text" id="idcap" name="cap" maxlength="5"><br><br>
+        
+        <input type="checkbox" id="lavoratore" name="lavoratore">
+        <label for="lavoratore">Studente lavoratore</label><br><br>
+        
+        <label for="desclavoro">Descrizione del lavoro svolto:</label>
+        <input type="text" id="desclavoro" name="descrizionelavoro" maxlength="80"><br><br>
+        
+        <input type="button" name="invia" id="idinvia" value="Invia"><br>
+        <input type="button" name="reset" id="idreset" value="Reset">
+    </form>
+</body>
+</html>

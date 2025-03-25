@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo Raccolta Dati</title>
+</head>
+<body>
+    <h1>Modulo di Raccolta Dati</h1>
+    <form action="#" method="post">
+        
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        
+        <p>Genere:</p>
+        <label for="maschio">
+            <input type="radio" id="maschio" name="genere" value="maschio"> Maschio
+        </label>
+        <br>
+        <label for="femmina">
+            <input type="radio" id="femmina" name="genere" value="femmina"> Femmina
+        </label>
+        <br>
+        <label for="altro">
+            <input type="radio" id="altro" name="genere" value="altro"> Altro
+        </label>
+        <br><br>
+
+        
+        <p>Seleziona i tuoi hobby:</p>
+        <label for="sport">
+            <input type="checkbox" id="sport" name="hobby" value="sport"> Sport
+        </label>
+        <br>
+        <label for="musica">
+            <input type="checkbox" id="musica" name="hobby" value="musica"> Musica
+        </label>
+        <br>
+        <label for="lettura">
+            <input type="checkbox" id="lettura" name="hobby" value="lettura"> Lettura
+        </label>
+        <br>
+        <label for="viaggi">
+            <input type="checkbox" id="viaggi" name="hobby" value="viaggi"> Viaggi
+        </label>
+        <br>
+        <label for="arte">
+            <input type="checkbox" id="arte" name="hobby" value="arte"> Arte
+        </label>
+        <br><br>
+
+        
+        <label for="data-nascita">Data di nascita:</label>
+        <input type="date" id="data-nascita" name="data-nascita" required>
+        <br><br>
+
+    
+        <button type="submit">Invia</button>
+    </form>
+</body>
+</html>

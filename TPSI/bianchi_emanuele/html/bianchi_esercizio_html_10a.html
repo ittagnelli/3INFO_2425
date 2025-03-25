@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio Tabelle</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        .highlight {
+            font-weight: bold;
+        }
+        .total-row {
+            background-color: #dfe6e9;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Tabella Ordini</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Q.tà</th>
+                <th>Descrizione</th>
+                <th>Costo unitario</th>
+                <th>Totale</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td>Mouse</td>
+                <td>16 €</td>
+                <td>0 €</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Tastiera 105 tasti</td>
+                <td>25 €</td>
+                <td>0 €</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Stampante Deskjet colori</td>
+                <td>350 €</td>
+                <td>0 €</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Scanner A4 colori</td>
+                <td>200 €</td>
+                <td>0 €</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="total-row">
+                <td colspan="3">Totale Ordine</td>
+                <td>0 €</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

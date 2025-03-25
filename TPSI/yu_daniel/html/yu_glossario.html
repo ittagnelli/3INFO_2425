@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>???</legend>
+            <label for="idnome"> nome: </label>
+            <input type="text" id="idnome" maxlength="50">
+            <br>
+            <label for="idcognome"> cognome: </label>
+            <input type="text" id="idcognome" maxlength="50">
+            <br>
+            <h2>genere</h2>
+            <label for="genere1"> maschio </label>
+            <input type="radio" id="genere1" name="genere" value="maschio">
+            <label for="genere2"> femmina </label>
+            <input type="radio" id="genere2" name="genere" value="femmina">
+            <label for="genere3"> altro </label>
+            <input type="radio" id="genere3" name="genere" value="altro">
+            <input type="text">
+            <br>
+            <label for="ateneo">ateneo:  </label>
+                  <select name="ateneo" id="ateneo">
+                      <option value="maschio">La Sapienza</option>
+                      <option value="femmina">Roma Tre</option>
+                      <option value="femmina">Foro Italico</option>
+                  </select>
+            <label for="CAP">CAP</label>
+            <input type="text" maxlength="5" id="CAP">
+            <br>
+            <input type="checkbox" name="studente_lavoratore" id="studente_lavoratore">
+                  <select name="studente_lavoratore_No" id="studente_lavoratore_No"></select>
+                  <select name="studente_lavoratore_pubblico" id="studente_lavoratore_pubblico"></select>
+                  <select name="studente_lavoratore_impiegato" id="studente_lavoratore_impiegato"></select>
+                  <select name="studente_lavoratore_libero_professionista" id="studente_lavoratore_libero_professionista"></select>
+            <label for="lavoro">descrizione lavoro</label>
+            <input type="text" id="lavoro" maxlength="80">
+            <br>
+            <button>reset</button>
+            <br>
+            <button>invio</button>
+        </fieldset>
+    </form>
+</body>
+</html>

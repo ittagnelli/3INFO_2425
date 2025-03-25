@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: orangered;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.goals {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.goal {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.goal h2 {
+    font-size: 14px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.goal h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.goal p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.goal a {
+    color: #e74c3c;
+    font-weight: bold;
+    text-decoration: none;
+}

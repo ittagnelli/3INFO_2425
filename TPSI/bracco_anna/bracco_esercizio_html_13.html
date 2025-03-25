@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="it">
+     <head> 
+        <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+         <title>Esercizio HTML 13</title>
+         </head> 
+         <body>
+             <h1>Modulo di Registrazione</h1> 
+            <form action="#" method="post">
+                 <label for="nome">Cognome e Nome:</label><br>
+                 <input type="text" id="nome" name="nome" maxlength="50" required><br><br> 
+                 <label>Sesso:</label><br> <input type="radio" id="maschio" name="sesso" value="Maschio" required> 
+                 <label for="maschio">Maschio</label><br> <input type="radio" id="femmina" name="sesso" value="Femmina"> <label for="femmina">Femmina</label><br><br>
+                 <label for="ateneo">Ateneo:</label><br> <select id="ateneo" name="ateneo" required>
+                     <option value="sapienza">Sapienza</option> 
+                     <option value="torvergata">Tor Vergata</option>
+                      <option value="roma3">Roma Tre</option> </select><br><br>
+                <label for="cap">CAP:</label><br>
+                <input type="text" id="cap" name="cap" maxlength="5" required><br><br> 
+                <label for="studente-lavoratore">Studente lavoratore:</label>
+                <input type="checkbox" id="studente-lavoratore" name="studente-lavoratore"><br><br>
+                <label for="descrizione">Descrizione del lavoro svolto:</label><br>
+                 <textarea id="descrizione" name="descrizione" maxlength="80" rows="4" cols="50"></textarea><br><br>
+                 <button type="submit">Invia</button> <button type="reset">Reset</button>
+             </form> 
+         </body>
+ </html>

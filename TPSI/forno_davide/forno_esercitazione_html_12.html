@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Forno Davide" />
+    <meta name="description" content="Template HTML" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100" />
+    <title>Esercitazione 12</title>
+  </head>
+</head>
+<body>
+    <center><strong><h2>MODULO PERSONALE</h2></strong></center>
+    <center><form>
+        <input type="text" name="nome" placeholder="nome"><br>
+        <input type="text" name="cognome" placeholder="cognome">
+        <h4>data di nascita</h4>
+        <input type="date" id="iddata" name="birthday"><br><br>
+
+        <table>
+            <tr>
+                <td><h4>occupazione</h4></td>
+            <td>  <input type="radio" id="studente" name="occupazione" value="studente">
+                <label for="studente">  Studente</label></td>
+            <td><input type="radio" id="occupato" name="occupazione" value="occupato">
+                <label for="occupato">  Occupato</label></td>
+            <td><input type="radio" id="disoccupato" name="occupazione" value="disoccupato">
+                <label for="disoccupato">  Disoccupato</label></td>
+            </tr>
+            <tr>
+                <td><h4>certificazioni</h4></td>
+                <td>  <input type="checkbox" id="medie" name="certificazioni" value="medie">
+                    <label for="tennis">Medie</label></td>
+                <td><input type="checkbox" id="sueperiori" name="certificazioni" value="superiori">
+                    <label for="tennis">superiori</label></td>
+                <td><input type="checkbox" id="triennale" name="certificazioni" value="triennale">
+                    <label for="tennis">triennale</label></td>
+                <td><input type="checkbox" id="magistrale" name="certificazioni" value="magistrale">
+                    <label for="tennis">magistrale</label></td>
+                <td><input type="checkbox" id="nessuna name="certificazioni" value="nessuna">
+                    <label for="tennis">nessuna</label></td> 
+             </tr>    
+            </table>
+            <label for="idbutton">premi per inviare</label>
+            <input type="button" id="idbutton" value="Invia modulo">
+    </form></center>
+</body>
+</html>

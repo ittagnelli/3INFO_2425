@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+  
+    <meta charset="UTF-8" />
+    <meta name="author" content="Marco La Valle" />
+    <meta name="description" content="esercitazione 12" />
+    <meta name="keywords" content="Form" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+    <title>Form</title>
+    <style>
+      body {background-color: powderblue;}
+      h1 {color: rgb(255, 0, 0);}
+    </style>
+</head>
+<body>
+    <form>
+        <h3>Autenticazione</h3>
+        <label for="idnome">Nome: </label>
+        <input type="text" id="idnome" name="nome" placeholder="Nome"><br><br>
+        <label for="idcognome">Cognome: </label>
+        <input type="text" id="idcognome" name="cognnome" placeholder="Cognome"><br><br>
+
+        <label for="iddata"> inserira la tua dsata di nascita</label>
+        <input type="date" id="iddata" name="birthday"><br><br>
+
+        <hr>
+        
+        <h3>Laurea</h3>
+        <input type="radio" id="laureato" name="laurea" value="laureato">
+        <label for="laureato"> Sono laureato</label><br>
+        <input type="radio" id="laureato" name="laurea" value="non laureato">
+        <label for="laureato"> Non sono laureato</label><br>
+        <input type="radio" id="altro" name="laurea" value="altro">
+        <label for="altro"> Altro...</label><br><br>
+
+        <hr>
+
+        <h3>Ambito</h3>
+        <input type="checkbox" id="energetico" name="lavoro" value="energetico">
+        <label for="energetico">  energetico</label><br>
+        <input type="checkbox" id="informatico" name="lavoro" value="informatico">
+        <label for="informatico">  informatico</label><br>
+        <input type="checkbox" id="assicurativo" name="sport" value="assicurativo">
+        <label for="assicurativo"> assicurativo</label><br>
+        <input type="checkbox" id="elettronico" name="lavoro" value="elettronico">
+        <label for="elettronico">  elettronico</label><br>
+        <input type="checkbox" id="meccanico" name="sport" value="meccanico">
+        <label for="meccanico"> meccanico</label><br><br>
+
+        <hr>
+
+        <h3>campo inutile</h3>
+        <input type="button" id="idbutton" value="non cliccarmi">
+      </form>
+      

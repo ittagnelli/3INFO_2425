@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(255, 136, 0);
+}
+
+.contenitore {
+ display: contents;
+ align-items: center;
+ text-align: center;
+ color:white;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.qud, .qud2, .qud3{
+  width: 200px;
+  height: 290px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 10px; 
+}
+
+h6 {
+  padding: 7px;
+  color: orange;
+}
+
+h4 {
+  padding: 7px;
+}
+
+p {
+  padding: 7px;
+}
+
+h5 {
+  text-align: center;
+  color: orange;
+  background-color: #ff750457;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}

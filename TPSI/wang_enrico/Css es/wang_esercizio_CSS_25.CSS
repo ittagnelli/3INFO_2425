@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 1; 
+    background-color: #f0f0f0; 
+}
+
+.scacchiera {
+    display: flex;
+    flex-direction: column; 
+}
+
+.riga {
+    display: flex;
+}
+
+.cella {
+    width: 200px; 
+    height: 200px; 
+}
+
+.viola {
+    background-color: #5317b3; 
+}
+
+.bianca {
+    background-color: #fff;}

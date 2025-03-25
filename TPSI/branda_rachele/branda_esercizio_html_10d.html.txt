@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        table{
+            border-collapse: collapse;
+            margin: 20px auto;
+            text-align: center;
+        }
+        td{
+            border: 1px; ;
+            padding: 10px 15px ;
+            width: 80px;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+    <body>
+        <table border="1">
+            <thead>
+            <tr>
+                <td><img src="" alt="Firefox"></td>
+                <td><img src="" alt="Chorme"></td>
+                <td><img src="" alt="Opera"></td>
+                <td><img src="" alt="Safari"></td>
+                <td><img src="https://www.google.com/imgres?q=internet%20explorer%20logo&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F1%2F18%2FInternet_Explorer_10%252B11_logo.svg%2F1200px-Internet_Explorer_10%252B11_logo.svg.png&imgrefurl=https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FFile%3AInternet_Explorer_10_logo.svg&docid=Jvmn9vtYczIIZM&tbnid=9C8BaNFffp9bhM&vet=12ahUKEwjFg_bhuIeKAxWo_7sIHfLiOKMQM3oECBUQAA..i&w=1200&h=1180&hcb=2&ved=2ahUKEwjFg_bhuIeKAxWo_7sIHfLiOKMQM3oECBUQAA" alt="Internet Explorer"></td>
+            </tr>
+            <tr>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+        </thead>
+        </table>
+    </body>
+</html>

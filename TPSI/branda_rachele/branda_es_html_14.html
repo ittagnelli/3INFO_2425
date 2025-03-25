@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+
+  </head>
+<body>
+  <form>
+    <label for="idnome">Nome: </label>
+    <input type="text" id="idnome" name="nome" placeholder="Nome">
+    <label for="idcognome">Cognome: </label>
+    <input type="text" id="idcognome" name="cognnome" placeholder="Cognome">
+  </form>
+  <h3>Data di Nascita</h3><br>
+  
+    <input type="date" id="iddata" name="birthday"><br><br>
+  
+  <h3>Categoria:</h3><br>
+
+  <input type="radio" id="Shine" name="occupazione" value="shine">
+  <label for="studente">  Shine</label><br>
+  <input type="radio" id="Coppia" name="occupazione" value="coppia">
+  <label for="occupato">  Coppia</label><br>
+  <input type="radio" id="Duo" name="occupazione" value="duo">
+  <label for="disoccupato">  Duo</label><br><br>
+
+<h3>Disciplina: </h3><br>
+
+  <input type="checkbox" id="Portoricana" name="sport" value="Portoricana">
+  <label for="Portoricana"> Portoicana</label><br>
+  <input type="checkbox" id="Bachata" name="sport" value="Bachata">
+  <label for=""Bachata> Bachata </label><br>
+  <input type="checkbox" id="Merengue" name="sport" value="Bachata">
+  <label for="Bachata"> Merengue</label><br>
+  <input type="checkbox" id="Cubana" name="sport" value="Cubana">
+  <label for="Cubana"> Cubana</label><br>
+  <input type="checkbox" id="Mix" name="sport" value="Mix">
+  <label for="Mix"> Mix</label><br><br>
+  
+  <label for="cars">Genere:  </label>
+  <select name="genere" id="cars">
+      <option value="maschio">Maschio</option>
+      <option value="femmina">Femmina</option>
+    </select>
+
+    <h3>numero di gara:</h3><br>
+    <input type="number" id="numero" name="numero" min="1" max="800"><br><br>
+    </form>
+
+  <h3>Altezza:</h3><br>
+  <input type="number" id="altezza" name="altezza" min="150" max="200"><br><br>
+  </form>
+  
+  <label for="peso">Peso: </label>
+  <input type="range" min="50" max="100" value="60" class="slider" id="peso"><br> 
+
+  <label for="bio">Problemi di salute o allergie:</label>
+  <textarea id="bio" name="bio" rows="4" cols="50" placeholder=""></textarea>    
+  
+  <h3>Colore Costume:</h3><br>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+
+  <h3>numero di accessori:</h3><br>
+  <input type="number" id="accessori" name="accessori" min="1" max="10"><br><br>
+  </form>
+
+  <h3>numero di brillantini:</h3><br>
+  <input type="numbero" id="brillantini" name="brillantini" min="1" max="99"><br><br>
+  </form>
+
+  <label for="peso">Livello: </label>
+  <input type="range" min="20" max="100" value="60" class="slider" id="livello"><br> 
+
+  <label for="cars">Luogo di gara:  </label>
+  <select name="luogo di gara" id="cars">
+      <option value="Roma">Roma</option>
+      <option value="Milano">Milano</option>
+      <option value="Verona">Verona</option>
+      <option value="Trieste">Trieste</option>
+      <option value="Venezia">Venezia</option><br>
+
+      <label for="nazioni">Nazione rappresentata: </label><br>
+  <input list="nations" name="nazioni" id="nazioni">
+  <datalist id="nations">
+      <option value="Italia">
+      <option value="Argentina">
+      <option value="Romania">
+      <option value="Biellorussia">
+      <option value="Sud America">
+      <option value="Irlandese">
+      <option value="Spagna ">
+  </datalist>
+  </select><br> <br>
+ 
+  <label for="idbutton">Invia risposta: </label>
+  <input type="button" id="idbutton" value="Invia">
+</form>
+</body>
+</html>

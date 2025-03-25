@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="pugliese_assembler_01"/>
+        <attribute name="authors" value="root"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-11 10:19:53 AM"/>
+        <attribute name="created" value="cm9vdDs5OUUwRDQ0NTg1QTY7MjAyNS0wMy0xMDswOToxODo1NiBBTTsyNDA3"/>
+        <attribute name="edited" value="cm9vdDs5OUUwRDQ0NTg1QTY7MjAyNS0wMy0xMDswOToxOTo1MyBBTTsxOzI1MTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, somma" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <assign variable="b" expression="2"/>
+            <assign variable="c" expression="3"/>
+            <assign variable="somma" expression="a + b + c"/>
+        </body>
+    </function>
+</flowgorithm>

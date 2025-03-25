@@ -1,0 +1,11 @@
+h1 > span {
+    color: blue;
+}
+
+h2 > span {
+    color: red;
+}
+
+p > span {
+    color: purple;
+}
