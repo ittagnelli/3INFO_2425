@@ -1,21 +1,15 @@
-body{
-    margin: 0;   
-}
-
 .container{
-    background-color: grey;
-    border-radius: 10px;
-    width: 90vw;
-    height: calc(100vh - 40px);
-    margin: 0 auto;
-    padding: 20px;
+    background-color: #dbdbdb;
+    width: 666px;
+    height: 570px;
+    padding: 25px;
 }
 
 .box{
-    background-color: white;
-    width: calc((90vw - 40px - 60px) / 3);
-    height: calc((100vh - 40px - 40px) / 2);
-    margin: 10px;
-    border: 3px solid black;
+    height: 270px;
+    width: 210px;
+    margin: 5px;
+    border: 1px solid black;
     float: left;
+    background-color: white;
 }
