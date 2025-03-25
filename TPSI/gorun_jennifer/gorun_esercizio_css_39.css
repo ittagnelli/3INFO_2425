@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #b4ec30;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .text {
+    background-color: #b4ec30;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+  .text h1 {
+    font-size: 90px;
+    color: #012919;
+    margin-bottom: 10px;
+  }
+  
+  .text p {
+    font-size: 30px;
+    color:  #012919;
+    margin-bottom: 20px;
+  }
+
+  .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  button {
+    background-color:  #b4ec30;
+    color:  #012919;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    align-self:center;
+    position: absolute;
+    bottom: 60px;
+    left: 70%;
+  }
+  
