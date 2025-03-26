@@ -1,0 +1,69 @@
+html {
+           background-color: rgb(56, 56, 141);
+       }
+
+
+       .container {
+           width: 95%;
+           height: 90vh;
+           margin: auto;
+           margin-top: 5vh;
+       }
+
+
+       .container div {
+           border-radius: 50px;
+           margin-top: 1%;
+           margin-left: 1%;
+           background-color: aliceblue;
+           float: left;
+       }
+
+
+       #d_1 {
+           width: 19%;
+           height: 31%;
+       }
+
+
+       #d_2 {
+           width: 29%;
+           height: 31%;
+       }
+
+
+       #d_3 {
+           width: 48%;
+           height: 31%;
+       }
+
+
+       #d_4 {
+           width: 19%;
+           height: 62%;
+       }
+
+
+       #d_5 {
+           width: 29%;
+           height: 62%;
+           background-color: transparent;
+       }
+
+
+       #d_5 div {
+           width: 100%;
+           height: 48%;
+           margin-left: 0%;
+       }
+
+
+       #d_5 div:last-child {
+           margin-top: 3%;
+       }
+
+
+       #d_6, #d_7 {
+           width: 23.5%;
+           height: 62%;
+       }
