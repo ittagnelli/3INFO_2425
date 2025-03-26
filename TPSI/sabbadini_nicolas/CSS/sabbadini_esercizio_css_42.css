@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightgray;
+  height: auto;
+  width: 845px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.cella {
+  background-color: #fff;
+  width: 200px;
+  height: 250px;
+  float: left;
+  margin: 5px;
+}
+
+.cella:nth-child(4),
+.cella:nth-child(5),
+.cella:nth-child(10) {
+  background: url(./famiglia.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.cella:nth-child(3),
+.cella:nth-child(8),
+.cella:nth-child(11) {
+  background: url(./famiglia.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cella:nth-child(1),
+.cella:nth-child(6){
+  background: url(./famiglia.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.cella:nth-child(2){
+  background-color: #e2dbd0;
+}
+
+.cella:nth-child(7){
+  background-color: #c4b499;
+}
+
+.cella:nth-child(9){
+  background-color: #cfc7bc;
+}
+
+.cella:nth-child(12){
+  background-color: #95775c;
+}
