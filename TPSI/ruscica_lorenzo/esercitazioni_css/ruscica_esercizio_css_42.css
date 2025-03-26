@@ -1,0 +1,27 @@
+.container{
+  background-color: rgb(216, 200, 200);
+  width: 645px;
+  height: 715px;
+  padding: 27px;
+}
+
+.image{
+  float: left;
+  height: 224px;
+  width: 145px;
+  margin: 6px;
+  background-color: white;
+}
+
+.colonna_1{
+  background-color: #d8d0c3;
+}
+
+.colonna_2{
+  background-color: #b8aa91;
+}
+
+.colonna_3{
+  background-color: #c0bab0;
+}
+

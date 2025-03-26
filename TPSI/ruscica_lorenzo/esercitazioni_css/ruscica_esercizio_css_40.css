@@ -1,0 +1,110 @@
+body {
+  background-color: rgb(0, 75, 132);
+}
+
+.container {
+  position: relative;
+
+}
+
+.colonna {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.qu1 {
+  width: 20%;
+  height: 20%;
+  background-color: white;
+  color: rgb(225, 107, 151);
+  border-radius: 20px;
+  text-align: center;
+  padding: 3% 3%;
+}
+
+.qu2 {
+  width: 20%;
+  height: 20%;
+  background-color:rgb(121, 201, 250);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 3% 3%;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.qu3 {
+  width: 20%;
+  height: 30%;
+  background-color:rgb(249, 116, 166);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 3% 3%;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.qu4 {
+  width: 20%;
+  height: 30%;
+  background-color:rgb(121, 201, 250);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 3% 3%;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.qu5 {
+  width: 20%;
+  height: 30%;
+  background-color:rgb(249, 116, 166);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 3% 3%;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.qu6 {
+  width: 40%;
+  height: 30%;
+  background-color:rgb(249, 116, 166);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 3% 3%;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.qu7 {
+  width: 20%;
+  height: 30%;
+  background-color:rgb(121, 201, 250);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 3% 3%;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.qu8 {
+  width: 20%;
+  height: 30%;
+  background-color:rgb(255, 165, 198);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 3% 3%;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+
