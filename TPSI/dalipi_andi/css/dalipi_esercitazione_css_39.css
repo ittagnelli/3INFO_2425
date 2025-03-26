@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+.contenitore-master {
+  width: 100%;
+  height: 100vh;
+}
+
+.sinistra {
+  background-color: #e4f31f;
+  width: calc(35% - 80px);
+  height: 100vh;
+  float: left;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sinistra h1 {
+  font-size: 40px;
+  color: #062728;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.sinistra p {
+  font-size: 18px;
+  color: #062728;
+  margin: 0;
+}
+
+.destra {
+  width: 65%;
+  height: 100vh;
+  float: left;
+  position: relative;
+}
+
+.destra img {
+  width: 100%;
+  height: 100%;
+}
+
+.contenitore-puls {
+  position: absolute;
+  bottom: 40px;
+  left: 46%;
+}
+
+.contenitore-puls > .pulsante {
+  background-color: #e4f31f;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 12px;
+}
