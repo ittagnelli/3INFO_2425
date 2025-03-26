@@ -1,0 +1,52 @@
+/* Stile generale */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #002F6C;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenitore principale */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 600px;
+}
+
+/* Stile delle box */
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Colori delle box */
+.white {
+    background-color: white;
+}
+
+.pink {
+    background-color: #FF9EBB;
+    color: white;
+}
+
+.blue {
+    background-color: #64B6F7;
+    color: white;
+}
+
+/* Icone */
+.material-icons {
+    font-size: 24px;
+    margin-top: 10px;
+}
