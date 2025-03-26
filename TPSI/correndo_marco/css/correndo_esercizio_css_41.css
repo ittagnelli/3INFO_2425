@@ -1,0 +1,21 @@
+body{
+    margin: 0;   
+}
+
+.contenitore-master{
+    background-color: grey;
+    border-radius: 10px;
+    width: 90vw;
+    height: calc(100vh - 40px);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blocco{
+    background-color: white;
+    width: calc((90vw - 40px - 60px) / 3);
+    height: calc((100vh - 40px - 40px) / 2);
+    margin: 10px;
+    border: 3px solid black;
+    float: left;
+}
