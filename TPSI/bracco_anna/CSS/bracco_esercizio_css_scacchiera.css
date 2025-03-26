@@ -1,0 +1,27 @@
+.contenitore{
+    border: 1px solid black;
+    width: 816px;
+    height: 816px;
+    margin: auto;
+}
+
+div{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.linea:nth-child(odd) > div:nth-child(odd){
+    background-color: palevioletred;
+
+
+}
+.linea:nth-child(odd) > div:nth-child(even){
+    background-color: pink;
+}
+.linea:nth-child(even) > div:nth-child(odd){
+    background-color: pink;
+}
+.linea:nth-child(even) > div:nth-child(even){
+    background-color: palevioletred;
+}
