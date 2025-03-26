@@ -1,0 +1,61 @@
+body{
+    background-color: #004b84;
+    margin: 0px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+.stretto{
+    float: left;
+    width: 25vw;
+    height: 100vh;
+}
+.medio{
+    float: left;
+    width: 30vw;
+    height: 100vh;
+}
+.largo{
+    float: left;
+    width: 45vw;
+    height: 100vh;
+}
+.rosa,.blu,.rosa-chiaro,.bianco{
+    color: #fefefe;
+    height: 33%;
+}
+.bianco{
+    background-color: #fefefe;
+    color: #f974a6;
+}
+.rosa{
+    background-color:#f974a6;
+}
+.blu{
+    background-color:#79c9fa;
+}
+.chiaro{
+    background-color:#ffa5c6;
+}
+.lungo{
+    height: 66%;
+}
+.largo > .lungo{
+    float: inline-end;
+    width:22.5vw;
+}
+h2,h1{
+    margin: 0px;
+    text-align: center;
+}
+div{
+    border-radius: 6px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
