@@ -1,25 +1,25 @@
-        .container {
-            position: relative;
-            display: inline-block;
-        }
+.container {
+  position: relative;
+  display: inline-block;
+}
 
-        .container img {
-            width: 250px;
-            height: auto;
-            display: block;
-        }
+.container img {
+  width: 250px;
+  height: auto;
+  display: block;
+}
 
-        .overlay {
-            position: absolute;
-            top: 30%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(255, 255, 255, 0.5);
-            backdrop-filter: blur(10px);
-            color: black;
-            padding: 10px 20px;
-            font-size: 24px;
-            font-family: serif;
-            text-align: center;
-            width: 200px;
-        }
+.overlay {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  color: black;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-family: serif;
+  text-align: center;
+  width: 200px;
+}
