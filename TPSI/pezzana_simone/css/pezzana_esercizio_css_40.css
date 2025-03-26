@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  background-color: #024580;
+  font-family: Arial, sans-serif;
+}
+
+.contenitore-master {
+  width: 990px;
+  height: 630px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.cella {
+  position: absolute;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.bianco {
+  background-color: white;
+  color: #e02b7c;
+  text-align: center;
+  font-weight: bold;
+}
+
+.azzurro {
+  background-color: #93d8fc;
+}
+
+.rosa {
+  background-color: #f88dbb;
+}
+
+.immagine {
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  bottom: 60px;
+  left: 15px;
+  border-radius: 10px;
+}
+
+.freccia {
+  position: absolute;
+  width: 25px;
+  bottom: 15px;
+  right: 15px;
+}
+
+.titolo {
+  width: 150px;
+  height: 150px;
+  top: 0px;
+  left: 0px;
+}
+.team {
+  width: 230px;
+  height: 150px;
+  top: 0px;
+  left: 160px;
+}
+.careers {
+  width: 310px;
+  height: 150px;
+  top: 0px;
+  left: 400px;
+}
+.updates {
+  width: 150px;
+  height: 310px;
+  top: 160px;
+  left: 0px;
+}
+.annual {
+  width: 230px;
+  height: 150px;
+  top: 160px;
+  left: 160px;
+}
+.project {
+  width: 230px;
+  height: 150px;
+  top: 320px;
+  left: 160px;
+}
+.culture {
+  width: 150px;
+  height: 310px;
+  top: 160px;
+  left: 400px;
+}
+.services {
+  width: 150px;
+  height: 310px;
+  top: 160px;
+  left: 560px;
+}
