@@ -1,0 +1,27 @@
+.container{
+    background-color: #dbdbdb;
+    width: 650px;
+    height: 710px;
+    padding: 25px;
+}
+
+.caselle{
+    height: 225px;
+    width: 150px;
+    margin: 5px;
+    float: left;
+    background-color: white;
+}
+
+.light-beige{
+    background-color: #e2dbd0;
+}
+.beige{
+    background-color: #c4b499;
+}
+.semidark-beige{
+    background-color: #cfc7bc;
+}
+.dark-beige{
+    background-color: #95775c;
+}
