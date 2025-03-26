@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(0, 75, 132);
+}
+
+.container {
+  position: relative;
+  display: flex; 
+
+  flex-wrap: wrap; 
+
+}
+
+.colonna {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1; 
+
+}
+
+.qu1, .qu2, .qu3, .qu4, .qu5, .qu6, .qu7, .qu8 {
+  border-radius: 20px;
+  text-align: center;
+  padding: 3% 3%;
+  color: white;
+}
+
+.qu1 {
+  background-color: white;
+}
+
+.qu2 {
+  background-color: rgb(121, 201, 250);
+}
+
+.qu3 {
+  background-color: rgb(249, 116, 166);
+}
+
+.qu4 {
+  background-color: rgb(121, 201, 250);
+}
+
+.qu5 {
+  background-color: rgb(249, 116, 166);
+}
+
+.qu6 {
+  background-color: rgb(249, 116, 166);
+  flex: 1; 
+
+}
+
+.qu7 {
+  background-color: rgb(121, 201, 250);
+}
+
+.qu8 {
+  background-color: rgb(255, 165, 198);
+}
