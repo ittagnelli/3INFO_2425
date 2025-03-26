@@ -1,0 +1,30 @@
+.main{
+    background-color: #dbdbdb;
+    width: 650px;
+    height: 710px;
+    padding: 25px;
+}
+
+.block{
+    height: 225px;
+    width: 150px;
+    margin: 5px;
+    float: left;
+    background-color: white;
+}
+
+.col1{
+    background-color: #e2dbd0;
+}
+
+.col2{
+    background-color: #c4b499;
+}
+
+.col3{
+    background-color: #cfc7bc;
+}
+
+.col4{
+    background-color: #95775c;
+}
