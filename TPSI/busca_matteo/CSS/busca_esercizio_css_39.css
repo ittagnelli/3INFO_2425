@@ -1,0 +1,53 @@
+div{
+    height: 100%;
+    width: 100%;
+}
+.menu{
+    float: left;
+    background-color: #d9ff1c;
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    text-align: justify;
+    font-style: normal;
+    font-size: 30px;
+    width: 33%;
+    height: 685px;
+    margin-top: 0;
+}
+.menu-txt{
+    margin-top: 150px;
+    margin-left: 75px;
+    color: #003f00;
+}
+p{
+    margin-top: 25px;
+    margin-left: 75px;
+    color: #003f00;
+    font-size: 20px;
+}
+.foto{
+    text-align: center;
+    float: left;
+    background-color: #d9ff1c;
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    text-align: justify;
+    font-style:normal;
+    font-size: 15px;
+    width: 33%;
+    height: 685px;
+    margin-top: 0;
+
+}
+.foto > .foto-txt{
+    background-color:#d9ff1c;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    bottom: 150px;
+    padding: 15px 30px;
+    margin-left: 425px;
+    text-decoration: #003f00;
+}
