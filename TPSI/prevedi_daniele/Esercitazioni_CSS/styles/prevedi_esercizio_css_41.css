@@ -1,0 +1,15 @@
+.main{
+    background-color: #dbdbdb;
+    width: 666px;
+    height: 570px;
+    padding: 25px;
+}
+
+.block{
+    height: 270px;
+    width: 210px;
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    background-color: white;
+}
