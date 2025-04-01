@@ -1,0 +1,100 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  position: absolute;
+  width: 1020px;
+  border: 1px solid black;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.cell_black {
+  position: absolute;
+  background-color: #364859;
+  margin: -15px;
+  width: 300px;
+  height: 80px;
+  top: 70px;
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+.cell_right {
+  height: 775px;
+  width: 350px;
+  margin: 15px;
+  background-color: #c258eb;
+  float: left;
+}
+
+.cell1 {
+  position: relative;
+  background-color: rgb(111, 217, 184);
+  color: white;
+  width: 200px;
+  height: 150px;
+  float: left;
+  margin: 15px;
+  padding: 20px;
+}
+
+.cell2 {
+  position: relative;
+  background-color: #2eb1ff;
+  color: white;
+  width: 300px;
+  height: 150px;
+  float: left;
+  margin: 15px;
+  padding: 20px;
+}
+
+.cell3 {
+  position: relative;
+  background-color: #43d9e6;
+  color: white;
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 15px;
+  padding: 20px;
+}
+.cell4 {
+  position: relative;
+  background-color: #fe5d5a;
+  color: white;
+  width: 200px;
+  height: 300px;
+  float: left;
+  margin: 15px;
+  padding: 20px;
+}
+
+.cell5 {
+  position: relative;
+  background-color: #ffbe4c;
+  color: white;
+  width: 570px;
+  height: 150px;
+  float: left;
+  margin: 15px;
+  padding: 20px;
+}
+
+hr {
+  border: 5px solid #fff;
+  width: 30px;
+  margin-left: 0;
+}
+h1 {
+  text-align: end;
+  position: relative;
+  left: -20px;
+  top: -10px;
+}
