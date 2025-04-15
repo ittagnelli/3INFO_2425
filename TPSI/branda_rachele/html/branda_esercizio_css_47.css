@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ddd9d9;
+    width: 98%;
+    padding: 10px ;
+  
+    gap: 100px;
+  }
+  
+  .item {
+    background-color: #4961ff;
+    border: 2px solid #6aa2f0;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 18px;
+    flex: 1;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

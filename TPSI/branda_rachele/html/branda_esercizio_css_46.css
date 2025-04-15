@@ -1,0 +1,20 @@
+.container {
+    height: 95vh;
+    border:  1px solid blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    }
+
+.item {
+    border-radius: 10px;
+    background-color: #4961ff;
+    color: white;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 15%;
+  padding: 10px;
+    } 

@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    background-color: #cbb8cc;
+    padding: 10px;
+  }
+
+  .item {
+    font-size: 2em;
+    background-color: #4961ff;
+    border: 2px solid #6aa2f0;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+  }
