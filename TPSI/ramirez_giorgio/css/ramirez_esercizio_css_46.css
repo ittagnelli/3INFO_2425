@@ -1,0 +1,20 @@
+.container {
+    border: 1px rgb(54, 55, 125) solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 320px;
+    height: 230px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.item {
+    color: white;
+    background-color: #4a57b7;
+    border: 1px solid #191e4577;
+    width: 155px;
+    padding: 10px;
+    text-align: left;
+}
