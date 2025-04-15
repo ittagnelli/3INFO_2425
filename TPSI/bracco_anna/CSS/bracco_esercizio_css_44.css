@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+  }
+  
+  .item {
+    background-color: navy;
+    border: 1px solid blue;
+    width: 60px;
+    padding: 10px;
+    text-align:center;
+    justify-content: space-between;
+    color: white;
+    border-radius: 20px;
+  }

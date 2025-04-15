@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #e7e3de;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .item {
+    background-color: #2c2271;
+    border: 1px solid #e8e8ec;
+    width: 90px;
+    padding: 10px;
+    text-align:center;
+  }
