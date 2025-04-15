@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.left, .center, .right{
+    padding: 10px;
+    background-color: #476b98;
+    border: 3px solid #68a7b7;
+    border-radius: 10px;
+    color: white;
+    width: 200px;
+    font-family: sans-serif;
+}
