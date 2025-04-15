@@ -1,0 +1,19 @@
+.container {
+    border: 1px rgb(54, 55, 125) solid;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 533px;
+    height: 187px;
+    padding: 10px;
+}
+
+.item {
+    border-radius: 10px;
+    color: white;
+    background-color: #4a57b7;
+    border: 1px solid #191e4577;
+    width: 155px;
+    padding: 10px;
+    text-align: left;
+}
