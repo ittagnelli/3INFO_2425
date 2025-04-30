@@ -1,0 +1,16 @@
+.grid-container {
+  display: grid;
+  width: 20vw;
+  height: 20vw;
+  margin-top: 8%;
+  margin: auto;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+.grid-item {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    background-color: orange;
+}
