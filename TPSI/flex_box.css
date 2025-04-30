@@ -1,0 +1,33 @@
+body{
+    background-color: beige;
+ 
+}
+
+.container {
+    background-color: #881D8D;
+    border: 1px solid green;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .item {
+    background-color: #FFAD49;
+    width: 200px;
+    padding: 10px;
+    text-align:center;
+  }
+
+  .container_1{
+    display: flex;
+    background-color: #881D8D;
+    border: 1px solid green;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .item {
+    background-color: #FFAD49;
+    width: 200px;
+    padding: 10px;
+    text-align:center;
+  }
