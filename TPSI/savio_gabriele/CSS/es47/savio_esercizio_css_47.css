@@ -1,0 +1,21 @@
+.container {
+  width: 450px;
+  height: 180px;
+  display: flex;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-items: stretch;
+}
+
+.cell {
+  margin: 10px;
+  background-color: #4d7cae;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: start;
+}

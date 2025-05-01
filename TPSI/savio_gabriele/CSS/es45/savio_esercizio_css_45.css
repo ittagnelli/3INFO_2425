@@ -1,0 +1,29 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 45%;
+  height: 40%;
+  padding: 8px;
+  border: #5e5e5e solid 1px;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.cell {
+  width: calc(100% / 3);
+  background-color: #476b98;
+  border: 1px #6dabba solid;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.4em;
+  line-height: 1.8;
+}
