@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* due colonne, la seconda è due volte più larga */
+    grid-template-rows: auto;
+    gap: 10px; /* spazio tra le celle */
+    padding: 10px;
+}
+
+.item-a {
+    grid-column: 1 / 2; /* occupa la prima colonna */
+    grid-row: 1; /* occupa la prima riga */
+    background-color: #4CAF50; /* colore di sfondo verde */
+    padding: 20px;
+    text-align: center;
+}
+
+.item-b {
+    grid-column: 2 / 3; /* occupa la seconda colonna */
+    grid-row: 1; /* occupa la prima riga */
+    background-color: #2196F3; /* colore di sfondo blu */
+    padding: 20px;
+    text-align: center;
+}
+
+.item-c {
+    grid-column: 1 / 2; /* occupa la prima colonna */
+    grid-row: 2; /* occupa la seconda riga */
+    background-color: #FF9800; /* colore di sfondo arancione */
+    padding: 20px;
+    text-align: center;
+}
+
+.item-d {
+    grid-column: 2 / 3; /* occupa la seconda colonna */
+    grid-row: 2; /* occupa la seconda riga */
+    background-color: #F44336; /* colore di sfondo rosso */
+    padding: 20px;
+    text-align: center;
+}
