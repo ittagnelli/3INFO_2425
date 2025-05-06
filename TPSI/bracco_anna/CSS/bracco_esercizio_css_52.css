@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+}
+
+.container {
+    width: 80%; }
+
+.box {
+    background-color: #333; 
+    color: #fff; 
+    font-size: 24px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 10px 0; 
+    padding: 20px; 
+    border-radius: 5px; }
+
+.row {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.boxA {
+    width: 48%; 
+}
+
+.boxB {
+    width: 48%;}
+
+.boxC {
+    width: 48%; 
+}
+
+.boxD {
+    width: 48%;}
+
+.boxE {
+    width: 100%; 
+}
