@@ -1,0 +1,13 @@
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(2, 80px);
+  gap: 10px;
+}
+.grid2 div {
+  background: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
