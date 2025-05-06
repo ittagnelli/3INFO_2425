@@ -4,12 +4,12 @@
     grid-template-rows: 60px 60px;   
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-  }
+}
   
-  .item {
-      background-color: #646361;
-      color: white;
-      padding: 10px;
-      border-radius: 6px; 
-      align-content: center;
+.item {
+    background-color: #646361;
+    color: white;
+    padding: 10px;
+    border-radius: 6px; 
+    align-content: center;
   }
