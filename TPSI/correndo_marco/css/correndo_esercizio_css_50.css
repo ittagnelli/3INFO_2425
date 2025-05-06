@@ -1,0 +1,15 @@
+.cont{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(2,minmax(50px,1fr));
+    gap: 10px;
+}
+
+.cont > div{
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-content: center;
+    width: calc(102px *4);
+}
+
+.grid-container > div{
+    background-color: orange;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
