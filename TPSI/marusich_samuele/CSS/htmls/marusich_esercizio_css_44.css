@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .menu-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .menu-button {
+    background-color: #3a5f8a;
+    color: white;
+    border: 2px solid #69bcd5;
+    padding: 20px 30px;
+    border-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .menu-button:hover {
+    background-color: #2e4e72;
+  }
+  

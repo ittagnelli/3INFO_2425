@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 800px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 30px;
+  justify-content: center;
+}
+
+.tag {
+  background-color: #3a5f8a;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 12px;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #69bcd5;
+  cursor: default;
+}
