@@ -1,0 +1,23 @@
+body{
+    margin-left: 450px;
+    text-align: center;
+}
+
+#container {
+    border: 1px lightgray solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    padding: 10px;
+}
+
+.item {
+    border-radius: 10px;
+    color: white;
+    background-color: #424c99;
+    border: 3px solid #636fcb;
+    width: 80px;
+    padding: 10px;
+    text-align:center;
+}

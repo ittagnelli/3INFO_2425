@@ -1,0 +1,27 @@
+body{
+    margin-left: 500px;
+    text-align: center;
+}
+
+#container {
+    text-align: justify;
+    border: 1px lightgray solid;
+    display: flex;
+    justify-items: stretch;
+    flex-wrap: wrap;
+    align-content: stretch;
+    width: 450px;
+    height: 180px;
+    padding: 20px;
+    border-radius: 10px;
+}
+  
+.item {
+    color: white;
+    background-color: #424c99;
+    border: 3px solid #636fcb;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: left;
+}

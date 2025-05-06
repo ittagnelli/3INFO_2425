@@ -1,0 +1,25 @@
+body{
+    margin-left: 600px;
+    text-align: center;
+}
+
+#container {
+    border: 1px rgb(54, 55, 125) solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 320px;
+    height: 230px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#item {
+    font-size: larger;
+    color: white;
+    background-color: #424c99;
+    width: 155px;
+    padding: 10px;
+    text-align: left;
+}
