@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    width: 20vw;
+    height: 20vw;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    border: 2px solid green;
+    padding: 20px;
+    margin: auto;
+    margin-top: 8%;
+  }
+  
+  .grid-item {
+    display: flex;
+      border: 1px solid red;
+      width: 100%;
+      text-align: center;
+  }

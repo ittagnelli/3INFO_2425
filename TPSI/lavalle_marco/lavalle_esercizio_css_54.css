@@ -1,0 +1,35 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 
+  100px 100px 100px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    ". header header"
+    "sidebar main main"
+    "footer footer footer";
+    gap: 10px;
+}
+
+.item {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.area-h {
+    grid-area: header;
+    background-color: rgb(123, 124, 124);
+}
+.area-s {
+    grid-area: sidebar;
+    background-color: rgb(68, 70, 70);
+}
+.area-m {
+    grid-area: main;
+    background-color: rgb(68, 70, 70);
+}
+
+.area-f {
+    grid-area: footer;
+    background-color: rgb(123, 124, 124);
+}
