@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .container > div {
+    background-color: blue;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 3px solid lightblue;
+    font-size: 2em;
+  }
+  

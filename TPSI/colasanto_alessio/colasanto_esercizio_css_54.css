@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 200px 1fr;
+  height: 100vh;
+}
+
+.header {
+  grid-column: 1 / -1;
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.sidebar {
+  background-color: #f4f4f4;
+  padding: 20px;
+  height: 100%;
+}
+
+.content {
+  background-color: #eaeaea;
+  padding: 20px;
+}
+
+.footer {
+  grid-column: 1 / -1;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

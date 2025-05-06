@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .container > div {
+    background-color: blue;
+    color: white;
+    padding: 20px 30px;
+    font-size: 2em;
+  }
+  
