@@ -1,0 +1,14 @@
+.grid4 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: 60px;
+  gap: 10px;
+}
+.grid4 div {
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.e { grid-column: 1 / 3; }
