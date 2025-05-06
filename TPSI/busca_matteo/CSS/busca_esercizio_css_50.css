@@ -1,0 +1,20 @@
+body{
+    display:flex;
+    justify-content: center;
+   }
+
+.grid-container {
+    display: grid;
+    grid-template-columns:  100px 100px 100px;
+    grid-template-rows: 60px 60px;   
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+  
+.item {
+    background-color: #3c3b3a;
+    color: white;
+    padding: 10px;
+    border-radius: 6px; 
+    align-content: center;
+}
