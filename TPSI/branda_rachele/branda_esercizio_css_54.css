@@ -1,0 +1,31 @@
+
+  .grid6 > div {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .header {
+    grid-column: 2 / 3;
+    background: #999;
+  }
+  
+ 
+  .footer {
+    grid-column: 1 / 3;
+    background: #999;
+  }
+  .grid6 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    background: #eee;
+  }
+  .sidebar {
+    grid-row: 2 / 3;
+    background: #333; color: white;
+  }
+  .content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background: #333; color: white;
+  }
