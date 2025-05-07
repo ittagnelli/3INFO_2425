@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 400px;
+    height: 170px;
+    margin: auto;
+}
+
+.item{
+    background-color: #444444;
+    color: white;
+    padding: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.a{
+    grid-column: 1 / 3;
+}
+
+.b{
+    grid-column: 3 / 5;
+}
+
+.c{
+    grid-column: 1 / 2;
+}
+
+.d{
+    grid-column: 2 / 5;
+}
+
+.e{
+    grid-column: 1 / 5;
+}
