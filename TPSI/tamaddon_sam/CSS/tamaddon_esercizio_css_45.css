@@ -1,0 +1,33 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+.contenitore {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 70%;
+    padding: 12px;
+    border: 2px solid #444;
+    border-radius: 6px;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 15px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.riquadro {
+    flex: 1;
+    background-color: #3a5f8a;
+    border: 2px solid #84c1d9;
+    border-radius: 12px;
+    padding: 14px;
+    color: #ffffff;
+    font-size: 1.3em;
+    line-height: 1.7;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}

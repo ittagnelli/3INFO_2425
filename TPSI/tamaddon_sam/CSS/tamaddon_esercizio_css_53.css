@@ -1,0 +1,26 @@
+
+  .header, .footer {
+    grid-column: 1 / 4;
+    background: #999;
+  }
+ 
+  .content {
+    background: #333; color: white;
+  }
+  .sidebar2 {
+    background: #ccc;
+  }
+  .grid5 > div {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .sidebar {
+    background: #333; color: white;
+  }
+  .grid5 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    background: #eee;
+  }
