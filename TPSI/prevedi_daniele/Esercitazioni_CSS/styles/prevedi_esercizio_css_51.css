@@ -20,5 +20,6 @@
 }
 
 .b{
+    grid-column-start: 3;
     grid-row: 1 / 3;
 }
