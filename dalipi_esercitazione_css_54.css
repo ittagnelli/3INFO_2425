@@ -1,0 +1,30 @@
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(3,auto);
+    gap: 10px;
+    width: 250px;
+    grid-template-areas: ". header""sidebar content""footer footer";
+}
+
+.cont > div{
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+.h{
+    grid-area: header;
+}
+.s{
+    grid-area: sidebar;
+}
+.c{
+    grid-area: content;
+}
+.f{
+    grid-area: footer;
+}

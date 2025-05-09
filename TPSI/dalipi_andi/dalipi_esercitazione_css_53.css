@@ -1,0 +1,32 @@
+.cont{
+    display: grid;
+    grid-template-columns: repeat(3,10%);
+    grid-template-rows: repeat(3,auto);
+    gap: 10px;
+    grid-template-areas: "header header header""sidebar content sidebar2""footer footer footer";
+}
+
+.cont > div{
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+.h{
+    grid-area: header;
+}
+.s1{
+    grid-area: sidebar;
+}
+.s2{
+    grid-area: sidebar2;
+}
+.c{
+    grid-area: content;
+}
+.f{
+    grid-area: footer;
+}
