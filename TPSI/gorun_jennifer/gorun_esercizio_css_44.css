@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 5px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid  #b8b3b3;
+  
+  }
+  
+  .item {
+    background-color: #2a69bb;
+    border: 1px solid #2a69bb;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    text-align:center;
+  }
