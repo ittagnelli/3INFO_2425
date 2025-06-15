@@ -1,0 +1,28 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .grid {
+    width: 512px;
+    height: 512px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 2px solid;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border: 1px solid;
+    background-color: orange;
+    text-align: center;
+  }

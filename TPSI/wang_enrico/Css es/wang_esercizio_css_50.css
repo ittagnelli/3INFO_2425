@@ -1,0 +1,18 @@
+.grid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .cell{
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+    font-size: 40px;
+    padding: 55px;
+    width: 120px;
+    border-radius: 10px;
+  }
